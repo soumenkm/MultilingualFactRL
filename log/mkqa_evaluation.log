@@ -1,0 +1,785 @@
+2025-12-23 11:19:44,126 - __main__ - INFO - GPU available: NVIDIA RTX 6000 Ada Generation
+2025-12-23 11:19:44,126 - __main__ - INFO - Number of GPUs: 4
+2025-12-23 11:19:44,126 - __main__ - INFO - ================================================================================
+2025-12-23 11:19:44,126 - __main__ - INFO - MKQA Cross-Lingual Evaluation
+2025-12-23 11:19:44,127 - __main__ - INFO - ================================================================================
+2025-12-23 11:19:44,127 - __main__ - INFO - Configuration:
+2025-12-23 11:19:44,127 - __main__ - INFO -   model_name: google/gemma-2-2b
+2025-12-23 11:19:44,127 - __main__ - INFO -   device: cuda
+2025-12-23 11:19:44,127 - __main__ - INFO -   use_4bit: False
+2025-12-23 11:19:44,127 - __main__ - INFO -   dataset_path: ./data/mkqa.jsonl
+2025-12-23 11:19:44,127 - __main__ - INFO -   max_samples: 10
+2025-12-23 11:19:44,127 - __main__ - INFO -   languages: ['en', 'es', 'fr', 'de', 'ja', 'zh_cn', 'ar', 'ru']
+2025-12-23 11:19:44,127 - __main__ - INFO -   batch_size: 1
+2025-12-23 11:19:44,127 - __main__ - INFO -   max_new_tokens: 50
+2025-12-23 11:19:44,127 - __main__ - INFO -   temperature: 0.7
+2025-12-23 11:19:44,127 - __main__ - INFO -   top_k: 50
+2025-12-23 11:19:44,127 - __main__ - INFO -   top_p: 0.95
+2025-12-23 11:19:44,127 - __main__ - INFO -   output_dir: ./code/mkqa_results
+2025-12-23 11:19:44,127 - __main__ - INFO - ================================================================================
+2025-12-23 11:19:44,127 - __main__ - INFO - Initialized MKQAEvaluator with model: google/gemma-2-2b
+2025-12-23 11:19:44,127 - __main__ - INFO - Languages to evaluate: ['en', 'es', 'fr', 'de', 'ja', 'zh_cn', 'ar', 'ru']
+2025-12-23 11:19:44,127 - __main__ - INFO - Max samples: 10
+2025-12-23 11:19:44,127 - __main__ - INFO - ================================================================================
+2025-12-23 11:19:44,127 - __main__ - INFO - Starting MKQA Evaluation
+2025-12-23 11:19:44,127 - __main__ - INFO - ================================================================================
+2025-12-23 11:19:44,128 - __main__ - INFO - Loading model: google/gemma-2-2b
+2025-12-23 11:21:59,843 - __main__ - INFO - Model loaded in fp16
+2025-12-23 11:21:59,845 - __main__ - INFO - Model loaded successfully
+2025-12-23 11:21:59,845 - __main__ - INFO - Loading MKQA dataset...
+2025-12-23 11:21:59,845 - __main__ - INFO - Loading dataset from: data/mkqa.jsonl
+2025-12-23 11:22:01,730 - __main__ - INFO - Loaded 10 samples
+2025-12-23 11:22:01,730 - __main__ - INFO - Evaluating 10 samples...
+2025-12-23 11:24:02,861 - __main__ - INFO - Computing Cross-Lingual Consistency (CLC) scores...
+2025-12-23 11:24:02,862 - __main__ - INFO - Mean CLC: 0.1250 ± 0.1768
+2025-12-23 11:24:02,862 - __main__ - INFO - Computing Transfer scores...
+2025-12-23 11:24:02,862 - __main__ - INFO - Mean Transfer Score: 0.2857
+2025-12-23 11:24:02,862 - __main__ - INFO - Summary results saved to: code/mkqa_results/evaluation_results.json
+2025-12-23 11:24:02,863 - __main__ - INFO - Detailed results saved to: code/mkqa_results/detailed_results.json
+2025-12-23 11:24:02,864 - __main__ - INFO - ================================================================================
+2025-12-23 11:24:02,864 - __main__ - INFO - Evaluation Complete
+2025-12-23 11:24:02,864 - __main__ - INFO - ================================================================================
+2025-12-23 11:24:02,864 - __main__ - INFO - 
+================================================================================
+2025-12-23 11:24:02,864 - __main__ - INFO - EVALUATION SUMMARY
+2025-12-23 11:24:02,864 - __main__ - INFO - ================================================================================
+2025-12-23 11:24:02,864 - __main__ - INFO - 
+Cross-Lingual Consistency (CLC):
+2025-12-23 11:24:02,864 - __main__ - INFO -   Mean CLC: 0.1250 ± 0.1768
+2025-12-23 11:24:02,864 - __main__ - INFO -   Number of samples: 6
+2025-12-23 11:24:02,864 - __main__ - INFO - 
+Per-Language Accuracy:
+2025-12-23 11:24:02,864 - __main__ - INFO -   ar: 0.3333
+2025-12-23 11:24:02,864 - __main__ - INFO -   de: 0.1667
+2025-12-23 11:24:02,864 - __main__ - INFO -   en: 0.0000
+2025-12-23 11:24:02,864 - __main__ - INFO -   es: 0.3333
+2025-12-23 11:24:02,864 - __main__ - INFO -   fr: 0.0000
+2025-12-23 11:24:02,864 - __main__ - INFO -   ja: 0.0000
+2025-12-23 11:24:02,864 - __main__ - INFO -   ru: 0.0000
+2025-12-23 11:24:02,864 - __main__ - INFO -   zh_cn: 0.1667
+2025-12-23 11:24:02,864 - __main__ - INFO - 
+Transfer Scores:
+2025-12-23 11:24:02,864 - __main__ - INFO -   Mean Transfer Score: 0.2857
+2025-12-23 11:24:02,864 - __main__ - INFO - 
+Top 10 Transfer Pairs:
+2025-12-23 11:24:02,864 - __main__ - INFO -   ar->es: 1.0000 (2/2)
+2025-12-23 11:24:02,864 - __main__ - INFO -   de->ar: 1.0000 (1/1)
+2025-12-23 11:24:02,865 - __main__ - INFO -   de->es: 1.0000 (1/1)
+2025-12-23 11:24:02,865 - __main__ - INFO -   es->ar: 1.0000 (2/2)
+2025-12-23 11:24:02,865 - __main__ - INFO -   zh_cn->ar: 1.0000 (1/1)
+2025-12-23 11:24:02,865 - __main__ - INFO -   zh_cn->es: 1.0000 (1/1)
+2025-12-23 11:24:02,865 - __main__ - INFO -   ar->de: 0.5000 (1/2)
+2025-12-23 11:24:02,865 - __main__ - INFO -   ar->zh_cn: 0.5000 (1/2)
+2025-12-23 11:24:02,865 - __main__ - INFO -   es->de: 0.5000 (1/2)
+2025-12-23 11:24:02,865 - __main__ - INFO -   es->zh_cn: 0.5000 (1/2)
+2025-12-23 11:24:02,865 - __main__ - INFO - 
+Bottom 10 Transfer Pairs:
+2025-12-23 11:24:02,865 - __main__ - INFO -   de->zh_cn: 0.0000 (0/1)
+2025-12-23 11:24:02,865 - __main__ - INFO -   es->fr: 0.0000 (0/2)
+2025-12-23 11:24:02,865 - __main__ - INFO -   es->ja: 0.0000 (0/2)
+2025-12-23 11:24:02,865 - __main__ - INFO -   es->en: 0.0000 (0/2)
+2025-12-23 11:24:02,865 - __main__ - INFO -   es->ru: 0.0000 (0/2)
+2025-12-23 11:24:02,865 - __main__ - INFO -   zh_cn->fr: 0.0000 (0/1)
+2025-12-23 11:24:02,865 - __main__ - INFO -   zh_cn->ja: 0.0000 (0/1)
+2025-12-23 11:24:02,865 - __main__ - INFO -   zh_cn->en: 0.0000 (0/1)
+2025-12-23 11:24:02,865 - __main__ - INFO -   zh_cn->ru: 0.0000 (0/1)
+2025-12-23 11:24:02,865 - __main__ - INFO -   zh_cn->de: 0.0000 (0/1)
+2025-12-23 11:24:02,865 - __main__ - INFO - ================================================================================
+2025-12-23 11:24:02,865 - __main__ - INFO - 
+Evaluation completed successfully!
+2025-12-23 11:57:35,405 - __main__ - INFO - GPU available: NVIDIA RTX 6000 Ada Generation
+2025-12-23 11:57:35,405 - __main__ - INFO - Number of GPUs: 1
+2025-12-23 11:57:35,405 - __main__ - INFO - ================================================================================
+2025-12-23 11:57:35,405 - __main__ - INFO - MKQA Cross-Lingual Evaluation
+2025-12-23 11:57:35,405 - __main__ - INFO - ================================================================================
+2025-12-23 11:57:35,405 - __main__ - INFO - Configuration:
+2025-12-23 11:57:35,405 - __main__ - INFO -   model_name: google/gemma-2-2b
+2025-12-23 11:57:35,405 - __main__ - INFO -   device: cuda
+2025-12-23 11:57:35,405 - __main__ - INFO -   use_4bit: False
+2025-12-23 11:57:35,405 - __main__ - INFO -   dataset_path: ./data/mkqa.jsonl
+2025-12-23 11:57:35,405 - __main__ - INFO -   max_samples: 10
+2025-12-23 11:57:35,405 - __main__ - INFO -   languages: ['en', 'es', 'fr', 'de', 'ja', 'zh_cn', 'ar', 'ru']
+2025-12-23 11:57:35,405 - __main__ - INFO -   batch_size: 1
+2025-12-23 11:57:35,405 - __main__ - INFO -   max_new_tokens: 50
+2025-12-23 11:57:35,405 - __main__ - INFO -   temperature: 0.7
+2025-12-23 11:57:35,405 - __main__ - INFO -   top_k: 50
+2025-12-23 11:57:35,406 - __main__ - INFO -   top_p: 0.95
+2025-12-23 11:57:35,406 - __main__ - INFO -   output_dir: ./output/mkqa_results
+2025-12-23 11:57:35,406 - __main__ - INFO -   google_api_key: None
+2025-12-23 11:57:35,406 - __main__ - INFO -   judge_model_name: gemini-2.0-flash-lite
+2025-12-23 11:57:35,406 - __main__ - INFO - ================================================================================
+2025-12-23 11:57:35,406 - __main__ - INFO - Initialized MKQAEvaluator with model: google/gemma-2-2b
+2025-12-23 11:57:35,406 - __main__ - INFO - Languages to evaluate: ['en', 'es', 'fr', 'de', 'ja', 'zh_cn', 'ar', 'ru']
+2025-12-23 11:57:35,406 - __main__ - INFO - Max samples: 10
+2025-12-23 11:57:35,406 - __main__ - ERROR - Error during evaluation: google_api_key must be provided in config
+Traceback (most recent call last):
+  File "/home/soumen/MS_Research/factualRL/./code/compute_metrics.py", line 675, in main
+    evaluator = MKQAEvaluator(config)
+  File "/home/soumen/MS_Research/factualRL/./code/compute_metrics.py", line 84, in __init__
+    self.llm_judge = LLMJudge(judge_config)
+  File "/home/soumen/MS_Research/factualRL/code/llm_judge.py", line 31, in __init__
+    raise ValueError("google_api_key must be provided in config")
+ValueError: google_api_key must be provided in config
+2025-12-23 11:58:24,037 - __main__ - INFO - GPU available: NVIDIA RTX 6000 Ada Generation
+2025-12-23 11:58:24,037 - __main__ - INFO - Number of GPUs: 1
+2025-12-23 11:58:24,037 - __main__ - INFO - ================================================================================
+2025-12-23 11:58:24,037 - __main__ - INFO - MKQA Cross-Lingual Evaluation
+2025-12-23 11:58:24,037 - __main__ - INFO - ================================================================================
+2025-12-23 11:58:24,037 - __main__ - INFO - Configuration:
+2025-12-23 11:58:24,037 - __main__ - INFO -   model_name: google/gemma-2-2b
+2025-12-23 11:58:24,037 - __main__ - INFO -   device: cuda
+2025-12-23 11:58:24,037 - __main__ - INFO -   use_4bit: False
+2025-12-23 11:58:24,037 - __main__ - INFO -   dataset_path: ./data/mkqa.jsonl
+2025-12-23 11:58:24,037 - __main__ - INFO -   max_samples: 10
+2025-12-23 11:58:24,038 - __main__ - INFO -   languages: ['en', 'es', 'fr', 'de', 'ja', 'zh_cn', 'ar', 'ru']
+2025-12-23 11:58:24,038 - __main__ - INFO -   batch_size: 1
+2025-12-23 11:58:24,038 - __main__ - INFO -   max_new_tokens: 50
+2025-12-23 11:58:24,038 - __main__ - INFO -   temperature: 0.7
+2025-12-23 11:58:24,038 - __main__ - INFO -   top_k: 50
+2025-12-23 11:58:24,038 - __main__ - INFO -   top_p: 0.95
+2025-12-23 11:58:24,038 - __main__ - INFO -   output_dir: ./output/mkqa_results
+2025-12-23 11:58:24,038 - __main__ - INFO -   google_api_key: None
+2025-12-23 11:58:24,038 - __main__ - INFO -   judge_model_name: gemini-2.0-flash-lite
+2025-12-23 11:58:24,038 - __main__ - INFO - ================================================================================
+2025-12-23 11:58:24,038 - __main__ - INFO - Initialized MKQAEvaluator with model: google/gemma-2-2b
+2025-12-23 11:58:24,038 - __main__ - INFO - Languages to evaluate: ['en', 'es', 'fr', 'de', 'ja', 'zh_cn', 'ar', 'ru']
+2025-12-23 11:58:24,038 - __main__ - INFO - Max samples: 10
+2025-12-23 11:58:24,038 - __main__ - ERROR - Error during evaluation: google_api_key must be provided in config
+Traceback (most recent call last):
+  File "/home/soumen/MS_Research/factualRL/./code/compute_metrics.py", line 675, in main
+    evaluator = MKQAEvaluator(config)
+  File "/home/soumen/MS_Research/factualRL/./code/compute_metrics.py", line 84, in __init__
+    self.llm_judge = LLMJudge(judge_config)
+  File "/home/soumen/MS_Research/factualRL/code/llm_judge.py", line 31, in __init__
+    raise ValueError("google_api_key must be provided in config")
+ValueError: google_api_key must be provided in config
+2025-12-23 12:02:12,117 - __main__ - INFO - GPU available: NVIDIA RTX 6000 Ada Generation
+2025-12-23 12:02:12,117 - __main__ - INFO - Number of GPUs: 1
+2025-12-23 12:02:12,117 - __main__ - INFO - ================================================================================
+2025-12-23 12:02:12,117 - __main__ - INFO - MKQA Cross-Lingual Evaluation
+2025-12-23 12:02:12,117 - __main__ - INFO - ================================================================================
+2025-12-23 12:02:12,117 - __main__ - INFO - Configuration:
+2025-12-23 12:02:12,117 - __main__ - INFO -   model_name: google/gemma-2-2b
+2025-12-23 12:02:12,117 - __main__ - INFO -   device: cuda
+2025-12-23 12:02:12,117 - __main__ - INFO -   use_4bit: False
+2025-12-23 12:02:12,117 - __main__ - INFO -   dataset_path: ./data/mkqa.jsonl
+2025-12-23 12:02:12,117 - __main__ - INFO -   max_samples: 10
+2025-12-23 12:02:12,117 - __main__ - INFO -   languages: ['en', 'es', 'fr', 'de', 'ja', 'zh_cn', 'ar', 'ru']
+2025-12-23 12:02:12,117 - __main__ - INFO -   batch_size: 1
+2025-12-23 12:02:12,117 - __main__ - INFO -   max_new_tokens: 50
+2025-12-23 12:02:12,118 - __main__ - INFO -   temperature: 0.7
+2025-12-23 12:02:12,118 - __main__ - INFO -   top_k: 50
+2025-12-23 12:02:12,118 - __main__ - INFO -   top_p: 0.95
+2025-12-23 12:02:12,118 - __main__ - INFO -   output_dir: ./output/mkqa_results
+2025-12-23 12:02:12,118 - __main__ - INFO -   google_api_key: AIzaSyA__O9gwjQzM_kf6KuJO7mHbKXXxQ6bKEg
+2025-12-23 12:02:12,118 - __main__ - INFO -   judge_model_name: gemini-2.0-flash-lite
+2025-12-23 12:02:12,118 - __main__ - INFO - ================================================================================
+2025-12-23 12:02:12,118 - __main__ - INFO - Initialized MKQAEvaluator with model: google/gemma-2-2b
+2025-12-23 12:02:12,118 - __main__ - INFO - Languages to evaluate: ['en', 'es', 'fr', 'de', 'ja', 'zh_cn', 'ar', 'ru']
+2025-12-23 12:02:12,118 - __main__ - INFO - Max samples: 10
+2025-12-23 12:02:12,725 - llm_judge - INFO - Initialized LLM Judge with gemini-2.0-flash-lite
+2025-12-23 12:02:12,725 - __main__ - INFO - LLM Judge initialized
+2025-12-23 12:02:12,725 - __main__ - INFO - ================================================================================
+2025-12-23 12:02:12,725 - __main__ - INFO - Starting MKQA Evaluation
+2025-12-23 12:02:12,725 - __main__ - INFO - ================================================================================
+2025-12-23 12:02:12,725 - __main__ - INFO - Loading model: google/gemma-2-2b
+2025-12-23 12:02:15,669 - accelerate.utils.modeling - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-12-23 12:02:19,637 - __main__ - INFO - Model loaded in fp16
+2025-12-23 12:02:19,639 - __main__ - INFO - Model loaded successfully
+2025-12-23 12:02:19,639 - __main__ - INFO - Loading MKQA dataset...
+2025-12-23 12:02:19,639 - __main__ - INFO - Loading dataset from: data/mkqa.jsonl
+2025-12-23 12:02:21,568 - __main__ - INFO - Loaded 10 samples
+2025-12-23 12:02:21,568 - __main__ - INFO - Evaluating 10 samples...
+2025-12-23 12:02:23,829 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-23 12:02:23,953 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:02:23,954 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 1.3787178767150885 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 36.087166438s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '36s'}]}}.
+2025-12-23 12:02:25,445 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:02:25,446 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 2.239422598078833 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 34.595275892s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '34s'}]}}.
+2025-12-23 12:02:27,792 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:02:27,793 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 4.622961186172723 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 32.247630739s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '32s'}]}}.
+2025-12-23 12:02:32,520 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:02:32,520 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 8.011567253900484 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 27.518986747s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27s'}]}}.
+2025-12-23 12:02:40,663 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:02:40,664 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 16.337563341977766 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 19.37633283s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '19s'}]}}.
+2025-12-23 12:02:57,135 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:02:57,136 - llm_judge - ERROR - Error in LLM judge: Error calling model 'gemini-2.0-flash-lite' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 2.906354138s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '2s'}]}}
+2025-12-23 12:02:58,829 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-23 12:02:58,938 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:02:58,939 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 1.3198187057882382 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 1.101948185s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '1s'}]}}.
+2025-12-23 12:03:00,360 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:03:00,361 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 2.4943923557969234 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 59.678999751s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '59s'}]}}.
+2025-12-23 12:03:02,951 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:03:02,951 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 4.545522128727791 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 57.086473241s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}.
+2025-12-23 12:03:07,606 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:03:07,608 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 8.722371055500512 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 52.432209956s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}.
+2025-12-23 12:03:16,435 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:03:16,436 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 16.460919749701542 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 43.601818557s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '43s'}]}}.
+2025-12-23 12:03:33,033 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:03:33,034 - llm_judge - ERROR - Error in LLM judge: Error calling model 'gemini-2.0-flash-lite' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 27.008428826s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27s'}]}}
+2025-12-23 12:03:34,725 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-23 12:03:34,826 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:03:34,827 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 1.0549538232398068 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 25.21280767s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '25s'}]}}.
+2025-12-23 12:03:35,997 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:03:35,998 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 2.320153902245031 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 24.046742858s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24s'}]}}.
+2025-12-23 12:03:38,440 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:03:38,441 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 4.493040747402015 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 21.601386397s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '21s'}]}}.
+2025-12-23 12:03:43,032 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:03:43,033 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 8.464951644931439 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 17.003442125s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '17s'}]}}.
+2025-12-23 12:03:51,625 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:03:51,626 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 16.855819013857317 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 8.418655447s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '8s'}]}}.
+2025-12-23 12:04:08,639 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:04:08,641 - llm_judge - ERROR - Error in LLM judge: Error calling model 'gemini-2.0-flash-lite' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 51.399906701s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '51s'}]}}
+2025-12-23 12:04:10,405 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-23 12:04:10,508 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:04:10,509 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 1.0638087932551528 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 49.532581708s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '49s'}]}}.
+2025-12-23 12:04:11,670 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:04:11,671 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 2.3335440166972274 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 48.368522824s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48s'}]}}.
+2025-12-23 12:04:14,109 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:04:14,111 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 4.170644891462858 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 45.929001373s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '45s'}]}}.
+2025-12-23 12:04:18,378 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:04:18,379 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 8.03970725937673 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 41.657016955s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '41s'}]}}.
+2025-12-23 12:04:26,525 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:04:26,526 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 16.850313222102713 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 33.512692341s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '33s'}]}}.
+2025-12-23 12:04:43,503 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:04:43,505 - llm_judge - ERROR - Error in LLM judge: Error calling model 'gemini-2.0-flash-lite' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 16.537848927s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '16s'}]}}
+2025-12-23 12:04:45,223 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-23 12:04:45,326 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:04:45,327 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 1.3030556395062396 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 14.711899819s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '14s'}]}}.
+2025-12-23 12:04:46,730 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:04:46,731 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 2.2063489206494338 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 13.314014978s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '13s'}]}}.
+2025-12-23 12:04:49,041 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:04:49,042 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 4.246556194995257 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 10.996895569s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '10s'}]}}.
+2025-12-23 12:04:53,391 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:04:53,393 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 8.593498114209273 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 6.646339479s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '6s'}]}}.
+2025-12-23 12:05:02,093 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:05:02,095 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 16.293618246979882 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 57.943872291s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}.
+2025-12-23 12:05:18,506 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:05:18,507 - llm_judge - ERROR - Error in LLM judge: Error calling model 'gemini-2.0-flash-lite' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 41.533768959s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '41s'}]}}
+2025-12-23 12:05:20,251 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-23 12:05:20,365 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:05:20,366 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 1.9976943526575957 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 39.675890678s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '39s'}]}}.
+2025-12-23 12:05:22,470 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-12-23 12:05:22,472 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 2.3267233152617655 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 37.57134497s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37s'}]}}.
+2025-12-23 12:19:17,585 - __main__ - INFO - GPU available: NVIDIA RTX 6000 Ada Generation
+2025-12-23 12:19:17,585 - __main__ - INFO - Number of GPUs: 1
+2025-12-23 12:19:17,585 - __main__ - INFO - ================================================================================
+2025-12-23 12:19:17,585 - __main__ - INFO - MKQA Cross-Lingual Evaluation
+2025-12-23 12:19:17,585 - __main__ - INFO - ================================================================================
+2025-12-23 12:19:17,585 - __main__ - INFO - Configuration:
+2025-12-23 12:19:17,585 - __main__ - INFO -   model_name: google/gemma-2-2b
+2025-12-23 12:19:17,585 - __main__ - INFO -   device: cuda
+2025-12-23 12:19:17,585 - __main__ - INFO -   use_4bit: False
+2025-12-23 12:19:17,585 - __main__ - INFO -   dataset_path: ./data/mkqa.jsonl
+2025-12-23 12:19:17,585 - __main__ - INFO -   max_samples: 10
+2025-12-23 12:19:17,585 - __main__ - INFO -   languages: ['en', 'es', 'fr', 'de', 'ja', 'zh_cn', 'ar', 'ru']
+2025-12-23 12:19:17,585 - __main__ - INFO -   batch_size: 1
+2025-12-23 12:19:17,585 - __main__ - INFO -   max_new_tokens: 50
+2025-12-23 12:19:17,586 - __main__ - INFO -   temperature: 0.7
+2025-12-23 12:19:17,586 - __main__ - INFO -   top_k: 50
+2025-12-23 12:19:17,586 - __main__ - INFO -   top_p: 0.95
+2025-12-23 12:19:17,586 - __main__ - INFO -   output_dir: ./output/mkqa_results
+2025-12-23 12:19:17,586 - __main__ - INFO -   api_key: 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
+2025-12-23 12:19:17,586 - __main__ - INFO -   judge_model_name: gpt-4o-mini
+2025-12-23 12:19:17,586 - __main__ - INFO - ================================================================================
+2025-12-23 12:19:17,586 - __main__ - INFO - Initialized MKQAEvaluator with model: google/gemma-2-2b
+2025-12-23 12:19:17,586 - __main__ - INFO - Languages to evaluate: ['en', 'es', 'fr', 'de', 'ja', 'zh_cn', 'ar', 'ru']
+2025-12-23 12:19:17,586 - __main__ - INFO - Max samples: 10
+2025-12-23 12:19:20,816 - llm_judge - INFO - Initialized LLM Judge with gpt-4o-mini
+2025-12-23 12:19:20,816 - __main__ - INFO - LLM Judge initialized
+2025-12-23 12:19:20,816 - __main__ - INFO - ================================================================================
+2025-12-23 12:19:20,816 - __main__ - INFO - Starting MKQA Evaluation
+2025-12-23 12:19:20,816 - __main__ - INFO - ================================================================================
+2025-12-23 12:19:20,816 - __main__ - INFO - Loading model: google/gemma-2-2b
+2025-12-23 12:19:23,431 - accelerate.utils.modeling - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-12-23 12:19:26,585 - __main__ - INFO - Model loaded in fp16
+2025-12-23 12:19:26,586 - __main__ - INFO - Model loaded successfully
+2025-12-23 12:19:26,586 - __main__ - INFO - Loading MKQA dataset...
+2025-12-23 12:19:26,586 - __main__ - INFO - Loading dataset from: data/mkqa.jsonl
+2025-12-23 12:19:28,491 - __main__ - INFO - Loaded 10 samples
+2025-12-23 12:19:28,491 - __main__ - INFO - Evaluating 10 samples...
+2025-12-23 12:19:32,652 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:19:35,632 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:19:38,164 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:19:41,303 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:19:44,606 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:19:47,355 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:19:50,096 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:19:52,999 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:19:56,103 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:19:58,459 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:00,990 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:03,308 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:05,692 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:10,182 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:12,635 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:15,407 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:18,754 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:21,259 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:23,473 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:26,551 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:28,828 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:31,202 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:33,478 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:36,040 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:38,275 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:40,894 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:43,240 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:45,615 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:47,831 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:50,211 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:52,539 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:54,750 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:57,081 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:20:59,358 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:21:01,769 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:21:04,024 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:21:06,780 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:21:09,065 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:21:11,353 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:21:13,623 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:21:15,758 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:21:18,066 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:21:20,444 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:21:22,750 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:21:25,061 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:21:27,709 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:21:29,939 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:21:32,116 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:21:32,118 - __main__ - INFO - Computing Cross-Lingual Consistency (CLC) scores...
+2025-12-23 12:21:32,119 - __main__ - INFO - Mean CLC: 1.0000 ± 0.0000
+2025-12-23 12:21:32,119 - __main__ - INFO - Computing Transfer scores...
+2025-12-23 12:21:32,119 - __main__ - INFO - Mean Transfer Score: 1.0000
+2025-12-23 12:21:32,120 - __main__ - INFO - Summary results saved to: output/mkqa_results/evaluation_results.json
+2025-12-23 12:21:32,121 - __main__ - INFO - Detailed results saved to: output/mkqa_results/detailed_results.json
+2025-12-23 12:21:32,121 - __main__ - INFO - ================================================================================
+2025-12-23 12:21:32,121 - __main__ - INFO - Evaluation Complete
+2025-12-23 12:21:32,121 - __main__ - INFO - ================================================================================
+2025-12-23 12:21:32,121 - __main__ - INFO - 
+================================================================================
+2025-12-23 12:21:32,121 - __main__ - INFO - EVALUATION SUMMARY
+2025-12-23 12:21:32,121 - __main__ - INFO - ================================================================================
+2025-12-23 12:21:32,121 - __main__ - INFO - 
+Cross-Lingual Consistency (CLC):
+2025-12-23 12:21:32,121 - __main__ - INFO -   Mean CLC: 1.0000 ± 0.0000
+2025-12-23 12:21:32,121 - __main__ - INFO -   Number of samples: 6
+2025-12-23 12:21:32,121 - __main__ - INFO - 
+Per-Language Accuracy:
+2025-12-23 12:21:32,121 - __main__ - INFO -   ar: 1.0000
+2025-12-23 12:21:32,121 - __main__ - INFO -   de: 1.0000
+2025-12-23 12:21:32,122 - __main__ - INFO -   en: 1.0000
+2025-12-23 12:21:32,122 - __main__ - INFO -   es: 1.0000
+2025-12-23 12:21:32,122 - __main__ - INFO -   fr: 1.0000
+2025-12-23 12:21:32,122 - __main__ - INFO -   ja: 1.0000
+2025-12-23 12:21:32,122 - __main__ - INFO -   ru: 1.0000
+2025-12-23 12:21:32,122 - __main__ - INFO -   zh_cn: 1.0000
+2025-12-23 12:21:32,122 - __main__ - INFO - 
+Transfer Scores:
+2025-12-23 12:21:32,122 - __main__ - INFO -   Mean Transfer Score: 1.0000
+2025-12-23 12:21:32,122 - __main__ - INFO - 
+Top 10 Transfer Pairs:
+2025-12-23 12:21:32,122 - __main__ - INFO -   ru->fr: 1.0000 (6/6)
+2025-12-23 12:21:32,122 - __main__ - INFO -   ru->en: 1.0000 (6/6)
+2025-12-23 12:21:32,122 - __main__ - INFO -   ru->de: 1.0000 (6/6)
+2025-12-23 12:21:32,122 - __main__ - INFO -   ru->ar: 1.0000 (6/6)
+2025-12-23 12:21:32,122 - __main__ - INFO -   ru->zh_cn: 1.0000 (6/6)
+2025-12-23 12:21:32,122 - __main__ - INFO -   ru->es: 1.0000 (6/6)
+2025-12-23 12:21:32,122 - __main__ - INFO -   ru->ja: 1.0000 (6/6)
+2025-12-23 12:21:32,122 - __main__ - INFO -   fr->ru: 1.0000 (6/6)
+2025-12-23 12:21:32,122 - __main__ - INFO -   fr->en: 1.0000 (6/6)
+2025-12-23 12:21:32,122 - __main__ - INFO -   fr->de: 1.0000 (6/6)
+2025-12-23 12:21:32,122 - __main__ - INFO - 
+Bottom 10 Transfer Pairs:
+2025-12-23 12:21:32,122 - __main__ - INFO -   es->ar: 1.0000 (6/6)
+2025-12-23 12:21:32,122 - __main__ - INFO -   es->zh_cn: 1.0000 (6/6)
+2025-12-23 12:21:32,122 - __main__ - INFO -   es->ja: 1.0000 (6/6)
+2025-12-23 12:21:32,122 - __main__ - INFO -   ja->ru: 1.0000 (6/6)
+2025-12-23 12:21:32,122 - __main__ - INFO -   ja->fr: 1.0000 (6/6)
+2025-12-23 12:21:32,123 - __main__ - INFO -   ja->en: 1.0000 (6/6)
+2025-12-23 12:21:32,123 - __main__ - INFO -   ja->de: 1.0000 (6/6)
+2025-12-23 12:21:32,123 - __main__ - INFO -   ja->ar: 1.0000 (6/6)
+2025-12-23 12:21:32,123 - __main__ - INFO -   ja->zh_cn: 1.0000 (6/6)
+2025-12-23 12:21:32,123 - __main__ - INFO -   ja->es: 1.0000 (6/6)
+2025-12-23 12:21:32,123 - __main__ - INFO - ================================================================================
+2025-12-23 12:21:32,123 - __main__ - INFO - 
+Evaluation completed successfully!
+2025-12-23 12:34:24,031 - __main__ - INFO - GPU available: NVIDIA RTX 6000 Ada Generation
+2025-12-23 12:34:24,032 - __main__ - INFO - Number of GPUs: 1
+2025-12-23 12:34:24,032 - __main__ - INFO - ================================================================================
+2025-12-23 12:34:24,032 - __main__ - INFO - MKQA Cross-Lingual Evaluation
+2025-12-23 12:34:24,032 - __main__ - INFO - ================================================================================
+2025-12-23 12:34:24,032 - __main__ - INFO - Configuration:
+2025-12-23 12:34:24,032 - __main__ - INFO -   model_name: google/gemma-2-2b
+2025-12-23 12:34:24,032 - __main__ - INFO -   device: cuda
+2025-12-23 12:34:24,032 - __main__ - INFO -   use_4bit: False
+2025-12-23 12:34:24,032 - __main__ - INFO -   dataset_path: ./data/mkqa.jsonl
+2025-12-23 12:34:24,032 - __main__ - INFO -   max_samples: 5
+2025-12-23 12:34:24,032 - __main__ - INFO -   languages: ['en', 'es', 'fr', 'de', 'ja', 'zh_cn', 'ar', 'ru']
+2025-12-23 12:34:24,032 - __main__ - INFO -   batch_size: 1
+2025-12-23 12:34:24,032 - __main__ - INFO -   max_new_tokens: 50
+2025-12-23 12:34:24,032 - __main__ - INFO -   temperature: 0.7
+2025-12-23 12:34:24,032 - __main__ - INFO -   top_k: 50
+2025-12-23 12:34:24,032 - __main__ - INFO -   top_p: 0.95
+2025-12-23 12:34:24,032 - __main__ - INFO -   output_dir: ./output/mkqa_results
+2025-12-23 12:34:24,032 - __main__ - INFO -   api_key: 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
+2025-12-23 12:34:24,032 - __main__ - INFO -   judge_model_name: gpt-4o-mini
+2025-12-23 12:34:24,032 - __main__ - INFO - ================================================================================
+2025-12-23 12:34:24,033 - __main__ - INFO - Initialized MKQAEvaluator with model: google/gemma-2-2b
+2025-12-23 12:34:24,033 - __main__ - INFO - Languages to evaluate: ['en', 'es', 'fr', 'de', 'ja', 'zh_cn', 'ar', 'ru']
+2025-12-23 12:34:24,033 - __main__ - INFO - Max samples: 5
+2025-12-23 12:34:24,411 - llm_judge - INFO - Initialized LLM Judge with gpt-4o-mini
+2025-12-23 12:34:24,411 - llm_judge - INFO - LLM Judge logs will be saved to: log/llm_judge_log.jsonl
+2025-12-23 12:34:24,411 - __main__ - INFO - LLM Judge initialized
+2025-12-23 12:34:24,411 - __main__ - INFO - ================================================================================
+2025-12-23 12:34:24,411 - __main__ - INFO - Starting MKQA Evaluation
+2025-12-23 12:34:24,411 - __main__ - INFO - ================================================================================
+2025-12-23 12:34:24,411 - __main__ - INFO - Loading model: google/gemma-2-2b
+2025-12-23 12:34:27,010 - accelerate.utils.modeling - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-12-23 12:34:30,162 - __main__ - INFO - Model loaded in fp16
+2025-12-23 12:34:30,163 - __main__ - INFO - Model loaded successfully
+2025-12-23 12:34:30,163 - __main__ - INFO - Loading MKQA dataset...
+2025-12-23 12:34:30,163 - __main__ - INFO - Loading dataset from: data/mkqa.jsonl
+2025-12-23 12:34:32,073 - __main__ - INFO - Loaded 5 samples
+2025-12-23 12:34:32,074 - __main__ - INFO - Evaluating 5 samples...
+2025-12-23 12:34:37,921 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:34:42,994 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:34:47,869 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:34:52,980 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:34:58,542 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:35:03,861 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:35:08,969 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:35:14,362 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:35:19,190 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:35:24,426 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:35:29,740 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:35:34,748 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:35:39,681 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:35:46,157 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:35:51,549 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:35:57,324 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:36:02,361 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:36:07,526 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:36:12,490 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:36:17,874 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:36:22,871 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:36:27,790 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:36:32,824 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:36:37,687 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:36:37,692 - __main__ - INFO - Computing Cross-Lingual Consistency (CLC) scores...
+2025-12-23 12:36:37,693 - __main__ - INFO - Mean CLC: 1.0000 ± 0.0000
+2025-12-23 12:36:37,693 - __main__ - INFO - Computing Transfer scores...
+2025-12-23 12:36:37,693 - __main__ - INFO - Mean Transfer Score: 1.0000
+2025-12-23 12:36:37,694 - __main__ - INFO - Summary results saved to: output/mkqa_results/evaluation_results.json
+2025-12-23 12:36:37,694 - __main__ - INFO - Detailed results saved to: output/mkqa_results/detailed_results.json
+2025-12-23 12:36:37,694 - __main__ - INFO - ================================================================================
+2025-12-23 12:36:37,694 - __main__ - INFO - Evaluation Complete
+2025-12-23 12:36:37,695 - __main__ - INFO - ================================================================================
+2025-12-23 12:36:37,695 - __main__ - INFO - 
+================================================================================
+2025-12-23 12:36:37,695 - __main__ - INFO - EVALUATION SUMMARY
+2025-12-23 12:36:37,695 - __main__ - INFO - ================================================================================
+2025-12-23 12:36:37,695 - __main__ - INFO - 
+Cross-Lingual Consistency (CLC):
+2025-12-23 12:36:37,695 - __main__ - INFO -   Mean CLC: 1.0000 ± 0.0000
+2025-12-23 12:36:37,695 - __main__ - INFO -   Number of samples: 3
+2025-12-23 12:36:37,695 - __main__ - INFO - 
+Per-Language Accuracy:
+2025-12-23 12:36:37,695 - __main__ - INFO -   ar: 1.0000
+2025-12-23 12:36:37,695 - __main__ - INFO -   de: 1.0000
+2025-12-23 12:36:37,695 - __main__ - INFO -   en: 1.0000
+2025-12-23 12:36:37,695 - __main__ - INFO -   es: 1.0000
+2025-12-23 12:36:37,695 - __main__ - INFO -   fr: 1.0000
+2025-12-23 12:36:37,695 - __main__ - INFO -   ja: 1.0000
+2025-12-23 12:36:37,695 - __main__ - INFO -   ru: 1.0000
+2025-12-23 12:36:37,695 - __main__ - INFO -   zh_cn: 1.0000
+2025-12-23 12:36:37,695 - __main__ - INFO - 
+Transfer Scores:
+2025-12-23 12:36:37,695 - __main__ - INFO -   Mean Transfer Score: 1.0000
+2025-12-23 12:36:37,695 - __main__ - INFO - 
+Top 10 Transfer Pairs:
+2025-12-23 12:36:37,695 - __main__ - INFO -   ru->ar: 1.0000 (3/3)
+2025-12-23 12:36:37,695 - __main__ - INFO -   ru->zh_cn: 1.0000 (3/3)
+2025-12-23 12:36:37,695 - __main__ - INFO -   ru->fr: 1.0000 (3/3)
+2025-12-23 12:36:37,695 - __main__ - INFO -   ru->de: 1.0000 (3/3)
+2025-12-23 12:36:37,695 - __main__ - INFO -   ru->ja: 1.0000 (3/3)
+2025-12-23 12:36:37,695 - __main__ - INFO -   ru->es: 1.0000 (3/3)
+2025-12-23 12:36:37,695 - __main__ - INFO -   ru->en: 1.0000 (3/3)
+2025-12-23 12:36:37,696 - __main__ - INFO -   ar->ru: 1.0000 (3/3)
+2025-12-23 12:36:37,696 - __main__ - INFO -   ar->zh_cn: 1.0000 (3/3)
+2025-12-23 12:36:37,696 - __main__ - INFO -   ar->fr: 1.0000 (3/3)
+2025-12-23 12:36:37,696 - __main__ - INFO - 
+Bottom 10 Transfer Pairs:
+2025-12-23 12:36:37,696 - __main__ - INFO -   es->de: 1.0000 (3/3)
+2025-12-23 12:36:37,696 - __main__ - INFO -   es->ja: 1.0000 (3/3)
+2025-12-23 12:36:37,696 - __main__ - INFO -   es->en: 1.0000 (3/3)
+2025-12-23 12:36:37,696 - __main__ - INFO -   en->ru: 1.0000 (3/3)
+2025-12-23 12:36:37,696 - __main__ - INFO -   en->ar: 1.0000 (3/3)
+2025-12-23 12:36:37,696 - __main__ - INFO -   en->zh_cn: 1.0000 (3/3)
+2025-12-23 12:36:37,696 - __main__ - INFO -   en->fr: 1.0000 (3/3)
+2025-12-23 12:36:37,696 - __main__ - INFO -   en->de: 1.0000 (3/3)
+2025-12-23 12:36:37,696 - __main__ - INFO -   en->ja: 1.0000 (3/3)
+2025-12-23 12:36:37,696 - __main__ - INFO -   en->es: 1.0000 (3/3)
+2025-12-23 12:36:37,696 - __main__ - INFO - ================================================================================
+2025-12-23 12:36:37,696 - __main__ - INFO - 
+Evaluation completed successfully!
+2025-12-23 12:41:56,371 - __main__ - INFO - GPU available: NVIDIA RTX 6000 Ada Generation
+2025-12-23 12:41:56,371 - __main__ - INFO - Number of GPUs: 1
+2025-12-23 12:41:56,371 - __main__ - INFO - ================================================================================
+2025-12-23 12:41:56,371 - __main__ - INFO - MKQA Cross-Lingual Evaluation
+2025-12-23 12:41:56,371 - __main__ - INFO - ================================================================================
+2025-12-23 12:41:56,372 - __main__ - INFO - Configuration:
+2025-12-23 12:41:56,372 - __main__ - INFO -   model_name: google/gemma-2-2b
+2025-12-23 12:41:56,372 - __main__ - INFO -   device: cuda
+2025-12-23 12:41:56,372 - __main__ - INFO -   use_4bit: False
+2025-12-23 12:41:56,372 - __main__ - INFO -   dataset_path: ./data/mkqa.jsonl
+2025-12-23 12:41:56,372 - __main__ - INFO -   max_samples: 5
+2025-12-23 12:41:56,372 - __main__ - INFO -   languages: ['en', 'es', 'fr', 'de', 'ja', 'zh_cn', 'ar', 'ru']
+2025-12-23 12:41:56,372 - __main__ - INFO -   batch_size: 1
+2025-12-23 12:41:56,372 - __main__ - INFO -   max_new_tokens: 50
+2025-12-23 12:41:56,372 - __main__ - INFO -   temperature: 0.7
+2025-12-23 12:41:56,372 - __main__ - INFO -   top_k: 50
+2025-12-23 12:41:56,372 - __main__ - INFO -   top_p: 0.95
+2025-12-23 12:41:56,372 - __main__ - INFO -   output_dir: ./output/mkqa_results
+2025-12-23 12:41:56,372 - __main__ - INFO -   api_key: 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
+2025-12-23 12:41:56,372 - __main__ - INFO -   judge_model_name: gpt-4o-mini
+2025-12-23 12:41:56,372 - __main__ - INFO - ================================================================================
+2025-12-23 12:41:56,372 - __main__ - INFO - Initialized MKQAEvaluator with model: google/gemma-2-2b
+2025-12-23 12:41:56,372 - __main__ - INFO - Languages to evaluate: ['en', 'es', 'fr', 'de', 'ja', 'zh_cn', 'ar', 'ru']
+2025-12-23 12:41:56,372 - __main__ - INFO - Max samples: 5
+2025-12-23 12:41:56,747 - llm_judge - INFO - Initialized LLM Judge with gpt-4o-mini
+2025-12-23 12:41:56,748 - llm_judge - INFO - LLM Judge logs will be saved to: log/llm_judge_log.jsonl
+2025-12-23 12:41:56,748 - __main__ - INFO - LLM Judge initialized
+2025-12-23 12:41:56,748 - __main__ - INFO - ================================================================================
+2025-12-23 12:41:56,748 - __main__ - INFO - Starting MKQA Evaluation
+2025-12-23 12:41:56,748 - __main__ - INFO - ================================================================================
+2025-12-23 12:41:56,748 - __main__ - INFO - Loading model: google/gemma-2-2b
+2025-12-23 12:41:59,360 - accelerate.utils.modeling - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-12-23 12:42:02,513 - __main__ - INFO - Model loaded in fp16
+2025-12-23 12:42:02,514 - __main__ - INFO - Model loaded successfully
+2025-12-23 12:42:02,514 - __main__ - INFO - Loading MKQA dataset...
+2025-12-23 12:42:02,514 - __main__ - INFO - Loading dataset from: data/mkqa.jsonl
+2025-12-23 12:42:04,416 - __main__ - INFO - Loaded 5 samples
+2025-12-23 12:42:04,417 - __main__ - INFO - Evaluating 5 samples...
+2025-12-23 12:42:10,169 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:42:17,030 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:42:22,340 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:42:27,769 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:42:33,727 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:42:38,915 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:42:44,003 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:42:48,945 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:42:53,962 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:42:58,982 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:43:04,106 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:43:09,136 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:43:14,060 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:43:19,452 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:43:24,800 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:43:30,030 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:43:34,930 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:43:39,891 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:43:45,147 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:43:50,676 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:43:55,791 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:44:02,060 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:44:07,529 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:44:12,444 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:44:12,446 - __main__ - INFO - Computing Cross-Lingual Consistency (CLC) scores...
+2025-12-23 12:44:12,447 - __main__ - INFO - Mean CLC: 0.1250 ± 0.1768
+2025-12-23 12:44:12,447 - __main__ - INFO - Computing Transfer scores...
+2025-12-23 12:44:12,447 - __main__ - INFO - Mean Transfer Score: 0.2857
+2025-12-23 12:44:12,447 - __main__ - INFO - Summary results saved to: output/mkqa_results/evaluation_results.json
+2025-12-23 12:44:12,448 - __main__ - INFO - Detailed results saved to: output/mkqa_results/detailed_results.json
+2025-12-23 12:44:12,448 - __main__ - INFO - ================================================================================
+2025-12-23 12:44:12,448 - __main__ - INFO - Evaluation Complete
+2025-12-23 12:44:12,448 - __main__ - INFO - ================================================================================
+2025-12-23 12:44:12,448 - __main__ - INFO - 
+================================================================================
+2025-12-23 12:44:12,448 - __main__ - INFO - EVALUATION SUMMARY
+2025-12-23 12:44:12,448 - __main__ - INFO - ================================================================================
+2025-12-23 12:44:12,448 - __main__ - INFO - 
+Cross-Lingual Consistency (CLC):
+2025-12-23 12:44:12,448 - __main__ - INFO -   Mean CLC: 0.1250 ± 0.1768
+2025-12-23 12:44:12,448 - __main__ - INFO -   Number of samples: 3
+2025-12-23 12:44:12,448 - __main__ - INFO - 
+Per-Language Accuracy:
+2025-12-23 12:44:12,448 - __main__ - INFO -   ar: 0.0000
+2025-12-23 12:44:12,448 - __main__ - INFO -   de: 0.0000
+2025-12-23 12:44:12,448 - __main__ - INFO -   en: 0.3333
+2025-12-23 12:44:12,448 - __main__ - INFO -   es: 0.3333
+2025-12-23 12:44:12,448 - __main__ - INFO -   fr: 0.0000
+2025-12-23 12:44:12,448 - __main__ - INFO -   ja: 0.0000
+2025-12-23 12:44:12,448 - __main__ - INFO -   ru: 0.3333
+2025-12-23 12:44:12,449 - __main__ - INFO -   zh_cn: 0.0000
+2025-12-23 12:44:12,449 - __main__ - INFO - 
+Transfer Scores:
+2025-12-23 12:44:12,449 - __main__ - INFO -   Mean Transfer Score: 0.2857
+2025-12-23 12:44:12,449 - __main__ - INFO - 
+Top 10 Transfer Pairs:
+2025-12-23 12:44:12,449 - __main__ - INFO -   es->en: 1.0000 (1/1)
+2025-12-23 12:44:12,449 - __main__ - INFO -   es->ru: 1.0000 (1/1)
+2025-12-23 12:44:12,449 - __main__ - INFO -   en->es: 1.0000 (1/1)
+2025-12-23 12:44:12,449 - __main__ - INFO -   en->ru: 1.0000 (1/1)
+2025-12-23 12:44:12,449 - __main__ - INFO -   ru->es: 1.0000 (1/1)
+2025-12-23 12:44:12,449 - __main__ - INFO -   ru->en: 1.0000 (1/1)
+2025-12-23 12:44:12,449 - __main__ - INFO -   es->ar: 0.0000 (0/1)
+2025-12-23 12:44:12,449 - __main__ - INFO -   es->de: 0.0000 (0/1)
+2025-12-23 12:44:12,449 - __main__ - INFO -   es->ja: 0.0000 (0/1)
+2025-12-23 12:44:12,449 - __main__ - INFO -   es->zh_cn: 0.0000 (0/1)
+2025-12-23 12:44:12,449 - __main__ - INFO - 
+Bottom 10 Transfer Pairs:
+2025-12-23 12:44:12,449 - __main__ - INFO -   en->ar: 0.0000 (0/1)
+2025-12-23 12:44:12,449 - __main__ - INFO -   en->de: 0.0000 (0/1)
+2025-12-23 12:44:12,449 - __main__ - INFO -   en->ja: 0.0000 (0/1)
+2025-12-23 12:44:12,449 - __main__ - INFO -   en->zh_cn: 0.0000 (0/1)
+2025-12-23 12:44:12,449 - __main__ - INFO -   en->fr: 0.0000 (0/1)
+2025-12-23 12:44:12,449 - __main__ - INFO -   ru->ar: 0.0000 (0/1)
+2025-12-23 12:44:12,449 - __main__ - INFO -   ru->de: 0.0000 (0/1)
+2025-12-23 12:44:12,449 - __main__ - INFO -   ru->ja: 0.0000 (0/1)
+2025-12-23 12:44:12,449 - __main__ - INFO -   ru->zh_cn: 0.0000 (0/1)
+2025-12-23 12:44:12,449 - __main__ - INFO -   ru->fr: 0.0000 (0/1)
+2025-12-23 12:44:12,449 - __main__ - INFO - ================================================================================
+2025-12-23 12:44:12,449 - __main__ - INFO - 
+Evaluation completed successfully!
+2025-12-23 12:56:28,196 - __main__ - INFO - GPU available: NVIDIA RTX 6000 Ada Generation
+2025-12-23 12:56:28,196 - __main__ - INFO - Number of GPUs: 1
+2025-12-23 12:56:28,196 - __main__ - INFO - ================================================================================
+2025-12-23 12:56:28,196 - __main__ - INFO - MKQA Cross-Lingual Evaluation
+2025-12-23 12:56:28,196 - __main__ - INFO - ================================================================================
+2025-12-23 12:56:28,196 - __main__ - INFO - Configuration:
+2025-12-23 12:56:28,196 - __main__ - INFO -   model_name: google/gemma-2-2b
+2025-12-23 12:56:28,197 - __main__ - INFO -   device: cuda
+2025-12-23 12:56:28,197 - __main__ - INFO -   use_4bit: False
+2025-12-23 12:56:28,197 - __main__ - INFO -   dataset_path: ./data/mkqa.jsonl
+2025-12-23 12:56:28,197 - __main__ - INFO -   max_samples: 10
+2025-12-23 12:56:28,197 - __main__ - INFO -   languages: ['en', 'es', 'fr', 'de', 'ja', 'zh_cn', 'ar', 'ru']
+2025-12-23 12:56:28,197 - __main__ - INFO -   batch_size: 1
+2025-12-23 12:56:28,197 - __main__ - INFO -   max_new_tokens: 50
+2025-12-23 12:56:28,197 - __main__ - INFO -   temperature: 0.7
+2025-12-23 12:56:28,197 - __main__ - INFO -   top_k: 50
+2025-12-23 12:56:28,197 - __main__ - INFO -   top_p: 0.95
+2025-12-23 12:56:28,197 - __main__ - INFO -   output_dir: ./output/mkqa_results
+2025-12-23 12:56:28,197 - __main__ - INFO -   api_key: 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
+2025-12-23 12:56:28,197 - __main__ - INFO -   judge_model_name: gpt-4o-mini
+2025-12-23 12:56:28,197 - __main__ - INFO - ================================================================================
+2025-12-23 12:56:28,197 - __main__ - INFO - Initialized MKQAEvaluator with model: google/gemma-2-2b
+2025-12-23 12:56:28,197 - __main__ - INFO - Languages to evaluate: ['en', 'es', 'fr', 'de', 'ja', 'zh_cn', 'ar', 'ru']
+2025-12-23 12:56:28,197 - __main__ - INFO - Max samples: 10
+2025-12-23 12:56:28,575 - llm_judge - INFO - Initialized LLM Judge with gpt-4o-mini
+2025-12-23 12:56:28,575 - llm_judge - INFO - LLM Judge logs will be saved to: log/llm_judge_log.jsonl
+2025-12-23 12:56:28,575 - __main__ - INFO - LLM Judge initialized
+2025-12-23 12:56:28,575 - __main__ - INFO - ================================================================================
+2025-12-23 12:56:28,575 - __main__ - INFO - Starting MKQA Evaluation
+2025-12-23 12:56:28,575 - __main__ - INFO - ================================================================================
+2025-12-23 12:56:28,575 - __main__ - INFO - Loading model: google/gemma-2-2b
+2025-12-23 12:56:31,148 - accelerate.utils.modeling - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-12-23 12:56:34,327 - __main__ - INFO - Model loaded in fp16
+2025-12-23 12:56:34,329 - __main__ - INFO - Model loaded successfully
+2025-12-23 12:56:34,329 - __main__ - INFO - Loading MKQA dataset...
+2025-12-23 12:56:34,329 - __main__ - INFO - Loading dataset from: data/mkqa.jsonl
+2025-12-23 12:56:36,240 - __main__ - INFO - Loaded 10 samples
+2025-12-23 12:56:36,240 - __main__ - INFO - Evaluating 10 samples...
+2025-12-23 12:56:42,402 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:56:48,120 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:56:53,696 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:56:58,614 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:57:03,507 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:57:08,746 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:57:13,882 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:57:19,230 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:57:24,911 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:57:30,051 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:57:35,290 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:57:40,499 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:57:45,601 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:57:50,655 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:57:56,138 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:58:01,811 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:58:06,628 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:58:11,922 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:58:17,006 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:58:21,728 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:58:26,619 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:58:31,543 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:58:36,545 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:58:41,370 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:58:46,563 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:58:51,862 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:58:57,273 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:59:02,116 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:59:07,043 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:59:12,060 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:59:17,139 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:59:22,023 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:59:28,182 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:59:33,188 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:59:41,056 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:59:46,147 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:59:51,080 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 12:59:57,528 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 13:00:02,492 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 13:00:08,512 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 13:00:13,448 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 13:00:18,661 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 13:00:25,104 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 13:00:30,048 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 13:00:36,567 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 13:00:41,705 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 13:00:46,660 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 13:00:52,258 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-23 13:00:52,267 - __main__ - INFO - Computing Cross-Lingual Consistency (CLC) scores...
+2025-12-23 13:00:52,268 - __main__ - INFO - Mean CLC: 0.0417 ± 0.0932
+2025-12-23 13:00:52,268 - __main__ - INFO - Computing Transfer scores...
+2025-12-23 13:00:52,268 - __main__ - INFO - Mean Transfer Score: 0.1429
+2025-12-23 13:00:52,268 - __main__ - INFO - Summary results saved to: output/mkqa_results/evaluation_results.json
+2025-12-23 13:00:52,269 - __main__ - INFO - Detailed results saved to: output/mkqa_results/detailed_results.json
+2025-12-23 13:00:52,269 - __main__ - INFO - ================================================================================
+2025-12-23 13:00:52,269 - __main__ - INFO - Evaluation Complete
+2025-12-23 13:00:52,269 - __main__ - INFO - ================================================================================
+2025-12-23 13:00:52,269 - __main__ - INFO - 
+================================================================================
+2025-12-23 13:00:52,269 - __main__ - INFO - EVALUATION SUMMARY
+2025-12-23 13:00:52,269 - __main__ - INFO - ================================================================================
+2025-12-23 13:00:52,269 - __main__ - INFO - 
+Cross-Lingual Consistency (CLC):
+2025-12-23 13:00:52,269 - __main__ - INFO -   Mean CLC: 0.0417 ± 0.0932
+2025-12-23 13:00:52,269 - __main__ - INFO -   Number of samples: 6
+2025-12-23 13:00:52,269 - __main__ - INFO - 
+Per-Language Accuracy:
+2025-12-23 13:00:52,270 - __main__ - INFO -   ar: 0.0000
+2025-12-23 13:00:52,270 - __main__ - INFO -   de: 0.1667
+2025-12-23 13:00:52,270 - __main__ - INFO -   en: 0.0000
+2025-12-23 13:00:52,270 - __main__ - INFO -   es: 0.1667
+2025-12-23 13:00:52,270 - __main__ - INFO -   fr: 0.0000
+2025-12-23 13:00:52,270 - __main__ - INFO -   ja: 0.0000
+2025-12-23 13:00:52,270 - __main__ - INFO -   ru: 0.0000
+2025-12-23 13:00:52,270 - __main__ - INFO -   zh_cn: 0.0000
+2025-12-23 13:00:52,270 - __main__ - INFO - 
+Transfer Scores:
+2025-12-23 13:00:52,270 - __main__ - INFO -   Mean Transfer Score: 0.1429
+2025-12-23 13:00:52,270 - __main__ - INFO - 
+Top 10 Transfer Pairs:
+2025-12-23 13:00:52,270 - __main__ - INFO -   de->es: 1.0000 (1/1)
+2025-12-23 13:00:52,270 - __main__ - INFO -   es->de: 1.0000 (1/1)
+2025-12-23 13:00:52,270 - __main__ - INFO -   de->en: 0.0000 (0/1)
+2025-12-23 13:00:52,270 - __main__ - INFO -   de->ja: 0.0000 (0/1)
+2025-12-23 13:00:52,270 - __main__ - INFO -   de->ru: 0.0000 (0/1)
+2025-12-23 13:00:52,270 - __main__ - INFO -   de->zh_cn: 0.0000 (0/1)
+2025-12-23 13:00:52,270 - __main__ - INFO -   de->ar: 0.0000 (0/1)
+2025-12-23 13:00:52,270 - __main__ - INFO -   de->fr: 0.0000 (0/1)
+2025-12-23 13:00:52,270 - __main__ - INFO -   es->en: 0.0000 (0/1)
+2025-12-23 13:00:52,270 - __main__ - INFO -   es->ja: 0.0000 (0/1)
+2025-12-23 13:00:52,270 - __main__ - INFO - 
+Bottom 10 Transfer Pairs:
+2025-12-23 13:00:52,270 - __main__ - INFO -   de->ru: 0.0000 (0/1)
+2025-12-23 13:00:52,270 - __main__ - INFO -   de->zh_cn: 0.0000 (0/1)
+2025-12-23 13:00:52,270 - __main__ - INFO -   de->ar: 0.0000 (0/1)
+2025-12-23 13:00:52,270 - __main__ - INFO -   de->fr: 0.0000 (0/1)
+2025-12-23 13:00:52,271 - __main__ - INFO -   es->en: 0.0000 (0/1)
+2025-12-23 13:00:52,271 - __main__ - INFO -   es->ja: 0.0000 (0/1)
+2025-12-23 13:00:52,271 - __main__ - INFO -   es->ru: 0.0000 (0/1)
+2025-12-23 13:00:52,271 - __main__ - INFO -   es->zh_cn: 0.0000 (0/1)
+2025-12-23 13:00:52,271 - __main__ - INFO -   es->ar: 0.0000 (0/1)
+2025-12-23 13:00:52,271 - __main__ - INFO -   es->fr: 0.0000 (0/1)
+2025-12-23 13:00:52,271 - __main__ - INFO - ================================================================================
+2025-12-23 13:00:52,271 - __main__ - INFO - 
+Evaluation completed successfully!

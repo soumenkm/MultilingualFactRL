@@ -1,0 +1,2069 @@
+LLM JUDGE EVALUATION LOG
+Model: gpt-4o-mini
+Started at: 2025-12-23T12:56:28.574345
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:56:42
+--------------------------------------------------------------------------------
+Generated Answer: 4 years
+Ground Truth:     11.0 years
+Aliases:          11 years
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 11.0 years
+Acceptable Aliases: 11 years
+Generated Answer: 4 years
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:56:48
+--------------------------------------------------------------------------------
+Generated Answer: took 12 years to build
+Ground Truth:     11.0 año terrestre
+Aliases:          11 año terrestre
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 11.0 año terrestre
+Acceptable Aliases: 11 año terrestre
+Generated Answer: took 12 years to build
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:56:53
+--------------------------------------------------------------------------------
+Generated Answer: it took 5 years to build the twin towers
+Ground Truth:     11.0 années
+Aliases:          11 années
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 11.0 années
+Acceptable Aliases: 11 années
+Generated Answer: it took 5 years to build the twin towers
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:56:58
+--------------------------------------------------------------------------------
+Generated Answer: 4 Jahre
+Ground Truth:     11.0 Jahr
+Aliases:          11 Jahr
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 11.0 Jahr
+Acceptable Aliases: 11 Jahr
+Generated Answer: 4 Jahre
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:57:03
+--------------------------------------------------------------------------------
+Generated Answer: 2年
+Ground Truth:     11.0 年
+Aliases:          11 年
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 11.0 年
+Acceptable Aliases: 11 年
+Generated Answer: 2年
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:57:08
+--------------------------------------------------------------------------------
+Generated Answer: 4年
+Ground Truth:     11.0 年份
+Aliases:          11 年份
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 11.0 年份
+Acceptable Aliases: 11 年份
+Generated Answer: 4年
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:57:13
+--------------------------------------------------------------------------------
+Generated Answer: 40 يومًا
+Ground Truth:     11.0 سنة
+Aliases:          11 سنة
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 11.0 سنة
+Acceptable Aliases: 11 سنة
+Generated Answer: 40 يومًا
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:57:19
+--------------------------------------------------------------------------------
+Generated Answer: 2 года
+Ground Truth:     11.0 лет
+Aliases:          11 лет
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 11.0 лет
+Acceptable Aliases: 11 лет
+Generated Answer: 2 года
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:57:24
+--------------------------------------------------------------------------------
+Generated Answer: I like to think it's my own voice.
+Ground Truth:     Chris Young
+Aliases:          Christopher Alan "Chris" Young
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: Chris Young
+Acceptable Aliases: Christopher Alan "Chris" Young
+Generated Answer: I like to think it's my own voice.
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:57:30
+--------------------------------------------------------------------------------
+Generated Answer: The Black Crowes
+Ground Truth:     Chris Young
+Aliases:          None
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: Chris Young
+Acceptable Aliases: None
+Generated Answer: The Black Crowes
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:57:35
+--------------------------------------------------------------------------------
+Generated Answer: The Beatles
+Ground Truth:     Chris Young
+Aliases:          None
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: Chris Young
+Acceptable Aliases: None
+Generated Answer: The Beatles
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:57:40
+--------------------------------------------------------------------------------
+Generated Answer: Ed Sheeran
+Ground Truth:     Chris Young
+Aliases:          Christopher Alan Young
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: Chris Young
+Acceptable Aliases: Christopher Alan Young
+Generated Answer: Ed Sheeran
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:57:45
+--------------------------------------------------------------------------------
+Generated Answer: <strong>The Beatles</strong>
+Ground Truth:     クリス・ヤング
+Aliases:          None
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: クリス・ヤング
+Acceptable Aliases: None
+Generated Answer: <strong>The Beatles</strong>
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:57:50
+--------------------------------------------------------------------------------
+Generated Answer: love you like there's no tomorrow
+Ground Truth:     克里斯·扬
+Aliases:          None
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 克里斯·扬
+Acceptable Aliases: None
+Generated Answer: love you like there's no tomorrow
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:57:56
+--------------------------------------------------------------------------------
+Generated Answer: من يغني "لا يوجد غدا" هو "دونيت أندريكز".
+Ground Truth:     كريس يونغ
+Aliases:          None
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: كريس يونغ
+Acceptable Aliases: None
+Generated Answer: من يغني "لا يوجد غدا" هو "دونيت أندريكز".
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:58:01
+--------------------------------------------------------------------------------
+Generated Answer: это группа, название которой: "The Supremes"
+Ground Truth:     Янг, Крис
+Aliases:          Крис Янг
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: Янг, Крис
+Acceptable Aliases: Крис Янг
+Generated Answer: это группа, название которой: "The Supremes"
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:58:06
+--------------------------------------------------------------------------------
+Generated Answer: 1
+Ground Truth:     2.0
+Aliases:          2
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 2.0
+Acceptable Aliases: 2
+Generated Answer: 1
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:58:11
+--------------------------------------------------------------------------------
+Generated Answer: Scream Queens ha tenido 2 temporadas.
+Ground Truth:     2.0
+Aliases:          2
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 2.0
+Acceptable Aliases: 2
+Generated Answer: Scream Queens ha tenido 2 temporadas.
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+CORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: CORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:58:17
+--------------------------------------------------------------------------------
+Generated Answer: 3 saisons
+Ground Truth:     2.0
+Aliases:          2
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 2.0
+Acceptable Aliases: 2
+Generated Answer: 3 saisons
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:58:21
+--------------------------------------------------------------------------------
+Generated Answer: 2
+Ground Truth:     2.0
+Aliases:          2
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 2.0
+Acceptable Aliases: 2
+Generated Answer: 2
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+CORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: CORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:58:26
+--------------------------------------------------------------------------------
+Generated Answer: 10 seasons
+Ground Truth:     2.0
+Aliases:          2
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 2.0
+Acceptable Aliases: 2
+Generated Answer: 10 seasons
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:58:31
+--------------------------------------------------------------------------------
+Generated Answer: 3 seasons
+Ground Truth:     2.0
+Aliases:          2
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 2.0
+Acceptable Aliases: 2
+Generated Answer: 3 seasons
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:58:36
+--------------------------------------------------------------------------------
+Generated Answer: 3 مواسم
+Ground Truth:     2.0
+Aliases:          2
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 2.0
+Acceptable Aliases: 2
+Generated Answer: 3 مواسم
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:58:41
+--------------------------------------------------------------------------------
+Generated Answer: 3 сезонов
+Ground Truth:     2.0
+Aliases:          2
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 2.0
+Acceptable Aliases: 2
+Generated Answer: 3 сезонов
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:58:46
+--------------------------------------------------------------------------------
+Generated Answer: 10
+Ground Truth:     3.0
+Aliases:          3
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 3.0
+Acceptable Aliases: 3
+Generated Answer: 10
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:58:51
+--------------------------------------------------------------------------------
+Generated Answer: 10
+Ground Truth:     3.0
+Aliases:          3
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 3.0
+Acceptable Aliases: 3
+Generated Answer: 10
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:58:57
+--------------------------------------------------------------------------------
+Generated Answer: 9
+Ground Truth:     3.0
+Aliases:          3
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 3.0
+Acceptable Aliases: 3
+Generated Answer: 9
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:59:02
+--------------------------------------------------------------------------------
+Generated Answer: 10
+Ground Truth:     3.0
+Aliases:          3
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 3.0
+Acceptable Aliases: 3
+Generated Answer: 10
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:59:07
+--------------------------------------------------------------------------------
+Generated Answer: 10話です
+Ground Truth:     3.0
+Aliases:          3
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 3.0
+Acceptable Aliases: 3
+Generated Answer: 10話です
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:59:12
+--------------------------------------------------------------------------------
+Generated Answer: 13集
+Ground Truth:     3.0
+Aliases:          3
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 3.0
+Acceptable Aliases: 3
+Generated Answer: 13集
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:59:17
+--------------------------------------------------------------------------------
+Generated Answer: 10 حلقات
+Ground Truth:     3.0
+Aliases:          3
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 3.0
+Acceptable Aliases: 3
+Generated Answer: 10 حلقات
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:59:22
+--------------------------------------------------------------------------------
+Generated Answer: 10
+Ground Truth:     3.0
+Aliases:          3
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 3.0
+Acceptable Aliases: 3
+Generated Answer: 10
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:59:28
+--------------------------------------------------------------------------------
+Generated Answer: i heard it once, i think it was on a radio show with the same name
+Ground Truth:     Dave Edmunds
+Aliases:          None
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: Dave Edmunds
+Acceptable Aliases: None
+Generated Answer: i heard it once, i think it was on a radio show with the same name
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:59:33
+--------------------------------------------------------------------------------
+Generated Answer: john lennon
+Ground Truth:     Dave Edmunds
+Aliases:          None
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: Dave Edmunds
+Acceptable Aliases: None
+Generated Answer: john lennon
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:59:41
+--------------------------------------------------------------------------------
+Generated Answer: Peter Gabriel
+Ground Truth:     Dave Edmunds
+Aliases:          None
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: Dave Edmunds
+Acceptable Aliases: None
+Generated Answer: Peter Gabriel
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:59:46
+--------------------------------------------------------------------------------
+Generated Answer: you can't come in
+Ground Truth:     Dave Edmunds
+Aliases:          None
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: Dave Edmunds
+Acceptable Aliases: None
+Generated Answer: you can't come in
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:59:51
+--------------------------------------------------------------------------------
+Generated Answer: 「The Doors」
+Ground Truth:     デイヴ・エドモンズ
+Aliases:          デーブ・エドモンズ, デイブ・エドモンズ
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: デイヴ・エドモンズ
+Acceptable Aliases: デーブ・エドモンズ, デイブ・エドモンズ
+Generated Answer: 「The Doors」
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 12:59:57
+--------------------------------------------------------------------------------
+Generated Answer: 《i hear you knocking but you can't come in》演唱者是《i hear you knocking but you can't come in》演唱者是《i hear you knocking but you can't come in》演唱者是《i
+Ground Truth:     戴维·埃德蒙兹
+Aliases:          None
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 戴维·埃德蒙兹
+Acceptable Aliases: None
+Generated Answer: 《i hear you knocking but you can't come in》演唱者是《i hear you knocking but you can't come in》演唱者是《i hear you knocking but you can't come in》演唱者是《i
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 13:00:02
+--------------------------------------------------------------------------------
+Generated Answer: هو غالب
+Ground Truth:     ديف إدموندز
+Aliases:          None
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: ديف إدموندز
+Acceptable Aliases: None
+Generated Answer: هو غالب
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 13:00:08
+--------------------------------------------------------------------------------
+Generated Answer: i hear you knocking but you can't come in
+Ground Truth:     Эдмундс, Дэйв
+Aliases:          Эдмундс, Дэйв Эдмундс, Эдмундс Дэйв, Dave Edmunds
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: Эдмундс, Дэйв
+Acceptable Aliases: Эдмундс, Дэйв Эдмундс, Эдмундс Дэйв, Dave Edmunds
+Generated Answer: i hear you knocking but you can't come in
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 13:00:13
+--------------------------------------------------------------------------------
+Generated Answer: Christiana Aguilera
+Ground Truth:     John de Mol
+Aliases:          John De Mol
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: John de Mol
+Acceptable Aliases: John De Mol
+Generated Answer: Christiana Aguilera
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 13:00:18
+--------------------------------------------------------------------------------
+Generated Answer: a sus padres
+Ground Truth:     John de Mol
+Aliases:          Johannes Hendrikus Hubert de Mol, Johannes "John" Hendrikus Hubert de Mol, Johannes Hubert de Mol
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: John de Mol
+Acceptable Aliases: Johannes Hendrikus Hubert de Mol, Johannes "John" Hendrikus Hubert de Mol, Johannes Hubert de Mol
+Generated Answer: a sus padres
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 13:00:25
+--------------------------------------------------------------------------------
+Generated Answer: La série Voice TV a été créée par Peter Berg, Steven Spielberg et Justin Falvey.
+Ground Truth:     John de Mol
+Aliases:          John De Mol
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: John de Mol
+Acceptable Aliases: John De Mol
+Generated Answer: La série Voice TV a été créée par Peter Berg, Steven Spielberg et Justin Falvey.
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 13:00:30
+--------------------------------------------------------------------------------
+Generated Answer: Simon Cowell
+Ground Truth:     John de Mol
+Aliases:          None
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: John de Mol
+Acceptable Aliases: None
+Generated Answer: Simon Cowell
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 13:00:36
+--------------------------------------------------------------------------------
+Generated Answer: 1999年に放送が始まった、ザ・ヴォイスは、日本テレビ系で放送されていた、テレビ番組で、審査員として、歌手の松田聖子さんが、審査員を務めていた。この番組で、審査員
+Ground Truth:     ジョン デ モル
+Aliases:          None
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: ジョン デ モル
+Acceptable Aliases: None
+Generated Answer: 1999年に放送が始まった、ザ・ヴォイスは、日本テレビ系で放送されていた、テレビ番組で、審査員として、歌手の松田聖子さんが、審査員を務めていた。この番組で、審査員
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 13:00:41
+--------------------------------------------------------------------------------
+Generated Answer: <b>有谁</b>
+Ground Truth:     小约翰·德·莫尔
+Aliases:          None
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: 小约翰·德·莫尔
+Acceptable Aliases: None
+Generated Answer: <b>有谁</b>
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 13:00:46
+--------------------------------------------------------------------------------
+Generated Answer: عبد الرزاق خليل
+Ground Truth:     جون دي مول
+Aliases:          None
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: جون دي مول
+Acceptable Aliases: None
+Generated Answer: عبد الرزاق خليل
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+
+================================================================================
+Timestamp: 2025-12-23 13:00:52
+--------------------------------------------------------------------------------
+Generated Answer: Сергей Собянин
+Ground Truth:     Джон де Мол
+Aliases:          None
+--------------------------------------------------------------------------------
+
+PROMPT SENT TO LLM:
+--------------------------------------------------------------------------------
+You are an expert evaluator for question-answering systems. Your task is to determine if a generated answer matches the ground truth answer.
+
+Ground Truth Answer: Джон де Мол
+Acceptable Aliases: None
+Generated Answer: Сергей Собянин
+
+Evaluation Guidelines:
+1. Consider answers CORRECT if:
+   - The core information matches (e.g., "3 years" vs "3.0 years")
+   - Capitalization differs (e.g., "Paris" vs "paris")
+   - Minor formatting differences (e.g., "11 years" vs "11.0 years")
+   - The generated answer contains the correct answer even with extra text
+   - Numbers match even if units differ slightly (e.g., "year" vs "years")
+   - The answer matches any of the provided aliases
+
+2. Consider answers INCORRECT if:
+   - The factual information is wrong (e.g., "3 years" when answer is "11 years")
+   - The entity/name is completely different
+   - The number is significantly different
+
+Answer ONLY with "CORRECT" or "INCORRECT" - nothing else.
+
+Judgment:
+--------------------------------------------------------------------------------
+
+LLM RESPONSE:
+--------------------------------------------------------------------------------
+INCORRECT
+--------------------------------------------------------------------------------
+
+FINAL JUDGMENT: INCORRECT
+================================================================================
+

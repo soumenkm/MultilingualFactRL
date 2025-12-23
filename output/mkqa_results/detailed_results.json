@@ -1,0 +1,349 @@
+[
+  {
+    "example_id": 3051930912491995402,
+    "language_results": {
+      "en": {
+        "query": "how long did it take the twin towers to be built",
+        "generated": "4 years",
+        "ground_truth": "11.0 years",
+        "correct": false
+      },
+      "es": {
+        "query": "cuanto tardaron en construirse las torres gemelas",
+        "generated": "took 12 years to build",
+        "ground_truth": "11.0 año terrestre",
+        "correct": false
+      },
+      "fr": {
+        "query": "combien de temps a-t-il fallu pour construire les tours jumelles",
+        "generated": "it took 5 years to build the twin towers",
+        "ground_truth": "11.0 années",
+        "correct": false
+      },
+      "de": {
+        "query": "Wie lange dauerte es, um die Twin Towers zu bauen?",
+        "generated": "4 Jahre",
+        "ground_truth": "11.0 Jahr",
+        "correct": false
+      },
+      "ja": {
+        "query": "ツインタワーが建てられるまでどの位の時間がかかりましたか",
+        "generated": "2年",
+        "ground_truth": "11.0 年",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "世贸双塔建造用时多长",
+        "generated": "4年",
+        "ground_truth": "11.0 年份",
+        "correct": false
+      },
+      "ar": {
+        "query": ": كم من الوقت استغرق بناء البرجين التوأمين",
+        "generated": "40 يومًا",
+        "ground_truth": "11.0 سنة",
+        "correct": false
+      },
+      "ru": {
+        "query": "как долго строились башни-близнецы",
+        "generated": "2 года",
+        "ground_truth": "11.0 лет",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 6277735658261425592,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": -4766029169354683727,
+    "language_results": {
+      "en": {
+        "query": "who sings love you like there's no tomorrow",
+        "generated": "I like to think it's my own voice.",
+        "ground_truth": "Chris Young",
+        "correct": false
+      },
+      "es": {
+        "query": "quién canta love you like there's no tomorrow",
+        "generated": "The Black Crowes",
+        "ground_truth": "Chris Young",
+        "correct": false
+      },
+      "fr": {
+        "query": "Qui interprète la chanson Love you like there's no tomorrow",
+        "generated": "The Beatles",
+        "ground_truth": "Chris Young",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer singt love you like there's no tomorrow",
+        "generated": "Ed Sheeran",
+        "ground_truth": "Chris Young",
+        "correct": false
+      },
+      "ja": {
+        "query": "love you like there's no tomorrowを歌っているのは誰か",
+        "generated": "<strong>The Beatles</strong>",
+        "ground_truth": "クリス・ヤング",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "love you like there's no tomorrow是谁演唱的",
+        "generated": "love you like there's no tomorrow",
+        "ground_truth": "克里斯·扬",
+        "correct": false
+      },
+      "ar": {
+        "query": "من الذي يغني أحبك مثل لا يوجد غدا",
+        "generated": "من يغني \"لا يوجد غدا\" هو \"دونيت أندريكز\".",
+        "ground_truth": "كريس يونغ",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто поёт love you like there's no tomorrow",
+        "generated": "это группа, название которой: \"The Supremes\"",
+        "ground_truth": "Янг, Крис",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": -5007314435785513023,
+    "language_results": {
+      "en": {
+        "query": "how many seasons of scream queens are there",
+        "generated": "1",
+        "ground_truth": "2.0",
+        "correct": false
+      },
+      "es": {
+        "query": "¿Cuántas temporadas hay de Scream Queens?",
+        "generated": "Scream Queens ha tenido 2 temporadas.",
+        "ground_truth": "2.0",
+        "correct": true
+      },
+      "fr": {
+        "query": "combien de saisons y a-t-il dans scream queens",
+        "generated": "3 saisons",
+        "ground_truth": "2.0",
+        "correct": false
+      },
+      "de": {
+        "query": "Wie viele Staffeln von 'Scream Queens' gibt es?",
+        "generated": "2",
+        "ground_truth": "2.0",
+        "correct": true
+      },
+      "ja": {
+        "query": "スクリーム・クイーンズは何シーズンありますか",
+        "generated": "10 seasons",
+        "ground_truth": "2.0",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "《尖叫皇后》（Scream Queens）一共有几季",
+        "generated": "3 seasons",
+        "ground_truth": "2.0",
+        "correct": false
+      },
+      "ar": {
+        "query": "كم عدد مواسم ملكات الصراخ",
+        "generated": "3 مواسم",
+        "ground_truth": "2.0",
+        "correct": false
+      },
+      "ru": {
+        "query": "сколкьо всего сезонов в королевах крика",
+        "generated": "3 сезонов",
+        "ground_truth": "2.0",
+        "correct": false
+      }
+    },
+    "correct_languages": [
+      "es",
+      "de"
+    ]
+  },
+  {
+    "example_id": 7960403399608384663,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": -6261874607090673789,
+    "language_results": {
+      "en": {
+        "query": "how many episodes in a season of stranger things",
+        "generated": "10",
+        "ground_truth": "3.0",
+        "correct": false
+      },
+      "es": {
+        "query": "¿cuántos episodios tiene una temporada de \"stranger things\"?",
+        "generated": "10",
+        "ground_truth": "3.0",
+        "correct": false
+      },
+      "fr": {
+        "query": "Combien d'épisode dans une saison de Stranger things",
+        "generated": "9",
+        "ground_truth": "3.0",
+        "correct": false
+      },
+      "de": {
+        "query": "wie viele Folgen in einer Staffel von fremden Dingen",
+        "generated": "10",
+        "ground_truth": "3.0",
+        "correct": false
+      },
+      "ja": {
+        "query": "ストレンジャー・シングスは１シーズン何話ですか",
+        "generated": "10話です",
+        "ground_truth": "3.0",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "怪奇物语每季有多少集",
+        "generated": "13集",
+        "ground_truth": "3.0",
+        "correct": false
+      },
+      "ar": {
+        "query": "كم عدد الحلقات في جزء من مسلسل سرينجر ثينجز",
+        "generated": "10 حلقات",
+        "ground_truth": "3.0",
+        "correct": false
+      },
+      "ru": {
+        "query": "сколько серий в сезоне очень странных дел",
+        "generated": "10",
+        "ground_truth": "3.0",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 563260143484355911,
+    "language_results": {
+      "en": {
+        "query": "who sings i hear you knocking but you can't come in",
+        "generated": "i heard it once, i think it was on a radio show with the same name",
+        "ground_truth": "Dave Edmunds",
+        "correct": false
+      },
+      "es": {
+        "query": "quien canta \"i hear you knocking but you can't come in\"",
+        "generated": "john lennon",
+        "ground_truth": "Dave Edmunds",
+        "correct": false
+      },
+      "fr": {
+        "query": "Qui chante \"I hear you knocking but you can't come in\"",
+        "generated": "Peter Gabriel",
+        "ground_truth": "Dave Edmunds",
+        "correct": false
+      },
+      "de": {
+        "query": "wer singt  i hear you knocking but you can't come in",
+        "generated": "you can't come in",
+        "ground_truth": "Dave Edmunds",
+        "correct": false
+      },
+      "ja": {
+        "query": "「 I hear you knocking」は誰が歌っていますか",
+        "generated": "「The Doors」",
+        "ground_truth": "デイヴ・エドモンズ",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "《i hear you knocking but you can't come in》是谁演唱的",
+        "generated": "《i hear you knocking but you can't come in》演唱者是《i hear you knocking but you can't come in》演唱者是《i hear you knocking but you can't come in》演唱者是《i",
+        "ground_truth": "戴维·埃德蒙兹",
+        "correct": false
+      },
+      "ar": {
+        "query": "من يغني أسمعك يطرق لكنك لا تستطيع أن تأتي",
+        "generated": "هو غالب",
+        "ground_truth": "ديف إدموندز",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто поет i hear you knocking but you can't come in",
+        "generated": "i hear you knocking but you can't come in",
+        "ground_truth": "Эдмундс, Дэйв",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 5144765284694516156,
+    "language_results": {
+      "en": {
+        "query": "who came up with the show the voice",
+        "generated": "Christiana Aguilera",
+        "ground_truth": "John de Mol",
+        "correct": false
+      },
+      "es": {
+        "query": "a quien se le ocurrió el programa la voz",
+        "generated": "a sus padres",
+        "ground_truth": "John de Mol",
+        "correct": false
+      },
+      "fr": {
+        "query": "Qui a commencé la série Voice TV?",
+        "generated": "La série Voice TV a été créée par Peter Berg, Steven Spielberg et Justin Falvey.",
+        "ground_truth": "John de Mol",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer zeigte als erster die Show \"The Voice\"?",
+        "generated": "Simon Cowell",
+        "ground_truth": "John de Mol",
+        "correct": false
+      },
+      "ja": {
+        "query": "テレビ番組のザ・ヴォイスを考案したのは誰ですか",
+        "generated": "1999年に放送が始まった、ザ・ヴォイスは、日本テレビ系で放送されていた、テレビ番組で、審査員として、歌手の松田聖子さんが、審査員を務めていた。この番組で、審査員",
+        "ground_truth": "ジョン デ モル",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "经the voice节目出道的有谁",
+        "generated": "<b>有谁</b>",
+        "ground_truth": "小约翰·德·莫尔",
+        "correct": false
+      },
+      "ar": {
+        "query": "من مبدع مسلسل ذا فويس",
+        "generated": "عبد الرزاق خليل",
+        "ground_truth": "جون دي مول",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто придумал шоу голос",
+        "generated": "Сергей Собянин",
+        "ground_truth": "Джон де Мол",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": -2985814541728632412,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": 8201177426304478596,
+    "language_results": {},
+    "correct_languages": []
+  }
+]

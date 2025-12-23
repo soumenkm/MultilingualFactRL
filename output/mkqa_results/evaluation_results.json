@@ -1,0 +1,104 @@
+{
+  "model_name": "google/gemma-2-2b",
+  "num_samples": 10,
+  "languages": [
+    "en",
+    "es",
+    "fr",
+    "de",
+    "ja",
+    "zh_cn",
+    "ar",
+    "ru"
+  ],
+  "clc_results": {
+    "mean_clc": 0.041666666666666664,
+    "std_clc": 0.09316949906249125,
+    "num_samples": 6,
+    "per_language_accuracy": {
+      "en": 0.0,
+      "es": 0.16666666666666666,
+      "fr": 0.0,
+      "de": 0.16666666666666666,
+      "ja": 0.0,
+      "zh_cn": 0.0,
+      "ar": 0.0,
+      "ru": 0.0
+    }
+  },
+  "transfer_results": {
+    "mean_transfer_score": 0.14285714285714285,
+    "pair_transfer_scores": {
+      "de->en": {
+        "transfer_score": 0.0,
+        "correct_both": 0,
+        "source_correct": 1
+      },
+      "de->ja": {
+        "transfer_score": 0.0,
+        "correct_both": 0,
+        "source_correct": 1
+      },
+      "de->ru": {
+        "transfer_score": 0.0,
+        "correct_both": 0,
+        "source_correct": 1
+      },
+      "de->zh_cn": {
+        "transfer_score": 0.0,
+        "correct_both": 0,
+        "source_correct": 1
+      },
+      "de->ar": {
+        "transfer_score": 0.0,
+        "correct_both": 0,
+        "source_correct": 1
+      },
+      "de->fr": {
+        "transfer_score": 0.0,
+        "correct_both": 0,
+        "source_correct": 1
+      },
+      "de->es": {
+        "transfer_score": 1.0,
+        "correct_both": 1,
+        "source_correct": 1
+      },
+      "es->en": {
+        "transfer_score": 0.0,
+        "correct_both": 0,
+        "source_correct": 1
+      },
+      "es->ja": {
+        "transfer_score": 0.0,
+        "correct_both": 0,
+        "source_correct": 1
+      },
+      "es->de": {
+        "transfer_score": 1.0,
+        "correct_both": 1,
+        "source_correct": 1
+      },
+      "es->ru": {
+        "transfer_score": 0.0,
+        "correct_both": 0,
+        "source_correct": 1
+      },
+      "es->zh_cn": {
+        "transfer_score": 0.0,
+        "correct_both": 0,
+        "source_correct": 1
+      },
+      "es->ar": {
+        "transfer_score": 0.0,
+        "correct_both": 0,
+        "source_correct": 1
+      },
+      "es->fr": {
+        "transfer_score": 0.0,
+        "correct_both": 0,
+        "source_correct": 1
+      }
+    }
+  }
+}
