@@ -1,6 +1,6 @@
 {
   "model_name": "google/gemma-2-2b",
-  "num_samples": 10,
+  "num_samples": 100,
   "languages": [
     "en",
     "es",
@@ -12,91 +12,301 @@
     "ru"
   ],
   "clc_results": {
-    "mean_clc": 0.041666666666666664,
-    "std_clc": 0.09316949906249125,
-    "num_samples": 6,
+    "mean_clc": 0.1044776119402985,
+    "std_clc": 0.1865298470141789,
+    "num_samples": 67,
     "per_language_accuracy": {
-      "en": 0.0,
-      "es": 0.16666666666666666,
-      "fr": 0.0,
-      "de": 0.16666666666666666,
-      "ja": 0.0,
-      "zh_cn": 0.0,
-      "ar": 0.0,
-      "ru": 0.0
+      "en": 0.23880597014925373,
+      "es": 0.08955223880597014,
+      "fr": 0.16417910447761194,
+      "de": 0.13432835820895522,
+      "ja": 0.04477611940298507,
+      "zh_cn": 0.07462686567164178,
+      "ar": 0.014925373134328358,
+      "ru": 0.07462686567164178
     }
   },
   "transfer_results": {
-    "mean_transfer_score": 0.14285714285714285,
+    "mean_transfer_score": 0.4239628427128427,
     "pair_transfer_scores": {
-      "de->en": {
-        "transfer_score": 0.0,
-        "correct_both": 0,
-        "source_correct": 1
+      "en->fr": {
+        "transfer_score": 0.5,
+        "correct_both": 8,
+        "source_correct": 16
       },
-      "de->ja": {
-        "transfer_score": 0.0,
-        "correct_both": 0,
-        "source_correct": 1
+      "en->zh_cn": {
+        "transfer_score": 0.1875,
+        "correct_both": 3,
+        "source_correct": 16
       },
-      "de->ru": {
-        "transfer_score": 0.0,
-        "correct_both": 0,
-        "source_correct": 1
+      "en->de": {
+        "transfer_score": 0.4375,
+        "correct_both": 7,
+        "source_correct": 16
       },
-      "de->zh_cn": {
-        "transfer_score": 0.0,
-        "correct_both": 0,
-        "source_correct": 1
+      "en->ar": {
+        "transfer_score": 0.0625,
+        "correct_both": 1,
+        "source_correct": 16
       },
-      "de->ar": {
+      "en->es": {
+        "transfer_score": 0.375,
+        "correct_both": 6,
+        "source_correct": 16
+      },
+      "en->ja": {
+        "transfer_score": 0.0625,
+        "correct_both": 1,
+        "source_correct": 16
+      },
+      "en->ru": {
+        "transfer_score": 0.125,
+        "correct_both": 2,
+        "source_correct": 16
+      },
+      "ru->fr": {
+        "transfer_score": 0.4,
+        "correct_both": 2,
+        "source_correct": 5
+      },
+      "ru->zh_cn": {
+        "transfer_score": 0.2,
+        "correct_both": 1,
+        "source_correct": 5
+      },
+      "ru->en": {
+        "transfer_score": 0.4,
+        "correct_both": 2,
+        "source_correct": 5
+      },
+      "ru->de": {
+        "transfer_score": 0.2,
+        "correct_both": 1,
+        "source_correct": 5
+      },
+      "ru->ar": {
+        "transfer_score": 0.2,
+        "correct_both": 1,
+        "source_correct": 5
+      },
+      "ru->es": {
+        "transfer_score": 0.2,
+        "correct_both": 1,
+        "source_correct": 5
+      },
+      "ru->ja": {
         "transfer_score": 0.0,
         "correct_both": 0,
-        "source_correct": 1
+        "source_correct": 5
       },
       "de->fr": {
-        "transfer_score": 0.0,
-        "correct_both": 0,
-        "source_correct": 1
+        "transfer_score": 0.7777777777777778,
+        "correct_both": 7,
+        "source_correct": 9
+      },
+      "de->zh_cn": {
+        "transfer_score": 0.4444444444444444,
+        "correct_both": 4,
+        "source_correct": 9
+      },
+      "de->en": {
+        "transfer_score": 0.7777777777777778,
+        "correct_both": 7,
+        "source_correct": 9
+      },
+      "de->ar": {
+        "transfer_score": 0.1111111111111111,
+        "correct_both": 1,
+        "source_correct": 9
       },
       "de->es": {
-        "transfer_score": 1.0,
+        "transfer_score": 0.4444444444444444,
+        "correct_both": 4,
+        "source_correct": 9
+      },
+      "de->ja": {
+        "transfer_score": 0.2222222222222222,
+        "correct_both": 2,
+        "source_correct": 9
+      },
+      "de->ru": {
+        "transfer_score": 0.1111111111111111,
         "correct_both": 1,
-        "source_correct": 1
+        "source_correct": 9
       },
-      "es->en": {
-        "transfer_score": 0.0,
-        "correct_both": 0,
-        "source_correct": 1
+      "fr->zh_cn": {
+        "transfer_score": 0.36363636363636365,
+        "correct_both": 4,
+        "source_correct": 11
       },
-      "es->ja": {
-        "transfer_score": 0.0,
-        "correct_both": 0,
-        "source_correct": 1
+      "fr->en": {
+        "transfer_score": 0.7272727272727273,
+        "correct_both": 8,
+        "source_correct": 11
       },
-      "es->de": {
-        "transfer_score": 1.0,
+      "fr->de": {
+        "transfer_score": 0.6363636363636364,
+        "correct_both": 7,
+        "source_correct": 11
+      },
+      "fr->ar": {
+        "transfer_score": 0.09090909090909091,
         "correct_both": 1,
-        "source_correct": 1
+        "source_correct": 11
       },
-      "es->ru": {
-        "transfer_score": 0.0,
-        "correct_both": 0,
-        "source_correct": 1
+      "fr->es": {
+        "transfer_score": 0.45454545454545453,
+        "correct_both": 5,
+        "source_correct": 11
       },
-      "es->zh_cn": {
-        "transfer_score": 0.0,
-        "correct_both": 0,
-        "source_correct": 1
+      "fr->ja": {
+        "transfer_score": 0.18181818181818182,
+        "correct_both": 2,
+        "source_correct": 11
       },
-      "es->ar": {
-        "transfer_score": 0.0,
-        "correct_both": 0,
-        "source_correct": 1
+      "fr->ru": {
+        "transfer_score": 0.18181818181818182,
+        "correct_both": 2,
+        "source_correct": 11
+      },
+      "zh_cn->fr": {
+        "transfer_score": 0.8,
+        "correct_both": 4,
+        "source_correct": 5
+      },
+      "zh_cn->en": {
+        "transfer_score": 0.6,
+        "correct_both": 3,
+        "source_correct": 5
+      },
+      "zh_cn->de": {
+        "transfer_score": 0.8,
+        "correct_both": 4,
+        "source_correct": 5
+      },
+      "zh_cn->ar": {
+        "transfer_score": 0.2,
+        "correct_both": 1,
+        "source_correct": 5
+      },
+      "zh_cn->es": {
+        "transfer_score": 0.4,
+        "correct_both": 2,
+        "source_correct": 5
+      },
+      "zh_cn->ja": {
+        "transfer_score": 0.2,
+        "correct_both": 1,
+        "source_correct": 5
+      },
+      "zh_cn->ru": {
+        "transfer_score": 0.2,
+        "correct_both": 1,
+        "source_correct": 5
       },
       "es->fr": {
+        "transfer_score": 0.8333333333333334,
+        "correct_both": 5,
+        "source_correct": 6
+      },
+      "es->zh_cn": {
+        "transfer_score": 0.3333333333333333,
+        "correct_both": 2,
+        "source_correct": 6
+      },
+      "es->en": {
+        "transfer_score": 1.0,
+        "correct_both": 6,
+        "source_correct": 6
+      },
+      "es->de": {
+        "transfer_score": 0.6666666666666666,
+        "correct_both": 4,
+        "source_correct": 6
+      },
+      "es->ar": {
+        "transfer_score": 0.16666666666666666,
+        "correct_both": 1,
+        "source_correct": 6
+      },
+      "es->ja": {
+        "transfer_score": 0.16666666666666666,
+        "correct_both": 1,
+        "source_correct": 6
+      },
+      "es->ru": {
+        "transfer_score": 0.16666666666666666,
+        "correct_both": 1,
+        "source_correct": 6
+      },
+      "ja->fr": {
+        "transfer_score": 0.6666666666666666,
+        "correct_both": 2,
+        "source_correct": 3
+      },
+      "ja->zh_cn": {
+        "transfer_score": 0.3333333333333333,
+        "correct_both": 1,
+        "source_correct": 3
+      },
+      "ja->en": {
+        "transfer_score": 0.3333333333333333,
+        "correct_both": 1,
+        "source_correct": 3
+      },
+      "ja->de": {
+        "transfer_score": 0.6666666666666666,
+        "correct_both": 2,
+        "source_correct": 3
+      },
+      "ja->ar": {
         "transfer_score": 0.0,
         "correct_both": 0,
+        "source_correct": 3
+      },
+      "ja->es": {
+        "transfer_score": 0.3333333333333333,
+        "correct_both": 1,
+        "source_correct": 3
+      },
+      "ja->ru": {
+        "transfer_score": 0.0,
+        "correct_both": 0,
+        "source_correct": 3
+      },
+      "ar->fr": {
+        "transfer_score": 1.0,
+        "correct_both": 1,
+        "source_correct": 1
+      },
+      "ar->zh_cn": {
+        "transfer_score": 1.0,
+        "correct_both": 1,
+        "source_correct": 1
+      },
+      "ar->en": {
+        "transfer_score": 1.0,
+        "correct_both": 1,
+        "source_correct": 1
+      },
+      "ar->de": {
+        "transfer_score": 1.0,
+        "correct_both": 1,
+        "source_correct": 1
+      },
+      "ar->es": {
+        "transfer_score": 1.0,
+        "correct_both": 1,
+        "source_correct": 1
+      },
+      "ar->ja": {
+        "transfer_score": 0.0,
+        "correct_both": 0,
+        "source_correct": 1
+      },
+      "ar->ru": {
+        "transfer_score": 1.0,
+        "correct_both": 1,
         "source_correct": 1
       }
     }

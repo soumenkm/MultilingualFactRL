@@ -636,7 +636,7 @@ def main():
         
         # Dataset settings
         "dataset_path": "./data/mkqa.jsonl",  # Path to MKQA data
-        "max_samples": 10,  # Start with 10 samples for testing, set to None for full dataset
+        "max_samples": 100,  # Start with 10 samples for testing, set to None for full dataset
         
         # Languages to evaluate (subset of MKQA's 26 languages)
         "languages": [

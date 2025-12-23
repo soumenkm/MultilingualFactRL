@@ -4,49 +4,49 @@
     "language_results": {
       "en": {
         "query": "how long did it take the twin towers to be built",
-        "generated": "4 years",
+        "generated": "the twin towers were built between 1963 and 1973",
         "ground_truth": "11.0 years",
         "correct": false
       },
       "es": {
         "query": "cuanto tardaron en construirse las torres gemelas",
-        "generated": "took 12 years to build",
+        "generated": "They took 3 years to build.",
         "ground_truth": "11.0 año terrestre",
         "correct": false
       },
       "fr": {
         "query": "combien de temps a-t-il fallu pour construire les tours jumelles",
-        "generated": "it took 5 years to build the twin towers",
+        "generated": "Il a fallu 4 ans.",
         "ground_truth": "11.0 années",
         "correct": false
       },
       "de": {
         "query": "Wie lange dauerte es, um die Twin Towers zu bauen?",
-        "generated": "4 Jahre",
+        "generated": "22 Monate",
         "ground_truth": "11.0 Jahr",
         "correct": false
       },
       "ja": {
         "query": "ツインタワーが建てられるまでどの位の時間がかかりましたか",
-        "generated": "2年",
+        "generated": "150年",
         "ground_truth": "11.0 年",
         "correct": false
       },
       "zh_cn": {
         "query": "世贸双塔建造用时多长",
-        "generated": "4年",
+        "generated": "4 years",
         "ground_truth": "11.0 年份",
         "correct": false
       },
       "ar": {
         "query": ": كم من الوقت استغرق بناء البرجين التوأمين",
-        "generated": "40 يومًا",
+        "generated": ": 300 سنة",
         "ground_truth": "11.0 سنة",
         "correct": false
       },
       "ru": {
         "query": "как долго строились башни-близнецы",
-        "generated": "2 года",
+        "generated": "2 года 5 месяцев",
         "ground_truth": "11.0 лет",
         "correct": false
       }
@@ -63,49 +63,49 @@
     "language_results": {
       "en": {
         "query": "who sings love you like there's no tomorrow",
-        "generated": "I like to think it's my own voice.",
+        "generated": "1950s-1960s",
         "ground_truth": "Chris Young",
         "correct": false
       },
       "es": {
         "query": "quién canta love you like there's no tomorrow",
-        "generated": "The Black Crowes",
+        "generated": "The Jackson 5",
         "ground_truth": "Chris Young",
         "correct": false
       },
       "fr": {
         "query": "Qui interprète la chanson Love you like there's no tomorrow",
-        "generated": "The Beatles",
+        "generated": "The Fray",
         "ground_truth": "Chris Young",
         "correct": false
       },
       "de": {
         "query": "Wer singt love you like there's no tomorrow",
-        "generated": "Ed Sheeran",
+        "generated": "Michael Bolton",
         "ground_truth": "Chris Young",
         "correct": false
       },
       "ja": {
         "query": "love you like there's no tomorrowを歌っているのは誰か",
-        "generated": "<strong>The Beatles</strong>",
+        "generated": "The song is sung by The Carpenters",
         "ground_truth": "クリス・ヤング",
         "correct": false
       },
       "zh_cn": {
         "query": "love you like there's no tomorrow是谁演唱的",
-        "generated": "love you like there's no tomorrow",
+        "generated": "Michael Learns to Rock",
         "ground_truth": "克里斯·扬",
         "correct": false
       },
       "ar": {
         "query": "من الذي يغني أحبك مثل لا يوجد غدا",
-        "generated": "من يغني \"لا يوجد غدا\" هو \"دونيت أندريكز\".",
+        "generated": "من يغني مثل لا يوجد غدا هو المهرج الذي يغنيه",
         "ground_truth": "كريس يونغ",
         "correct": false
       },
       "ru": {
         "query": "кто поёт love you like there's no tomorrow",
-        "generated": "это группа, название которой: \"The Supremes\"",
+        "generated": "Ария",
         "ground_truth": "Янг, Крис",
         "correct": false
       }
@@ -117,57 +117,54 @@
     "language_results": {
       "en": {
         "query": "how many seasons of scream queens are there",
-        "generated": "1",
+        "generated": "3",
         "ground_truth": "2.0",
         "correct": false
       },
       "es": {
         "query": "¿Cuántas temporadas hay de Scream Queens?",
-        "generated": "Scream Queens ha tenido 2 temporadas.",
+        "generated": "3",
         "ground_truth": "2.0",
-        "correct": true
+        "correct": false
       },
       "fr": {
         "query": "combien de saisons y a-t-il dans scream queens",
-        "generated": "3 saisons",
+        "generated": "1",
         "ground_truth": "2.0",
         "correct": false
       },
       "de": {
         "query": "Wie viele Staffeln von 'Scream Queens' gibt es?",
-        "generated": "2",
+        "generated": "1",
         "ground_truth": "2.0",
-        "correct": true
+        "correct": false
       },
       "ja": {
         "query": "スクリーム・クイーンズは何シーズンありますか",
-        "generated": "10 seasons",
+        "generated": "The Scream Queens Season 1, 2, 3, 4",
         "ground_truth": "2.0",
         "correct": false
       },
       "zh_cn": {
         "query": "《尖叫皇后》（Scream Queens）一共有几季",
-        "generated": "3 seasons",
+        "generated": "3 season",
         "ground_truth": "2.0",
         "correct": false
       },
       "ar": {
         "query": "كم عدد مواسم ملكات الصراخ",
-        "generated": "3 مواسم",
+        "generated": "5",
         "ground_truth": "2.0",
         "correct": false
       },
       "ru": {
         "query": "сколкьо всего сезонов в королевах крика",
-        "generated": "3 сезонов",
+        "generated": "12",
         "ground_truth": "2.0",
         "correct": false
       }
     },
-    "correct_languages": [
-      "es",
-      "de"
-    ]
+    "correct_languages": []
   },
   {
     "example_id": 7960403399608384663,
@@ -179,49 +176,49 @@
     "language_results": {
       "en": {
         "query": "how many episodes in a season of stranger things",
-        "generated": "10",
+        "generated": "9",
         "ground_truth": "3.0",
         "correct": false
       },
       "es": {
         "query": "¿cuántos episodios tiene una temporada de \"stranger things\"?",
-        "generated": "10",
+        "generated": "2",
         "ground_truth": "3.0",
         "correct": false
       },
       "fr": {
         "query": "Combien d'épisode dans une saison de Stranger things",
-        "generated": "9",
+        "generated": "8",
         "ground_truth": "3.0",
         "correct": false
       },
       "de": {
         "query": "wie viele Folgen in einer Staffel von fremden Dingen",
-        "generated": "10",
+        "generated": "16",
         "ground_truth": "3.0",
         "correct": false
       },
       "ja": {
         "query": "ストレンジャー・シングスは１シーズン何話ですか",
-        "generated": "10話です",
+        "generated": "18話",
         "ground_truth": "3.0",
         "correct": false
       },
       "zh_cn": {
         "query": "怪奇物语每季有多少集",
-        "generated": "13集",
+        "generated": "52集",
         "ground_truth": "3.0",
         "correct": false
       },
       "ar": {
         "query": "كم عدد الحلقات في جزء من مسلسل سرينجر ثينجز",
-        "generated": "10 حلقات",
+        "generated": "100",
         "ground_truth": "3.0",
         "correct": false
       },
       "ru": {
         "query": "сколько серий в сезоне очень странных дел",
-        "generated": "10",
+        "generated": "15",
         "ground_truth": "3.0",
         "correct": false
       }
@@ -233,49 +230,49 @@
     "language_results": {
       "en": {
         "query": "who sings i hear you knocking but you can't come in",
-        "generated": "i heard it once, i think it was on a radio show with the same name",
+        "generated": "I heard you knock but you can't come in",
         "ground_truth": "Dave Edmunds",
         "correct": false
       },
       "es": {
         "query": "quien canta \"i hear you knocking but you can't come in\"",
-        "generated": "john lennon",
+        "generated": "",
         "ground_truth": "Dave Edmunds",
         "correct": false
       },
       "fr": {
         "query": "Qui chante \"I hear you knocking but you can't come in\"",
-        "generated": "Peter Gabriel",
+        "generated": "The Doors",
         "ground_truth": "Dave Edmunds",
         "correct": false
       },
       "de": {
         "query": "wer singt  i hear you knocking but you can't come in",
-        "generated": "you can't come in",
+        "generated": "i can't come in because i'm locked out",
         "ground_truth": "Dave Edmunds",
         "correct": false
       },
       "ja": {
         "query": "「 I hear you knocking」は誰が歌っていますか",
-        "generated": "「The Doors」",
+        "generated": "「 I hear you knocking」は、The Beatles が歌っています。",
         "ground_truth": "デイヴ・エドモンズ",
         "correct": false
       },
       "zh_cn": {
         "query": "《i hear you knocking but you can't come in》是谁演唱的",
-        "generated": "《i hear you knocking but you can't come in》演唱者是《i hear you knocking but you can't come in》演唱者是《i hear you knocking but you can't come in》演唱者是《i",
+        "generated": "《i hear you knocking but you can't come in》是谁演唱的",
         "ground_truth": "戴维·埃德蒙兹",
         "correct": false
       },
       "ar": {
         "query": "من يغني أسمعك يطرق لكنك لا تستطيع أن تأتي",
-        "generated": "هو غالب",
+        "generated": "أسمعك من أغني أسمعك من أغني أسمعك من أغني من أغني أسمعك من أغني",
         "ground_truth": "ديف إدموندز",
         "correct": false
       },
       "ru": {
         "query": "кто поет i hear you knocking but you can't come in",
-        "generated": "i hear you knocking but you can't come in",
+        "generated": "i'm here and i want to stay",
         "ground_truth": "Эдмундс, Дэйв",
         "correct": false
       }
@@ -287,54 +284,56 @@
     "language_results": {
       "en": {
         "query": "who came up with the show the voice",
-        "generated": "Christiana Aguilera",
+        "generated": "it was created by John de Mol",
         "ground_truth": "John de Mol",
-        "correct": false
+        "correct": true
       },
       "es": {
         "query": "a quien se le ocurrió el programa la voz",
-        "generated": "a sus padres",
+        "generated": "La Voz…",
         "ground_truth": "John de Mol",
         "correct": false
       },
       "fr": {
         "query": "Qui a commencé la série Voice TV?",
-        "generated": "La série Voice TV a été créée par Peter Berg, Steven Spielberg et Justin Falvey.",
+        "generated": "C’est le groupe de musique américaine <strong>Jonas Brothers</strong> qui a commencé la série <em>Voice TV</em>.",
         "ground_truth": "John de Mol",
         "correct": false
       },
       "de": {
         "query": "Wer zeigte als erster die Show \"The Voice\"?",
-        "generated": "Simon Cowell",
+        "generated": "Der deutsche Fernsehstar Dieter Bohlen.",
         "ground_truth": "John de Mol",
         "correct": false
       },
       "ja": {
         "query": "テレビ番組のザ・ヴォイスを考案したのは誰ですか",
-        "generated": "1999年に放送が始まった、ザ・ヴォイスは、日本テレビ系で放送されていた、テレビ番組で、審査員として、歌手の松田聖子さんが、審査員を務めていた。この番組で、審査員",
+        "generated": "ザ・ヴォイスを考案したのは、タレントのジェーン・フォンダです。",
         "ground_truth": "ジョン デ モル",
         "correct": false
       },
       "zh_cn": {
         "query": "经the voice节目出道的有谁",
-        "generated": "<b>有谁</b>",
+        "generated": "2006年，在台湾参加《声乐之星》歌唱比赛，获得第二名，并被选入环球唱片旗下。2007年，出演台湾偶像剧《爱情百分比》。200",
         "ground_truth": "小约翰·德·莫尔",
         "correct": false
       },
       "ar": {
         "query": "من مبدع مسلسل ذا فويس",
-        "generated": "عبد الرزاق خليل",
+        "generated": "من مبدع المسلسل : محمد عبد العزيز",
         "ground_truth": "جون دي مول",
         "correct": false
       },
       "ru": {
         "query": "кто придумал шоу голос",
-        "generated": "Сергей Собянин",
+        "generated": "я не знаю,но думаю придумал кто-то из людей,которые хотят денег и fame,чтобы стать знаменитыми",
         "ground_truth": "Джон де Мол",
         "correct": false
       }
     },
-    "correct_languages": []
+    "correct_languages": [
+      "en"
+    ]
   },
   {
     "example_id": -2985814541728632412,
@@ -344,6 +343,3524 @@
   {
     "example_id": 8201177426304478596,
     "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": 8783251888656509590,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": -1788552224102144217,
+    "language_results": {
+      "en": {
+        "query": "who sang the song oh what a night",
+        "generated": "1969",
+        "ground_truth": "The Four Seasons",
+        "correct": false
+      },
+      "es": {
+        "query": "¿Quién cantó la canción Oh, What a Night?",
+        "generated": "Frankie Valli",
+        "ground_truth": "The Four Seasons",
+        "correct": false
+      },
+      "fr": {
+        "query": "Qui a chanté la chanson Oh what a night",
+        "generated": "Tom Jones",
+        "ground_truth": "The Four Seasons",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer hat das Lied gesungen, oh was für eine Nacht",
+        "generated": "Der Sänger",
+        "ground_truth": "The Four Seasons",
+        "correct": false
+      },
+      "ja": {
+        "query": "oh, what a nightは誰の歌？",
+        "generated": "The answer is, the song is called \"What A Night\" by Nat King Cole.",
+        "ground_truth": "フォー・シーズンズ",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "歌曲oh what a night是谁演唱的",
+        "generated": "演唱的是蔡依林",
+        "ground_truth": "四季乐队",
+        "correct": false
+      },
+      "ar": {
+        "query": "من الذي غنى الأغنية يا له من ليلة",
+        "generated": "",
+        "ground_truth": "The Four Seasons",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто пел песню  oh what a night",
+        "generated": "(oh what a night)  by (oh what a night)",
+        "ground_truth": "The Four Seasons",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 6515983275149803151,
+    "language_results": {
+      "en": {
+        "query": "who sang i want to be with you everywhere",
+        "generated": "the white stripes",
+        "ground_truth": "Fleetwood Mac",
+        "correct": false
+      },
+      "es": {
+        "query": "¿Quuien cantó i want to be with you everywhere?",
+        "generated": "I want to be with you everywhere.",
+        "ground_truth": "Fleetwood Mac",
+        "correct": false
+      },
+      "fr": {
+        "query": "Qui a chanté \" i want to be with you everywhere\" ?",
+        "generated": "I want to be with you everywhere",
+        "ground_truth": "Fleetwood Mac",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer sang \"i want to be with you everywhere\"",
+        "generated": "The Beatles",
+        "ground_truth": "Fleetwood Mac",
+        "correct": false
+      },
+      "ja": {
+        "query": "i want to be with you everywhereを歌ったのは誰ですか",
+        "generated": "The Beatles",
+        "ground_truth": "フリートウッド・マック",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "i want to be with you everywhere是谁唱的",
+        "generated": "I want to be with you everywhere.",
+        "ground_truth": "佛利伍麦克",
+        "correct": false
+      },
+      "ar": {
+        "query": "i want to be with you everywhere من غني اغنيه",
+        "generated": "i want to be with you everywhere",
+        "ground_truth": "فليتوود ماك",
+        "correct": false
+      },
+      "ru": {
+        "query": "Кто пел i want to be with you everywhere",
+        "generated": "Боб Марли",
+        "ground_truth": "Fleetwood Mac",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 5146730298316782239,
+    "language_results": {
+      "en": {
+        "query": "who played mary magdalene in jesus christ superstar",
+        "generated": "Alice Cooper",
+        "ground_truth": "Yvonne Elliman",
+        "correct": false
+      },
+      "es": {
+        "query": "quién interpretó a maría magdalena en jesucristo superstar",
+        "generated": "maría elizabeth de bastién",
+        "ground_truth": "Yvonne Elliman",
+        "correct": false
+      },
+      "fr": {
+        "query": "qui joue marie madeleine dans jésus christ superstar",
+        "generated": "christine clement",
+        "ground_truth": "Yvonne Elliman",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer spielte Maria Magdalena in Jesus Christ Superstar",
+        "generated": "Maria Magdalena wurde von Tim Curry gespielt",
+        "ground_truth": "Yvonne Elliman",
+        "correct": false
+      },
+      "ja": {
+        "query": "jesus christ superstarでmary magdaleneを演じたのは誰",
+        "generated": "barbra streisand",
+        "ground_truth": "イヴォンヌ・エリマン",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "谁在《耶稣基督超级巨星》中扮演玛丽·玛格达莱妮",
+        "generated": "乔伊·霍伊特",
+        "ground_truth": "伊冯·爱利曼",
+        "correct": false
+      },
+      "ar": {
+        "query": "من لعب دور ماغدلين في يسوع المسيح سوبر ستار؟",
+        "generated": "ماجولين هي عارضة أزياء أمريكية. ظهرت في العديد من الإعلانات العائلية. لعبت دور مريمة في فيلم \"السيدة في منزل المورد\" (1984) . لعب",
+        "ground_truth": "إيفون إليمان",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто играл mary magdalene в jesus christ superstar",
+        "generated": "",
+        "ground_truth": "Эллиман, Ивонн",
+        "correct": true
+      }
+    },
+    "correct_languages": [
+      "ru"
+    ]
+  },
+  {
+    "example_id": 3215481144081056949,
+    "language_results": {
+      "en": {
+        "query": "who wrote the book of lamentations in the bible",
+        "generated": "the prophet Jeremiah",
+        "ground_truth": "Jeremiah",
+        "correct": true
+      },
+      "es": {
+        "query": "quien escribió el libro de las lamentaciones en la biblia",
+        "generated": "Salomón",
+        "ground_truth": "Jeremías",
+        "correct": false
+      },
+      "fr": {
+        "query": "Qui a écrit le livre des Lamentations dans la Bible?",
+        "generated": "Je n'ai pas compris.",
+        "ground_truth": "Jérémie",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer schrieb die Klagelieder Jeremias in der Bibel?",
+        "generated": "Die Klagelieder Jeremias wurden im Alten Testament in der Bibel verfasst. Jeremias war ein Prophet, der im 8. Jahrhundert v. Chr. lebte. Er hat die Klagelieder in den letzten Jahren seines Lebens geschrieben, um die Trauer und",
+        "ground_truth": "Jeremia",
+        "correct": true
+      },
+      "ja": {
+        "query": "聖書にあるThe Book of Lamentationsを書いたのは誰ですか",
+        "generated": "Jeremiah",
+        "ground_truth": "エレミヤ",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "圣经中的lamentations的是谁写的",
+        "generated": "耶和华",
+        "ground_truth": "耶利米",
+        "correct": false
+      },
+      "ar": {
+        "query": "؟lamentations in the bibleمن الذي كتب كتاب",
+        "generated": "The Bible is written in the Hebrew language",
+        "ground_truth": "إرميا",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто написал Книгу Причитаний в Библии",
+        "generated": "Исаия",
+        "ground_truth": "Иеремия",
+        "correct": false
+      }
+    },
+    "correct_languages": [
+      "en",
+      "de"
+    ]
+  },
+  {
+    "example_id": -4767536963343233422,
+    "language_results": {
+      "en": {
+        "query": "who has the most instagram followers on instagram",
+        "generated": "Ariana Grande.",
+        "ground_truth": "Cristiano Ronaldo",
+        "correct": false
+      },
+      "es": {
+        "query": "¿Quién tiene más seguidores de Instagram en Instagram?",
+        "generated": "La cantante colombiana Karol G tiene 78.8 millones de seguidores en Instagram, mientras que la actriz colombiana Sofía Vergara tiene 172.3 millones de seguidores.",
+        "ground_truth": "Cristiano Ronaldo",
+        "correct": false
+      },
+      "fr": {
+        "query": "qui a le plus de followers sur instagram",
+        "generated": "14",
+        "ground_truth": "Cristiano Ronaldo",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer hat die meisten Instagramm Followers",
+        "generated": "",
+        "ground_truth": "Cristiano Ronaldo",
+        "correct": false
+      },
+      "ja": {
+        "query": "Instagramで最もフォロワーがある人は誰",
+        "generated": "2019年1月現在、最もフォロワーが多いのは日本人で、6,115,607フォロワーの @kimura_sakae です。",
+        "ground_truth": "クリスティアーノ・ロナウド",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "instagram上粉丝最多的是谁",
+        "generated": "600w",
+        "ground_truth": "克里斯蒂亚诺·罗纳尔多",
+        "correct": false
+      },
+      "ar": {
+        "query": "من لديه اكثر عدد معجبين علي انستاجرام",
+        "generated": "ايه حلوة ليه حلوة انستاجرام",
+        "ground_truth": "كريستيانو رونالدو",
+        "correct": false
+      },
+      "ru": {
+        "query": "у кого больше всего подписчиков в Instagram",
+        "generated": "у <strong>@vladandval</strong> больше",
+        "ground_truth": "Криштиану Роналду",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 4412615293667765975,
+    "language_results": {
+      "en": {
+        "query": "what episode of the office is the roast",
+        "generated": "the roast",
+        "ground_truth": "Stress Relief",
+        "correct": false
+      },
+      "es": {
+        "query": "¿Cual es el episidio del roast de The Office?",
+        "generated": "el episodio del roast de la oficina.",
+        "ground_truth": "Stress Relief",
+        "correct": false
+      },
+      "fr": {
+        "query": "quel épisode de the office est le roast",
+        "generated": "l’épisode où le boss du bureau de baltimore est invité à faire son roast",
+        "ground_truth": "Soulagement du stress",
+        "correct": false
+      },
+      "de": {
+        "query": "In welcher Folge von The Office passiert der Roast",
+        "generated": "Episode 11",
+        "ground_truth": "Stressbewältigung",
+        "correct": false
+      },
+      "ja": {
+        "query": "The RoastはThe Officeのどのエピソードですか。",
+        "generated": "The Roast",
+        "ground_truth": "「ストレス緩和」",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "办公室电视剧的哪一集是吐槽大会",
+        "generated": "第24集",
+        "ground_truth": "缓解压力",
+        "correct": false
+      },
+      "ar": {
+        "query": "ما الحلقة من المكتب هي الشواء؟",
+        "generated": "Episode 20 of The Office is the BBQ.",
+        "ground_truth": "تخفيف التوتر",
+        "correct": false
+      },
+      "ru": {
+        "query": "ккая серия сериала офис называется  the roast",
+        "generated": "Сетевой комедийный сериал, созданный и основанный на одноименном шоу.",
+        "ground_truth": "Стресс помощь",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 234131699687376880,
+    "language_results": {
+      "en": {
+        "query": "who produces the most pistachios in the world",
+        "generated": "iran",
+        "ground_truth": "Iran",
+        "correct": true
+      },
+      "es": {
+        "query": "¿Quién produce la mayor cantidad de pistachos del mundo?",
+        "generated": "Chile.",
+        "ground_truth": "Irán",
+        "correct": false
+      },
+      "fr": {
+        "query": "Qui produit le plus de pistaches dans le monde",
+        "generated": "Côte d’Ivoire",
+        "ground_truth": "Iran",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer produziert weltweit die meisten Pistazien",
+        "generated": "Pistazien werden weltweit von mehreren Ländern angebaut. Die Hauptproduzenten sind die USA, Indien, Mexiko und die Türkei.",
+        "ground_truth": "Iran",
+        "correct": false
+      },
+      "ja": {
+        "query": "世界で一番ピスタチオを生産しているのは誰ですか",
+        "generated": "答えは、イタリアです。",
+        "ground_truth": "イラン",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "谁生产了世界上最多的开心果",
+        "generated": "1. Chile",
+        "ground_truth": "伊朗",
+        "correct": false
+      },
+      "ar": {
+        "query": "من أكبر منتج للفستق في العالم",
+        "generated": "مصر",
+        "ground_truth": "إيران",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто в мире производит больше всего фисташек",
+        "generated": "Россия",
+        "ground_truth": "Иран",
+        "correct": false
+      }
+    },
+    "correct_languages": [
+      "en"
+    ]
+  },
+  {
+    "example_id": 7818112641371223126,
+    "language_results": {
+      "en": {
+        "query": "what is the name of the arizona cardinals stadium",
+        "generated": "University of Phoenix Stadium.",
+        "ground_truth": "State Farm Stadium",
+        "correct": true
+      },
+      "es": {
+        "query": "¿Cuál es el nombre del estadio de los Arizona Cardinals?",
+        "generated": "Sun Devil Stadium",
+        "ground_truth": "State Farm Stadium",
+        "correct": false
+      },
+      "fr": {
+        "query": "quel est le nom du stade des arizona cardinals",
+        "generated": "University of phoenix stadium",
+        "ground_truth": "University of Phoenix Stadium",
+        "correct": true
+      },
+      "de": {
+        "query": "Wie heißt das Stadion der arizona cardinals",
+        "generated": "University of Phoenix Stadium",
+        "ground_truth": "University of Phoenix Stadium",
+        "correct": true
+      },
+      "ja": {
+        "query": "アリゾナ・カージナルスのスタジアムの名前は",
+        "generated": "Chase Field",
+        "ground_truth": "ユニバーシティ・オブ・フェニックス・スタジアム",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "亚利桑那红雀体育场叫什么名字",
+        "generated": "美国最著名的体育馆：亚利桑那红雀体育场，又名：亚利桑那红雀队体育场。",
+        "ground_truth": "州立农场体育场",
+        "correct": false
+      },
+      "ar": {
+        "query": "ما هو اسم ملعب أريزونا كاردينالز",
+        "generated": "University of Phoenix Stadium",
+        "ground_truth": "ملعب جامعة فينيكس",
+        "correct": false
+      },
+      "ru": {
+        "query": "как называется стадион the arizona cardinals",
+        "generated": "state farm stadium",
+        "ground_truth": "стадион университета Финикса",
+        "correct": false
+      }
+    },
+    "correct_languages": [
+      "en",
+      "fr",
+      "de"
+    ]
+  },
+  {
+    "example_id": -8427890242698542167,
+    "language_results": {
+      "en": {
+        "query": "who sang i've never been to me",
+        "generated": "David Bowie",
+        "ground_truth": "Charlene",
+        "correct": false
+      },
+      "es": {
+        "query": "¿quién cantaba \"i've never been to me\"?",
+        "generated": "The Beatles",
+        "ground_truth": "Charlene",
+        "correct": false
+      },
+      "fr": {
+        "query": "qui a chanté i've never been to me",
+        "generated": "Bob Dylan",
+        "ground_truth": "Charlene",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer singt i've never been to me",
+        "generated": "Tom Jones",
+        "ground_truth": "de_DE",
+        "correct": false
+      },
+      "ja": {
+        "query": "「愛はかげろうのように」を歌っているのは誰ですか？",
+        "generated": "「愛はかげろうのように」を歌っているのは三田和代さんです。",
+        "ground_truth": "シャーリーン",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "i've never been to me是谁演唱的",
+        "generated": "Me is a British-Irish boy band, consisting of five members: Niall Horan, Zayn Malik, Liam Payne, Harry Styles and Louis Tomlinson. They are signed to Syco Records and Columbia Records. They were formed in 2010",
+        "ground_truth": "夏琳·邓肯",
+        "correct": false
+      },
+      "ar": {
+        "query": "من الذي غنى لم أكن أبدا لي",
+        "generated": "من هو يا دكتور؟",
+        "ground_truth": "شارلن",
+        "correct": false
+      },
+      "ru": {
+        "query": "Кто спел \"i've never been to me\"",
+        "generated": "Эминем",
+        "ground_truth": "Шарлин",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": -1881286304870722165,
+    "language_results": {
+      "en": {
+        "query": "how many states does the rocky mountains cover",
+        "generated": "14",
+        "ground_truth": "6.0",
+        "correct": false
+      },
+      "es": {
+        "query": "Cuántos estados cubre las Montañas Rocosas",
+        "generated": "4 estados",
+        "ground_truth": "6.0",
+        "correct": false
+      },
+      "fr": {
+        "query": "Dans combien d'états s'étendent les Montagnes Rocheuses ?",
+        "generated": "dans 4 états américains",
+        "ground_truth": "6.0",
+        "correct": false
+      },
+      "de": {
+        "query": "über wie viele staaten erstrecken sich die rocky mountains",
+        "generated": "mehr als 40",
+        "ground_truth": "6.0",
+        "correct": false
+      },
+      "ja": {
+        "query": "ロッキー山脈はいくつの州にまたがっていますか？",
+        "generated": "１つの州にまたがっています。",
+        "ground_truth": "6.0",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "落基山脉覆盖了多少个州",
+        "generated": "九个州",
+        "ground_truth": "6.0",
+        "correct": false
+      },
+      "ar": {
+        "query": "كم عدد الدول التي تغطيها الجبال الصخرية؟",
+        "generated": "13",
+        "ground_truth": "6.0",
+        "correct": false
+      },
+      "ru": {
+        "query": "сколько штатов покрывают Скалистые горы",
+        "generated": "12",
+        "ground_truth": "6.0",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 7031295060348389198,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": 3716943449734480322,
+    "language_results": {
+      "en": {
+        "query": "who sang let's go all the way",
+        "generated": "aaliyah",
+        "ground_truth": "Sly Fox",
+        "correct": false
+      },
+      "es": {
+        "query": "quien cantaba let's go all the way",
+        "generated": "Rick Astley",
+        "ground_truth": "Sly Fox",
+        "correct": false
+      },
+      "fr": {
+        "query": "qui a chanté let's go all the way",
+        "generated": "The B-52’s",
+        "ground_truth": "Sly Fox",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer sang 'Let's Go All The Way'?",
+        "generated": "The Kinks",
+        "ground_truth": "Sly Fox",
+        "correct": false
+      },
+      "ja": {
+        "query": "let's go all the wayは誰が歌った",
+        "generated": "Let's go all the way is a song by American rapper Drake, from the album Scorpion.",
+        "ground_truth": "Sly Fox",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "let's go all the way是谁演唱的",
+        "generated": "let's go all the way, it's the song for the movie 2001: a space odyssey.",
+        "ground_truth": "狡猾的狐狸",
+        "correct": false
+      },
+      "ar": {
+        "query": "من غنى \"ليتس جو اول ذا واى\"؟",
+        "generated": "\"ليتس جو اول ذا واى\" من الغناء: بلال بكر.",
+        "ground_truth": "سلاي فوكس",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто спел let's go all the way",
+        "generated": "я не уверен",
+        "ground_truth": "Sly Fox",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 3309140698422618645,
+    "language_results": {
+      "en": {
+        "query": "who won america's got talent in 2015",
+        "generated": "the boy band “The Voices”",
+        "ground_truth": "Paul Zerdin",
+        "correct": false
+      },
+      "es": {
+        "query": "quien ganó got talent america en 2015",
+        "generated": "el equipo de la noche",
+        "ground_truth": "Paul Zerdin",
+        "correct": false
+      },
+      "fr": {
+        "query": "qui a gagné america's got talent en 2015",
+        "generated": "les 3 soeurs",
+        "ground_truth": "Paul Zerdin",
+        "correct": false
+      },
+      "de": {
+        "query": "wer hat beim America's Got Talent im 2015 gewonnen",
+        "generated": "Darci Lynne Farmer",
+        "ground_truth": "Paul Zerdin",
+        "correct": false
+      },
+      "ja": {
+        "query": "2015年のアメリカズ・ゴット・タレントの優勝者は誰ですか",
+        "generated": "2015年のアメリカズ・ゴット・タレントの優勝者は誰がですか",
+        "ground_truth": "ポール・ザーディン",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "谁夺得了2015年的美国达人秀",
+        "generated": "凯莉",
+        "ground_truth": "保罗·泽丁",
+        "correct": false
+      },
+      "ar": {
+        "query": "من الذي فاز أمريكا حصلت على المواهب في عام 2015",
+        "generated": "من هو الممثل؟",
+        "ground_truth": "بول زيردين",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто выиграл america's got talent в 2015 году",
+        "generated": "Победила группа The Clairvoyants",
+        "ground_truth": "Пол Зердин",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": -9076241233720583121,
+    "language_results": {
+      "en": {
+        "query": "what is the age limit for girl scouts",
+        "generated": "5",
+        "ground_truth": "5.0 18.0 years",
+        "correct": true
+      },
+      "es": {
+        "query": "cuál es el límite de edad para las girl scouts",
+        "generated": "17",
+        "ground_truth": "5.0 18.0 año terrestre",
+        "correct": false
+      },
+      "fr": {
+        "query": "quel est l'âge limite pour les Girl Scouts",
+        "generated": "11 ans",
+        "ground_truth": "5.0 18.0 années",
+        "correct": false
+      },
+      "de": {
+        "query": "Was ist die Altergrenze für Girl Scouts",
+        "generated": "Das Alter ist keine Grenze für Girl Scouts. Es gibt keine Altersgrenze für Girls Scouts. Girl Scouts ist für Mädchen ab 5 Jahren bis zu 18 Jahren verfügbar.",
+        "ground_truth": "5.0 18.0 Jahr",
+        "correct": false
+      },
+      "ja": {
+        "query": "ガール・スカウトの年齢制限は？",
+        "generated": "10歳以上",
+        "ground_truth": "5.0 18.0 年",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "女童子军的年龄限制是多少",
+        "generated": "",
+        "ground_truth": "5.0 18.0 年份",
+        "correct": false
+      },
+      "ar": {
+        "query": "ما هو الحد الأدنى لسن الكشافة؟",
+        "generated": "6 سنوات",
+        "ground_truth": "5.0 18.0 سنة",
+        "correct": false
+      },
+      "ru": {
+        "query": "возрастной лимит для girl scouts",
+        "generated": "15",
+        "ground_truth": "5.0 18.0 лет",
+        "correct": false
+      }
+    },
+    "correct_languages": [
+      "en"
+    ]
+  },
+  {
+    "example_id": -3407656036949886841,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": 476368974337766528,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": -8853507693210218570,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": 3749394332280061531,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": -9075218135116230593,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": 846466415522403319,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": -5553927247739165705,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": -4166868313835054376,
+    "language_results": {
+      "en": {
+        "query": "who were the characters in singing in the rain",
+        "generated": "Don, Kathy, Lina, and Don’s sister",
+        "ground_truth": "Donald O'Connor",
+        "correct": false
+      },
+      "es": {
+        "query": "quienes eran los personajes en cantando bajo la lluvia",
+        "generated": "El personaje principal es el que está cantando bajo la lluvia.",
+        "ground_truth": "Donald O'Connor",
+        "correct": false
+      },
+      "fr": {
+        "query": "qui étaient les personnages dans chantons sous la pluie",
+        "generated": "les amis de <strong>le</strong> <strong>monstre</strong>",
+        "ground_truth": "Donald O'Connor",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer waren die Darsteller in Singing in the Rain?",
+        "generated": "Gene Kelly, Debbie Reynolds, Donald O’Connor, Cyd Charisse, Jean Hagen, Phil Silvers, Michael Kidd",
+        "ground_truth": "Donald O’Connor",
+        "correct": true
+      },
+      "ja": {
+        "query": "雨に唄えばの登場人物は誰",
+        "generated": "雨に唄えばの登場人物は、",
+        "ground_truth": "ドナルド・オコーナー",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "《Singing in the Rain》中的人物有哪些",
+        "generated": "《Singing in the Rain》中的主要人物是演员Don Lockwood和Kathy Selden，在影片中，Don Lockwood是一名明星，虽然他的演技是可取的，但是他的歌声却非常糟糕，他一直被嘲笑，",
+        "ground_truth": "唐纳德·奥康纳",
+        "correct": false
+      },
+      "ar": {
+        "query": "من هى الشخصيات فى الغناء تحت المطر",
+        "generated": "",
+        "ground_truth": "دونالد أوكونور",
+        "correct": false
+      },
+      "ru": {
+        "query": "Кто является персонажами в Поющие под дождём",
+        "generated": "",
+        "ground_truth": "О’Коннор, Дональд",
+        "correct": false
+      }
+    },
+    "correct_languages": [
+      "de"
+    ]
+  },
+  {
+    "example_id": -8241537849833386136,
+    "language_results": {
+      "en": {
+        "query": "how long is the average freight train car",
+        "generated": "70 feet",
+        "ground_truth": "55.0 67.0 feet",
+        "correct": false
+      },
+      "es": {
+        "query": "como de largo son de media los vagones de mercancia",
+        "generated": "27,5 metros",
+        "ground_truth": "55.0 67.0 pie",
+        "correct": false
+      },
+      "fr": {
+        "query": "en moyenne quelle longueur a le wagon de train de marchandises",
+        "generated": "30 m",
+        "ground_truth": "55.0 67.0 pied",
+        "correct": false
+      },
+      "de": {
+        "query": "Was ist die Durchschnittslänge eines Güterzugwagens?",
+        "generated": "160 m",
+        "ground_truth": "55.0 67.0 Englischer Fuß",
+        "correct": false
+      },
+      "ja": {
+        "query": "標準的な貨物車はどのくらいの長さですか",
+        "generated": "標準的な貨物車はだいたい6,000mmの四輪貨物車です。",
+        "ground_truth": "55.0 67.0 フィート",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "货运火车车平均要多长时间",
+        "generated": "The average train takes how much time to reach its destination?",
+        "ground_truth": "55.0 67.0 英尺",
+        "correct": false
+      },
+      "ar": {
+        "query": "كم يبلغ متوسط طول عربة القطار",
+        "generated": "100 متر",
+        "ground_truth": "55.0 67.0 قدم",
+        "correct": false
+      },
+      "ru": {
+        "query": "насколько длинный средний вагон грузового поезда",
+        "generated": "100 метров",
+        "ground_truth": "55.0 67.0 английский фут",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 7295881644912577718,
+    "language_results": {
+      "en": {
+        "query": "who sings i'll make a man out of you",
+        "generated": "Leslie Uggams",
+        "ground_truth": "Donny Osmond",
+        "correct": false
+      },
+      "es": {
+        "query": "quién canta i'll make a man out of you",
+        "generated": "Judy Garland",
+        "ground_truth": "Donny Osmond",
+        "correct": false
+      },
+      "fr": {
+        "query": "qui chante i'll make a man out of you",
+        "generated": "what",
+        "ground_truth": "Donny Osmond",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer singt 'I'll make a Man out of you'",
+        "generated": "Princess Jasmine.",
+        "ground_truth": "Donny Osmond",
+        "correct": false
+      },
+      "ja": {
+        "query": "i'll make a man out of youを歌ったのは誰ですか",
+        "generated": "i'll make a man out of youはディズニー映画『美女と野獣』の主題歌です。この歌は主人公である美女と野獣の恋物語を描いた曲です。",
+        "ground_truth": "ダニー・オズモンド",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "i'll make a man out of you是谁演唱的",
+        "generated": "i'll make a man out of you",
+        "ground_truth": "多尼奥斯蒙德",
+        "correct": false
+      },
+      "ar": {
+        "query": "i'll make a man out of you من غني اغنيه",
+        "generated": "you will make a man out of me",
+        "ground_truth": "دوني أوزموند",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто поет i'll make a man out of you",
+        "generated": "i'll make a man out of you (who is singing it?)",
+        "ground_truth": "Осмонд, Донни",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": -2195102395835349783,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": -6991508190482400297,
+    "language_results": {
+      "en": {
+        "query": "where is the world cup going to be held",
+        "generated": "South America",
+        "ground_truth": "Qatar",
+        "correct": false
+      },
+      "es": {
+        "query": "dónde se va a celebrar el mundial",
+        "generated": "el mundial se va a celebrar en",
+        "ground_truth": "Catar",
+        "correct": false
+      },
+      "fr": {
+        "query": "où va se dérouler la coupe du monde",
+        "generated": "en france.",
+        "ground_truth": "Qatar",
+        "correct": false
+      },
+      "de": {
+        "query": "Wo wird der Weltcup stattfinden?",
+        "generated": "In Innsbruck",
+        "ground_truth": "Katar",
+        "correct": false
+      },
+      "ja": {
+        "query": "W杯が開かれる予定なのはどこですか",
+        "generated": "I think the World Cup will be held in Japan and South Korea in 2002.",
+        "ground_truth": "カタール",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "世界杯将在哪里举行",
+        "generated": "The World Cup will be held in Brazil.",
+        "ground_truth": "卡塔尔",
+        "correct": false
+      },
+      "ar": {
+        "query": "أين ستقام بطولة كأس العام ؟",
+        "generated": "In which country will the FIFA World Cup be held?",
+        "ground_truth": "قطر",
+        "correct": false
+      },
+      "ru": {
+        "query": "где будет проводится кубок мира",
+        "generated": "в Москве и Санкт-Петербурге",
+        "ground_truth": "Катар",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 3505472521987583469,
+    "language_results": {
+      "en": {
+        "query": "what are the names of the tweenies characters",
+        "generated": "",
+        "ground_truth": "Judy",
+        "correct": false
+      },
+      "es": {
+        "query": "como se llaman los personajes de los \"tweenies\"",
+        "generated": "",
+        "ground_truth": "Judy",
+        "correct": false
+      },
+      "fr": {
+        "query": "Comment s’appellent les personnages des Tweenies ?",
+        "generated": "Les personnages des Tweenies sont :",
+        "ground_truth": "Judy",
+        "correct": false
+      },
+      "de": {
+        "query": "was sind die namen der tweenies darsteller",
+        "generated": "",
+        "ground_truth": "Judy",
+        "correct": false
+      },
+      "ja": {
+        "query": "Tweeniesに出てくるキャラクターたちの名前は何ですか",
+        "generated": "",
+        "ground_truth": "ジュディ 虹の彼方に",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "孩子们的名字是什么",
+        "generated": "Children's names are:",
+        "ground_truth": "朱迪",
+        "correct": false
+      },
+      "ar": {
+        "query": "ما هي أسماء شخصيات توينيس",
+        "generated": "Twins.",
+        "ground_truth": "جودي",
+        "correct": false
+      },
+      "ru": {
+        "query": "каковы имена персонажей из сериала \"Твинисы\"",
+        "generated": "21",
+        "ground_truth": "Джуди",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 3054373585607347258,
+    "language_results": {
+      "en": {
+        "query": "who plays black panther in the movie black panther",
+        "generated": "Chadwick Boseman",
+        "ground_truth": "Chadwick Boseman",
+        "correct": true
+      },
+      "es": {
+        "query": "quien interpreta a la pantera negra en la pelicula pantera negra",
+        "generated": "1. Idris Elba",
+        "ground_truth": "Chadwick Boseman",
+        "correct": false
+      },
+      "fr": {
+        "query": "Qui joue Panthère noire dans le film Black Panther",
+        "generated": "Chadwick Boseman",
+        "ground_truth": "Chadwick Boseman",
+        "correct": true
+      },
+      "de": {
+        "query": "Wer spielt black panther in dem Film black panther",
+        "generated": "Chadwick Boseman",
+        "ground_truth": "Chadwick Boseman",
+        "correct": true
+      },
+      "ja": {
+        "query": "「ブラック・パンサー」でブラック・パンサーを演じているのは誰？",
+        "generated": "「チャド・ウィリアムズ」",
+        "ground_truth": "チャドウィック・ボーズマン",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "电影黑豹中黑豹的扮演者是谁",
+        "generated": "Chadwick Boseman",
+        "ground_truth": "查德维克·博斯曼",
+        "correct": true
+      },
+      "ar": {
+        "query": "من الذي يلعب دور بلاك بانثر في فلم بلاك بانثر",
+        "generated": "ساندرا بولسن",
+        "ground_truth": "تشادويك بوسمان",
+        "correct": false
+      },
+      "ru": {
+        "query": "Кто играет роль Черной Пантеры в фильме \"Чёрная Пантера\"?",
+        "generated": "Имануэль Луис (Iman Vellani)",
+        "ground_truth": "Боузман, Чедвик",
+        "correct": false
+      }
+    },
+    "correct_languages": [
+      "en",
+      "fr",
+      "de",
+      "zh_cn"
+    ]
+  },
+  {
+    "example_id": -8048076596333046562,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": -3156311054855292528,
+    "language_results": {
+      "en": {
+        "query": "what channel number is the cw on directv",
+        "generated": "30",
+        "ground_truth": "385.0",
+        "correct": false
+      },
+      "es": {
+        "query": "qué número de canal tiene cw en direc tv",
+        "generated": "108",
+        "ground_truth": "385.0",
+        "correct": false
+      },
+      "fr": {
+        "query": "quel est la chaine de cw sur directv",
+        "generated": "19",
+        "ground_truth": "385.0",
+        "correct": false
+      },
+      "de": {
+        "query": "Welche Nummer hat der Kanal CW bei DirecTV?",
+        "generated": "116",
+        "ground_truth": "385.0",
+        "correct": false
+      },
+      "ja": {
+        "query": "directvでcwは何チャンネル？",
+        "generated": "directvのチャンネル登録には、CWチャンネルを登録できません。",
+        "ground_truth": "385.0",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "cw电视台在directv上的频道号是多少",
+        "generated": "532",
+        "ground_truth": "385.0",
+        "correct": false
+      },
+      "ar": {
+        "query": "ما هو رقم قناة \"ذا سى دابليو\" فى دايركت تى فى",
+        "generated": "108",
+        "ground_truth": "385.0",
+        "correct": false
+      },
+      "ru": {
+        "query": "Какой номер канала у CW на directv",
+        "generated": "",
+        "ground_truth": "385.0",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 5726816357053440874,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": -2162714330037272999,
+    "language_results": {
+      "en": {
+        "query": "who sang what is love baby don't hurt me",
+        "generated": "The Doors, \"Love me Two Times\"",
+        "ground_truth": "Haddaway",
+        "correct": false
+      },
+      "es": {
+        "query": "quién cantaba what is love baby don't hurt me",
+        "generated": "<strong>Donna Summer</strong>",
+        "ground_truth": "Haddaway",
+        "correct": false
+      },
+      "fr": {
+        "query": "qui a chanté what is love baby don't hurt me",
+        "generated": "George Michael",
+        "ground_truth": "Haddaway",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer hat what is love baby don't hurt me gesungen",
+        "generated": "Madonna",
+        "ground_truth": "Haddaway",
+        "correct": false
+      },
+      "ja": {
+        "query": "what is love baby don't hurt meを歌ったのは誰ですか",
+        "generated": "The song is by <strong>U2</strong>.",
+        "ground_truth": "ホワット・イズ・ラブ",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "what is love baby don't hurt me是谁演唱的",
+        "generated": "Bob Dylan",
+        "ground_truth": "Haddaway",
+        "correct": false
+      },
+      "ar": {
+        "query": "من الذى غنى \"what is love baby don't hurt me\"",
+        "generated": "Elvis Presley",
+        "ground_truth": "هادواي",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто пел what is love baby don't hurt me",
+        "generated": "well, he is not the singer",
+        "ground_truth": "The Album",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": -7038357099440704798,
+    "language_results": {
+      "en": {
+        "query": "what is the active ingredient in all fda approved hand sanitizers",
+        "generated": "Alcohol",
+        "ground_truth": "ethanol",
+        "correct": true
+      },
+      "es": {
+        "query": "¿cuál es el ingrediente activo de todos los desinfectantes de manos aprobados por la FDA?",
+        "generated": "benzalkonium chloride",
+        "ground_truth": "etanol",
+        "correct": false
+      },
+      "fr": {
+        "query": "Quel est l'ingrédient actif présent dans tous les désinfectants pour mains approuvés par la FDA",
+        "generated": "éthanol",
+        "ground_truth": "éthanol",
+        "correct": true
+      },
+      "de": {
+        "query": "Was ist der Wirkstoff in allen von der FDA zugelassenen Handdesinfektionsmitteln?",
+        "generated": "Imidazolidenalkohol (imidazaol)",
+        "ground_truth": "Ethanol",
+        "correct": false
+      },
+      "ja": {
+        "query": "アメリカ食品医薬品局に認可されている全ての手指消毒剤に入っている有効成分は何ですか",
+        "generated": "70% アルコール",
+        "ground_truth": "エタノール",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "所有经食品药品监督管理局批准的洗手液中都含有的活性成分是什么",
+        "generated": "5% 的无机氯",
+        "ground_truth": "乙醇",
+        "correct": false
+      },
+      "ar": {
+        "query": "ما المكون الفعال لغسيل الأيدي في جميع إدارات الدواء والغذاء",
+        "generated": "كبريتيد الهيدروجين",
+        "ground_truth": "إيثانول",
+        "correct": false
+      },
+      "ru": {
+        "query": "как назывется активный ингредиент во всех дезинфицирующих средствах для рук одобренных fda",
+        "generated": "этиловый спирт",
+        "ground_truth": "этанол",
+        "correct": true
+      }
+    },
+    "correct_languages": [
+      "en",
+      "fr",
+      "ru"
+    ]
+  },
+  {
+    "example_id": -453804301812155714,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": -7946914703140878316,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": -8306986734104822768,
+    "language_results": {
+      "en": {
+        "query": "who starred in the movie bridge over the river kwai",
+        "generated": "Marlon Brando",
+        "ground_truth": "William Holden",
+        "correct": false
+      },
+      "es": {
+        "query": "quién protagonizaba la película el puente sobre el río kwai",
+        "generated": "Clint Eastwood",
+        "ground_truth": "William Holden",
+        "correct": false
+      },
+      "fr": {
+        "query": "Qui était la vedette dans le film Pont de la rivière Kwaï",
+        "generated": "James Garner",
+        "ground_truth": "William Holden",
+        "correct": false
+      },
+      "de": {
+        "query": "wer spielte im film Die Brücke am Kwai mit",
+        "generated": "Tom Hyer",
+        "ground_truth": "William Holden",
+        "correct": false
+      },
+      "ja": {
+        "query": "映画戦場にかける橋で主演したのは誰か",
+        "generated": "<b>吉岡秀隆</b>",
+        "ground_truth": "ウィリアム・ホールデン",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "谁主演了电影《桂河大桥》",
+        "generated": "演员张纪中",
+        "ground_truth": "威廉·霍尔登",
+        "correct": false
+      },
+      "ar": {
+        "query": "من الذي تألق في فلم بريدج أوفر ذا ريفر كواي",
+        "generated": "ريد كلاي",
+        "ground_truth": "ويليام هولدن",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто снимался в фильме bridge over the river kwai",
+        "generated": "",
+        "ground_truth": "Уильям Холден",
+        "correct": true
+      }
+    },
+    "correct_languages": [
+      "ru"
+    ]
+  },
+  {
+    "example_id": -6706002331410751349,
+    "language_results": {
+      "en": {
+        "query": "what were the names of the knights of the round table",
+        "generated": "Arthur, Lancelot, Percival, Gawain, Galahad, and Bors.",
+        "ground_truth": "Gareth",
+        "correct": false
+      },
+      "es": {
+        "query": "¿Cuáles eran los nombres de los Caballeros de la Mesa Redonda?",
+        "generated": "Los Caballeros de la Mesa Redonda eran los caballeros de la Cruz de San Juan, los caballeros del Santo Grial y los caballeros de la Santa Cruz.",
+        "ground_truth": "Gareth",
+        "correct": false
+      },
+      "fr": {
+        "query": "Quels étaient les noms de Chevaliers de la Table Ronde",
+        "generated": "Chevaliers de la Table Ronde",
+        "ground_truth": "Gareth",
+        "correct": false
+      },
+      "de": {
+        "query": "Wie hießen die Ritter der Tafelrunde",
+        "generated": "Die Ritter der Tafelrunde waren Gaukler und Kavalier.",
+        "ground_truth": "Gareth",
+        "correct": false
+      },
+      "ja": {
+        "query": "円卓の騎士たちの名前は？",
+        "generated": "騎士の騎士たちの名前は、アグネス、ジャン、イグナティウス、ペネロプ、ラファエル、アンナ、ダビデ、イザベラ、シスター・マリア、シスター・",
+        "ground_truth": "ガレス",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "圆桌骑士都叫什么名字",
+        "generated": "骑士",
+        "ground_truth": "兰斯洛特爵士",
+        "correct": false
+      },
+      "ar": {
+        "query": "ماذا كانت أسماء فرسان المائدة المستديرة",
+        "generated": "",
+        "ground_truth": "جالاهاد",
+        "correct": false
+      },
+      "ru": {
+        "query": "как называли рыцарей круглого стола",
+        "generated": "«царапёки»",
+        "ground_truth": "Гарет Белоручка",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": -457701655463400422,
+    "language_results": {
+      "en": {
+        "query": "who is the host of america has talent",
+        "generated": "judge neil patrick harris",
+        "ground_truth": "Simon Cowell",
+        "correct": false
+      },
+      "es": {
+        "query": "quien es el presentador de \"america has talent\"",
+        "generated": "juan manuel",
+        "ground_truth": "Simon Cowell",
+        "correct": false
+      },
+      "fr": {
+        "query": "Qui est l'animateur de america has talent",
+        "generated": "Howie Mandel",
+        "ground_truth": "Simon Cowell",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer ist der Moderator von america has talent",
+        "generated": "Nick Cannon",
+        "ground_truth": "Simon Cowell",
+        "correct": false
+      },
+      "ja": {
+        "query": "america has talentのホストは誰ですか",
+        "generated": "America's Got Talentのホストは、番組の司会者を指します。司会者とは、番組の進行役のことを指します。",
+        "ground_truth": "サイモン・コーウェル",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "美国达人秀的主持人是谁",
+        "generated": "凯特·布尔",
+        "ground_truth": "茱莉安哈克",
+        "correct": false
+      },
+      "ar": {
+        "query": "من هو المضيف في america has talent",
+        "generated": "the host of America has talent is terry crews",
+        "ground_truth": "سايمون كاول",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто является ведущим america has talent",
+        "generated": "judge simon Cowell",
+        "ground_truth": "Саймон Коуэлл",
+        "correct": true
+      }
+    },
+    "correct_languages": [
+      "ru"
+    ]
+  },
+  {
+    "example_id": -6912591881241757083,
+    "language_results": {
+      "en": {
+        "query": "who sings lord it's hard to be humble",
+        "generated": "the lord himself",
+        "ground_truth": "Mac Davis",
+        "correct": false
+      },
+      "es": {
+        "query": "quién canta lord it's hard to be humble",
+        "generated": "he's the one who wrote the song.",
+        "ground_truth": "Mac Davis",
+        "correct": false
+      },
+      "fr": {
+        "query": "qui chante 'lord it's hard to be humble'",
+        "generated": "The Band",
+        "ground_truth": "Mac Davis",
+        "correct": false
+      },
+      "de": {
+        "query": "wer singt lord it's hard to be humble",
+        "generated": "the chorus",
+        "ground_truth": "Mac Davis",
+        "correct": false
+      },
+      "ja": {
+        "query": "lord it's hard to be humbleと歌っているのは誰",
+        "generated": "It's hard to be humble",
+        "ground_truth": "マック・デイビス",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "《lord it's hard to be humble》这首歌是谁唱的",
+        "generated": "《lord it's hard to be humble》这首歌是谁唱的？这首歌是克里斯蒂安·维尔吉的《Lord It's Hard to Be Humble》",
+        "ground_truth": "麦克·戴维斯",
+        "correct": false
+      },
+      "ar": {
+        "query": "من الذي يغني لورد اتس هارد تو بي همبل",
+        "generated": "The song is by \"The White Stripes\"",
+        "ground_truth": "ماك ديفيس",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто поет lord it's hard to be humble",
+        "generated": "это Бон Джови.",
+        "ground_truth": "Мак Дэвис",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 6016187989170734632,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": 301001421963967136,
+    "language_results": {
+      "en": {
+        "query": "who sang the song take me to church",
+        "generated": "the killers",
+        "ground_truth": "Hozier",
+        "correct": false
+      },
+      "es": {
+        "query": "quién cantaba la canción take me to church",
+        "generated": "Sam Smith",
+        "ground_truth": "Hozier",
+        "correct": false
+      },
+      "fr": {
+        "query": "qui a chanté la chanson take me to church",
+        "generated": "The Killers",
+        "ground_truth": "Hozier",
+        "correct": false
+      },
+      "de": {
+        "query": "wer sang das lied take me to church",
+        "generated": "glen Hansard",
+        "ground_truth": "Hozier",
+        "correct": false
+      },
+      "ja": {
+        "query": "曲「テイク・ミー・トゥ・チャーチ」を歌ったのは誰？",
+        "generated": "\"Take Me To Church\" was written by Irish singer-songwriter Hozier",
+        "ground_truth": "ホージア (アルバム)",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "谁唱了《带我去教堂》这首歌",
+        "generated": "Who sang the song “Take Me to Church”?",
+        "ground_truth": "霍齐尔",
+        "correct": false
+      },
+      "ar": {
+        "query": "من قام بغناء اغنية \" take me to church \"",
+        "generated": "جاي مارتن",
+        "ground_truth": "هوزير",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто пел песню  take me to church",
+        "generated": "The Killers.",
+        "ground_truth": "Хозиер",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": -4040598618830130431,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": 7760804701483913902,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": -6277239576741418047,
+    "language_results": {
+      "en": {
+        "query": "who are the models on price is right",
+        "generated": "the models are usually the most beautiful and attractive contestants on the show. they are often chosen because they are very photogenic and have a good sense of style. they are also usually very outgoing and fun-loving, which makes them a good fit for",
+        "ground_truth": "James O'Halloran",
+        "correct": false
+      },
+      "es": {
+        "query": "Quienes son los modelos de El Precio Justo",
+        "generated": "",
+        "ground_truth": "James O'Halloran",
+        "correct": false
+      },
+      "fr": {
+        "query": "qui sont les mannequins du price is right",
+        "generated": "bob Barker, Monty Hall, Drew Carey, Drew Carey, Bob Barker, Drew Carey, Bob Barker, Bob Barker, Monty Hall, Monty Hall, Drew Carey, Drew Carey, Bob Barker, Bob Barker, Bob Barker, Monty Hall, Bob Barker",
+        "ground_truth": "James O'Halloran",
+        "correct": false
+      },
+      "de": {
+        "query": "Welche Models spielen in ‘The Price is right’",
+        "generated": "Models",
+        "ground_truth": "Melissa Ordway",
+        "correct": false
+      },
+      "ja": {
+        "query": "The Price Is Right のモデルは誰ですか",
+        "generated": "Bob Barker",
+        "ground_truth": "メリッサ・オードウェイ",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "《 Price Is Right 》中的模特都有谁",
+        "generated": "The models in “The Price is Right” are all women.",
+        "ground_truth": "詹姆斯·奥哈洛兰",
+        "correct": false
+      },
+      "ar": {
+        "query": "من هم نجوم برنامج ذا برايس إز رايت",
+        "generated": "",
+        "ground_truth": "ميليسا أوردواي",
+        "correct": false
+      },
+      "ru": {
+        "query": "Какие модели участвуют в \"price is right\"",
+        "generated": "1-2-3-4",
+        "ground_truth": "Мелисса Ордуэй",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": -8596127252162838467,
+    "language_results": {
+      "en": {
+        "query": "who led the north in the civil war",
+        "generated": "Abraham Lincoln",
+        "ground_truth": "Abraham Lincoln",
+        "correct": true
+      },
+      "es": {
+        "query": "¿Quién lideró al norte en la guerra civil?",
+        "generated": "Abraham Lincoln.",
+        "ground_truth": "Abraham Lincoln",
+        "correct": true
+      },
+      "fr": {
+        "query": "qui a mené la guerre de sécession dans le Nord?",
+        "generated": "les confédérés du général Robert e Lee.",
+        "ground_truth": "Abraham Lincoln",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer führte den Norden im Bürgerkrieg?",
+        "generated": "Union",
+        "ground_truth": "Abraham Lincoln",
+        "correct": false
+      },
+      "ja": {
+        "query": "誰が南北戦争の北軍をリードしましたか",
+        "generated": "Ulysses S. Grant",
+        "ground_truth": "エイブラハム・リンカーン",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "谁在美国内战中领导北方",
+        "generated": "Ulysses S. Grant",
+        "ground_truth": "亚伯拉罕·林肯",
+        "correct": false
+      },
+      "ar": {
+        "query": "من الذي قاد الشمال في الحرب الأهلية",
+        "generated": "الحاكم",
+        "ground_truth": "أبراهام لينكون",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто вёл север в гражданской войне в сша",
+        "generated": "Американские войска",
+        "ground_truth": "Авраам Линкольн",
+        "correct": false
+      }
+    },
+    "correct_languages": [
+      "en",
+      "es"
+    ]
+  },
+  {
+    "example_id": -2310612763144978658,
+    "language_results": {
+      "en": {
+        "query": "who played snow white in once upon a time",
+        "generated": "Lana Parrilla",
+        "ground_truth": "Ginnifer Goodwin",
+        "correct": false
+      },
+      "es": {
+        "query": "quien interpretó a blancanieves en érase una vez",
+        "generated": "salma hayek",
+        "ground_truth": "Ginnifer Goodwin",
+        "correct": false
+      },
+      "fr": {
+        "query": "Qui a joué Blanche-Neige in Once Upon a Time?",
+        "generated": "",
+        "ground_truth": "Ginnifer Goodwin",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer spielte Schneewittchen in Once Upon a Time – Es war einmal …",
+        "generated": "Lana Parrilla (Evil Queen)",
+        "ground_truth": "Ginnifer Goodwin",
+        "correct": false
+      },
+      "ja": {
+        "query": "ワンス・アポン・ア・タイムで白雪姫を演じたのは誰",
+        "generated": "1937年に、この映画で白雪姫を演じたのが、マーガレット・モンゴメリーだった。",
+        "ground_truth": "ジニファー・グッドウィン",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "谁在 once upon a time 中扮演了 snow white",
+        "generated": "Snow White was played by Linda Mason",
+        "ground_truth": "吉妮佛·古德温",
+        "correct": false
+      },
+      "ar": {
+        "query": "من لعبت دور snow white فى once upon a time",
+        "generated": "نجمة الدور المفضل لدي",
+        "ground_truth": "جينيفر غودين",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто сыграл белоснежку в однажды в сказке",
+        "generated": "Белоснежка",
+        "ground_truth": "Джиннифер Гудвин",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 8259032885448966485,
+    "language_results": {
+      "en": {
+        "query": "who was the oldest man who ever lived",
+        "generated": "Abraham",
+        "ground_truth": "Jeanne Calment",
+        "correct": false
+      },
+      "es": {
+        "query": "quién fue el hombre más viejo que haya vivido",
+        "generated": "el hombre más viejo que haya vivido es jiro tanaka de Japón",
+        "ground_truth": "Jeanne Calment",
+        "correct": false
+      },
+      "fr": {
+        "query": "qui a été l'homme le plus vieux du monde",
+        "generated": "122 ans",
+        "ground_truth": "Jeanne Calment",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer war der älteste Mann, der jemals gelebt hat",
+        "generated": "Methuselah",
+        "ground_truth": "Jeanne Calment",
+        "correct": false
+      },
+      "ja": {
+        "query": "生存している最高齢の人は誰でしたか",
+        "generated": "<strong>The oldest living person was Jeanne Calment of France, who lived to be 122 years old.</strong>",
+        "ground_truth": "ジャンヌ・カルマン",
+        "correct": true
+      },
+      "zh_cn": {
+        "query": "谁是世界历史上最长寿的人",
+        "generated": "The oldest person to ever live on Earth was a Japanese woman named Kane Tanaka, who died at the age of 119.",
+        "ground_truth": "雅娜·卡尔芒",
+        "correct": false
+      },
+      "ar": {
+        "query": "من أقدم رجل عاش من أي وقت مضى",
+        "generated": "100 years old",
+        "ground_truth": "جين كالمينت",
+        "correct": false
+      },
+      "ru": {
+        "query": "Кто является долгожителем когда-либо жившем на земле?",
+        "generated": "Умерший в 140 лет Иоанн Казанский.",
+        "ground_truth": "Жанна Кальман",
+        "correct": false
+      }
+    },
+    "correct_languages": [
+      "ja"
+    ]
+  },
+  {
+    "example_id": 8315712509516447932,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": 3709269594158692309,
+    "language_results": {
+      "en": {
+        "query": "how many times has australia won the cricket world cup",
+        "generated": "5 times",
+        "ground_truth": "5.0",
+        "correct": false
+      },
+      "es": {
+        "query": "cuantas veces ha ganado australia el mundial de cricket",
+        "generated": "5 veces",
+        "ground_truth": "5.0",
+        "correct": false
+      },
+      "fr": {
+        "query": "combien de fois l'australie a-t-elle remporté la coupe du monde de cricket",
+        "generated": "5 fois",
+        "ground_truth": "5.0",
+        "correct": false
+      },
+      "de": {
+        "query": "wie oft hat australien den cricket world cup gewonnen",
+        "generated": "5 mal",
+        "ground_truth": "5.0",
+        "correct": false
+      },
+      "ja": {
+        "query": "オーストラリアはクリケットのワールドカップで何回優勝しましたか",
+        "generated": "1987年、1999年、2003年、2015年",
+        "ground_truth": "5.0",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "澳大利亚赢得过几次板球世界杯",
+        "generated": "澳大利亚赢过5次",
+        "ground_truth": "5.0",
+        "correct": true
+      },
+      "ar": {
+        "query": "كم مرة فازت استراليا بكأس العالم للكريكيت",
+        "generated": "1",
+        "ground_truth": "5.0",
+        "correct": false
+      },
+      "ru": {
+        "query": "сколько раз австралия выиграла кубок мира по крикету",
+        "generated": "6 раз (1987, 1999, 2003, 2007, 2015, 2015)",
+        "ground_truth": "5.0",
+        "correct": false
+      }
+    },
+    "correct_languages": [
+      "zh_cn"
+    ]
+  },
+  {
+    "example_id": 3699573018209589701,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": -1945659492638815587,
+    "language_results": {
+      "en": {
+        "query": "who sang i will always love you first dolly parton or whitney houston",
+        "generated": "whitney houston",
+        "ground_truth": "Porter Wagoner",
+        "correct": false
+      },
+      "es": {
+        "query": "quién cantó primero i will always love you, dolly parton o whitney houston",
+        "generated": "dolly parton",
+        "ground_truth": "Porter Wagoner",
+        "correct": false
+      },
+      "fr": {
+        "query": "qui a chanté i will always love you first dolly parton or whitney houston",
+        "generated": "Whitney houston",
+        "ground_truth": "Porter Wagoner",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer sang, ich werde dich immer lieben, erster Dolly Parton oder Whitney",
+        "generated": "Whitney",
+        "ground_truth": "Porter Wagoner",
+        "correct": false
+      },
+      "ja": {
+        "query": "オールウェイズ・ラヴ・ユーを最初に歌ったのはドリー・パートンですかそれともホイットニー・ヒューストンですか",
+        "generated": "ドリー・パートン",
+        "ground_truth": "ポーター・ワゴナー",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "是谁先唱了《我将永远爱你》，多莉·帕顿还是惠特尼·休斯顿",
+        "generated": "惠特尼·休斯顿",
+        "ground_truth": "桃莉·巴顿",
+        "correct": false
+      },
+      "ar": {
+        "query": "من غنى اولاُ سأظل أحبك دائمًا دولي بارتون او ويتني هوستون؟",
+        "generated": "I am from the US, born and raised, and I love American pop music. I have always loved rock and roll. The first artist I ever loved was Elvis Presley. He was my favorite singer and I still love his music.",
+        "ground_truth": "بورتر واغونر",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто поет i will always love you first - Долли Партон или Уитни Хьюстон",
+        "generated": "Долли Партон",
+        "ground_truth": "Вагонер, Портер",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 7482564272125559552,
+    "language_results": {
+      "en": {
+        "query": "what is the name of the first president of america",
+        "generated": "George Washington",
+        "ground_truth": "George Washington",
+        "correct": true
+      },
+      "es": {
+        "query": "¿cuál es el nombre del primer presidente de America?",
+        "generated": "George Washington.",
+        "ground_truth": "George Washington",
+        "correct": true
+      },
+      "fr": {
+        "query": "quel est le nom du premier président d'Amérique",
+        "generated": "George Washington",
+        "ground_truth": "George Washington",
+        "correct": true
+      },
+      "de": {
+        "query": "Wie hieß der erste Präsident von Amerika",
+        "generated": "George Washington",
+        "ground_truth": "George Washington",
+        "correct": true
+      },
+      "ja": {
+        "query": "アメリカ初の大統領の名前は？",
+        "generated": "Abraham Lincoln",
+        "ground_truth": "ジョージ・ワシントン",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "美国第一任总统的名字是什么",
+        "generated": "George Washington",
+        "ground_truth": "乔治·华盛顿",
+        "correct": true
+      },
+      "ar": {
+        "query": "ما هو اسم أول رئيس لأمريكا",
+        "generated": "George Washington",
+        "ground_truth": "جورج واشنطن",
+        "correct": true
+      },
+      "ru": {
+        "query": "как зовут первого президента америки",
+        "generated": "Джордж Вашингтон",
+        "ground_truth": "Джордж Вашингтон",
+        "correct": true
+      }
+    },
+    "correct_languages": [
+      "en",
+      "es",
+      "fr",
+      "de",
+      "zh_cn",
+      "ar",
+      "ru"
+    ]
+  },
+  {
+    "example_id": -6300616333349284423,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": 5964972862669432850,
+    "language_results": {
+      "en": {
+        "query": "actors in the movie gone in 60 seconds",
+        "generated": "the film is about the pursuit of a stolen car",
+        "ground_truth": "Angelina Jolie",
+        "correct": false
+      },
+      "es": {
+        "query": "actores de la película 60 segundos",
+        "generated": "The actors in the movie 60 seconds are:",
+        "ground_truth": "Angelina Jolie",
+        "correct": false
+      },
+      "fr": {
+        "query": "acteurs dans le film \"60 secondes chrono\"",
+        "generated": "",
+        "ground_truth": "Angelina Jolie",
+        "correct": false
+      },
+      "de": {
+        "query": "Die Schauspieler im Film \"Nur noch 60 Sekunden\"?",
+        "generated": "In dem Film \"Nur noch 60 Sekunden\" spielen die Schauspieler Tom Cruise und Paul Walker die Rollen von Nicholas Cage und Don Johnson. Die Schauspieler Tom Cruise und Paul Walker sind die Hauptdarsteller des Films.",
+        "ground_truth": "Angelina Jolie",
+        "correct": false
+      },
+      "ja": {
+        "query": "映画バニシング in60の出演者は？",
+        "generated": "映画バニシング in60の出演者は？",
+        "ground_truth": "アンジェリーナ・ジョリー",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "极速60秒这部电影的演员",
+        "generated": "The actor of the movie Extreme Speed is Tom Cruise.",
+        "ground_truth": "安吉丽娜·朱莉",
+        "correct": false
+      },
+      "ar": {
+        "query": "ممثليين في فيلم رحل في 60 ثانية؟",
+        "generated": "2014",
+        "ground_truth": "أنجلينا جولي",
+        "correct": false
+      },
+      "ru": {
+        "query": "Актеры из фильма Угнать за 60 секунд",
+        "generated": "1. The Chase",
+        "ground_truth": "Анджелина Джоли",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": -4520518974328570390,
+    "language_results": {
+      "en": {
+        "query": "how many seasons are there of the cosby show",
+        "generated": "14",
+        "ground_truth": "8.0 seasons",
+        "correct": false
+      },
+      "es": {
+        "query": "cuantas temporadas de la hora de bill bosby hay",
+        "generated": "3 temporadas",
+        "ground_truth": "8.0 estaciones del año",
+        "correct": false
+      },
+      "fr": {
+        "query": "combien y a-t-il de saisons dans le Cosby Show ?",
+        "generated": "8",
+        "ground_truth": "8.0 saison",
+        "correct": true
+      },
+      "de": {
+        "query": "wieivele spielzeiten gibt es von Die Bill Cosby Show",
+        "generated": "1983-1984, 1987, 1988",
+        "ground_truth": "8.0 Jahreszeit",
+        "correct": false
+      },
+      "ja": {
+        "query": "コスビー・ショーは何シーズンありますか",
+        "generated": "12",
+        "ground_truth": "8.0 時節",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "考斯比一家有多少季",
+        "generated": "考斯比一家有五季。",
+        "ground_truth": "8.0 季节",
+        "correct": false
+      },
+      "ar": {
+        "query": "كم عدد مواسم \"عرض كوسبى\"؟",
+        "generated": "4 مواسم.",
+        "ground_truth": "8.0 فصل من فصول السنة",
+        "correct": false
+      },
+      "ru": {
+        "query": "сколько сезонов у Шоу Косби",
+        "generated": "2",
+        "ground_truth": "8.0 времена года",
+        "correct": false
+      }
+    },
+    "correct_languages": [
+      "fr"
+    ]
+  },
+  {
+    "example_id": -3205628534025138068,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": 3258790656468982687,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": -1085928132280576267,
+    "language_results": {
+      "en": {
+        "query": "who is the god of the underworld in greek mythology",
+        "generated": "Hades",
+        "ground_truth": "Hades",
+        "correct": true
+      },
+      "es": {
+        "query": "¿Quién es el dios del inframundo en la mitología griega?",
+        "generated": "Hades",
+        "ground_truth": "Hades",
+        "correct": true
+      },
+      "fr": {
+        "query": "Qui est le dieu des mort dans la Mythologie grecque",
+        "generated": "Hades",
+        "ground_truth": "Hadès",
+        "correct": true
+      },
+      "de": {
+        "query": "wer ist der gott der unterwelt in der griechischen mytholgie",
+        "generated": "Hades",
+        "ground_truth": "Hades",
+        "correct": true
+      },
+      "ja": {
+        "query": "ギリシア神話のgod of the underworldは誰ですか",
+        "generated": "Hades (HADES)",
+        "ground_truth": "ハーデース",
+        "correct": true
+      },
+      "zh_cn": {
+        "query": "谁是希腊神话中的地狱之神",
+        "generated": "冥王哈德斯",
+        "ground_truth": "黑德斯",
+        "correct": false
+      },
+      "ar": {
+        "query": "من هو إله العالم السفلي في الأساطير اليونانية؟",
+        "generated": "Hades.",
+        "ground_truth": "هاديس",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто является богом подземного мира в греческой мифологии",
+        "generated": "Гесперида",
+        "ground_truth": "Аид",
+        "correct": false
+      }
+    },
+    "correct_languages": [
+      "en",
+      "es",
+      "fr",
+      "de",
+      "ja"
+    ]
+  },
+  {
+    "example_id": 7207146533356144547,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": 5942430598032585685,
+    "language_results": {
+      "en": {
+        "query": "who played charlene darling on the andy griffith show",
+        "generated": "Betty Lynn",
+        "ground_truth": "Maggie Peterson",
+        "correct": false
+      },
+      "es": {
+        "query": "quién interpretaba a charlene darling en el show de andy griffith",
+        "generated": "Betty Lynn",
+        "ground_truth": "Maggie Peterson",
+        "correct": false
+      },
+      "fr": {
+        "query": "qui jouait charlene darling dans le andy griffith show",
+        "generated": "gary gibson",
+        "ground_truth": "Maggie Peterson",
+        "correct": false
+      },
+      "de": {
+        "query": "wer spielte Charlene Darling in der Andy Griffith Show",
+        "generated": "Betty Lynn",
+        "ground_truth": "Maggie Peterson",
+        "correct": false
+      },
+      "ja": {
+        "query": "「メイベリー110番」でシャーリーン・ダーリンを演じていたのは誰ですか",
+        "generated": "「メイベリー110番」でシャーリーン・ダーリンを演じていたのは「<strong>デヴィッド・ベッカム</strong>」です。",
+        "ground_truth": "マギー・ピーターソン",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "the andy griffith show中charlene darling的扮演者是谁",
+        "generated": "",
+        "ground_truth": "玛姬·彼得森",
+        "correct": false
+      },
+      "ar": {
+        "query": "من لعب دور تشارلين حبيبي في برنامج أندي غريفيث",
+        "generated": "في الموسم الثاني من برنامج أندي غريفيث ، عندما كان عمرها 12 عامًا ، لعبت دور تشارلين ، ابنة روني ، الذي يعاني من اضطراب الشخصية القاتمة.",
+        "ground_truth": "ماجي بيترسون",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто играл Шарлин Дарлинг в шоу Энди Гриффита",
+        "generated": "",
+        "ground_truth": "Магги Питерсон",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 3801710522919104634,
+    "language_results": {
+      "en": {
+        "query": "who is the captain of west indies in cricket",
+        "generated": "Kieron Pollard",
+        "ground_truth": "Jason Holder",
+        "correct": false
+      },
+      "es": {
+        "query": "¿quién es el capitan del equipo de cricket de las indias Occidentales?",
+        "generated": "Mohammed Azharuddin.",
+        "ground_truth": "Jason Holder",
+        "correct": false
+      },
+      "fr": {
+        "query": "qui est le capitaine des west indies au cricket",
+        "generated": "Clive Lloyd",
+        "ground_truth": "Jason Holder",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer ist im Cricket der Captain der West Indies",
+        "generated": "Brian Lara",
+        "ground_truth": "Jason Holder",
+        "correct": false
+      },
+      "ja": {
+        "query": "クリケット西インド諸島代表のキャプテンは誰ですか",
+        "generated": "<strong>ケヴィン・ウィリアムズ</strong>",
+        "ground_truth": "ジェイソン・ホルダー",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "西印度群岛板球队的队长是谁",
+        "generated": "2021年11月17日，英国国家队在英格兰北部布雷德福德郡卡姆布里奇体育场主场对阵印度队，这场比赛是世界杯2023英格",
+        "ground_truth": "杰森·霍尔德",
+        "correct": false
+      },
+      "ar": {
+        "query": "من هو كابتن فريق كريكيت جزر الهند الغربية",
+        "generated": "كابتن فريق كريكيت جزر الهند الغربية هو روبن راديكر",
+        "ground_truth": "جاسون هولدر",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто капитан сборной Вест-Индии по крикету",
+        "generated": "Кристофер Мартин",
+        "ground_truth": "Джейсон Холдер",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 7741387357303652822,
+    "language_results": {
+      "en": {
+        "query": "what is the largest lake in new zealand",
+        "generated": "lake rotoiti in the south island",
+        "ground_truth": "Lake Taupo",
+        "correct": false
+      },
+      "es": {
+        "query": "cual es la ciudad mas grande en nueva zelanda",
+        "generated": "la ciudad mas grande en nueva zelanda es auckland con una poblacion de 420.000 personas",
+        "ground_truth": "Lago Taupo",
+        "correct": false
+      },
+      "fr": {
+        "query": "quel est le plus grand lac de nouvelle Zélande",
+        "generated": "lake Taupo",
+        "ground_truth": "lac Taupo",
+        "correct": true
+      },
+      "de": {
+        "query": "Welcher ist der größte See Neuseelands?",
+        "generated": "Lake Taupo",
+        "ground_truth": "Lake Taupo",
+        "correct": true
+      },
+      "ja": {
+        "query": "ニュージーランドで最も大きな湖は？",
+        "generated": "Lake Taupo",
+        "ground_truth": "タウポ湖",
+        "correct": true
+      },
+      "zh_cn": {
+        "query": "新西兰最大的湖是什么湖",
+        "generated": "Lake Taupo",
+        "ground_truth": "陶波湖",
+        "correct": true
+      },
+      "ar": {
+        "query": "ما هي أكبر بحيرة في نيوزيلندا",
+        "generated": "Lake Taupo",
+        "ground_truth": "بحيرة تابو",
+        "correct": false
+      },
+      "ru": {
+        "query": "какое самое большое озеро в новой зеландии",
+        "generated": "Lake Baikal",
+        "ground_truth": "Таупо",
+        "correct": false
+      }
+    },
+    "correct_languages": [
+      "fr",
+      "de",
+      "ja",
+      "zh_cn"
+    ]
+  },
+  {
+    "example_id": -8894955479283915262,
+    "language_results": {
+      "en": {
+        "query": "who is the author of a long way gone",
+        "generated": "Ishmael Beah",
+        "ground_truth": "Ishmael Beah",
+        "correct": true
+      },
+      "es": {
+        "query": "que es el autor de un largo camino",
+        "generated": "un autor de un largo camino es una persona que realiza un recorrido por un camino largo y que tiene el propósito de llegar a algún lugar en particular, es decir, que es un viajero o un explorador que viaja por un largo camino para alcanzar",
+        "ground_truth": "Ishmael Beah",
+        "correct": false
+      },
+      "fr": {
+        "query": "qui est l'auteur d'a long way gone",
+        "generated": "Par exemple, vous pouvez choisir d'utiliser le mot \"le\" pour indiquer que le sujet est un homme, ou le mot \"la\" pour indiquer que le sujet est une femme.",
+        "ground_truth": "Ishmael Beah",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer ist der Autor von Rückkehr ins Leben?",
+        "generated": "Hans Schmiedeberg",
+        "ground_truth": "Ishmael Beah",
+        "correct": false
+      },
+      "ja": {
+        "query": "戦場から生きのびてぼくは少年兵士だったの著者は誰ですか",
+        "generated": "ぼくは戦場から生きのびてぼくは少年兵士だったの著者は、1940年1月13日生まれのフランス人の作家、アンドレ・マルタンです。",
+        "ground_truth": "イシメール・ベア",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "a long way gone的作者是谁",
+        "generated": "Patrik Henry Chauke",
+        "ground_truth": "伊斯玛尔·比尔",
+        "correct": false
+      },
+      "ar": {
+        "query": "من هو المؤلف لكتاب ألونغ واي قن",
+        "generated": "هو كتاب ألونغ واي قن من تأليف مصطفى محمد علي باشا",
+        "ground_truth": "إسماعيل بيه",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто автор долгого пути",
+        "generated": "Владимир Маяковский",
+        "ground_truth": "Бих, Ишмаэль",
+        "correct": false
+      }
+    },
+    "correct_languages": [
+      "en"
+    ]
+  },
+  {
+    "example_id": 981159256080272274,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": 1446143713199658242,
+    "language_results": {
+      "en": {
+        "query": "who played harley quinn in the suicide squad",
+        "generated": "Margot Robbie",
+        "ground_truth": "Margot Robbie",
+        "correct": true
+      },
+      "es": {
+        "query": "quién hizo de harley quinn en el escuadrón suicida",
+        "generated": "Margot Robbie",
+        "ground_truth": "Margot Robbie",
+        "correct": true
+      },
+      "fr": {
+        "query": "Qui joue Harley Quinn dans Suicide Squad",
+        "generated": "Margot Robbie",
+        "ground_truth": "Margot Robbie",
+        "correct": true
+      },
+      "de": {
+        "query": "Wer spielte die Rolle von Harley Quinn in 'Suicide Squad'",
+        "generated": "Margot Robbie",
+        "ground_truth": "Margot Robbie",
+        "correct": true
+      },
+      "ja": {
+        "query": "スーサイド・スクワッドでハーレイ・クインを演じたのは誰ですか",
+        "generated": "ベティ・ポッター",
+        "ground_truth": "マーゴット・ロビー",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "suicide squad中harley quinn的扮演者是谁",
+        "generated": "Margot Robbie",
+        "ground_truth": "玛格特·罗比",
+        "correct": true
+      },
+      "ar": {
+        "query": "من الذي لعب هارلي كوين في فرقة الانتحار",
+        "generated": "هيلاري كلينتون",
+        "ground_truth": "مارجو روبي",
+        "correct": false
+      },
+      "ru": {
+        "query": "кого играла Харли Квинн в отряде самоубийц",
+        "generated": "Скарлетт Йоханссон",
+        "ground_truth": "Марго Робби",
+        "correct": false
+      }
+    },
+    "correct_languages": [
+      "en",
+      "es",
+      "fr",
+      "de",
+      "zh_cn"
+    ]
+  },
+  {
+    "example_id": -4713313337556490939,
+    "language_results": {
+      "en": {
+        "query": "what is the population of the state of maine",
+        "generated": "1.3 million people",
+        "ground_truth": "1338000.0",
+        "correct": false
+      },
+      "es": {
+        "query": "¿Cuál es la población del estado de Maine?",
+        "generated": "1.3 millones",
+        "ground_truth": "1338000.0",
+        "correct": false
+      },
+      "fr": {
+        "query": "Quelle est la population de l'état du Maine",
+        "generated": "1,323,578 personnes",
+        "ground_truth": "1338000.0",
+        "correct": false
+      },
+      "de": {
+        "query": "Wie groß ist die Bevölkerung des Staates Maine?",
+        "generated": "1,3 Mio. Menschen",
+        "ground_truth": "1338000.0",
+        "correct": false
+      },
+      "ja": {
+        "query": "メイン州の人口は何人ですか",
+        "generated": "185,000",
+        "ground_truth": "1338000.0",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "缅因州的人口是多少",
+        "generated": "1250万",
+        "ground_truth": "1338000.0",
+        "correct": false
+      },
+      "ar": {
+        "query": "ما التعداد السكاني لولاية مين",
+        "generated": "1,662,846",
+        "ground_truth": "1338000.0",
+        "correct": false
+      },
+      "ru": {
+        "query": "какова численность населения штата Мэн",
+        "generated": "1,322,000 чел.",
+        "ground_truth": "1338000.0",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 8988692123340208594,
+    "language_results": {
+      "en": {
+        "query": "who played tj on head of the class",
+        "generated": "",
+        "ground_truth": "Billy Connolly",
+        "correct": false
+      },
+      "es": {
+        "query": "quién interpretaba a tj en head of the class",
+        "generated": "Ashley Tisdale",
+        "ground_truth": "Billy Connolly",
+        "correct": false
+      },
+      "fr": {
+        "query": "Qui jouait TJ dans Sois prof et tais-toi !",
+        "generated": "Aurélie Dotremont.",
+        "ground_truth": "Billy Connolly",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer spielte \"tj\" in \" head of the class\"",
+        "generated": "Michael J. Fox",
+        "ground_truth": "Billy Connolly",
+        "correct": false
+      },
+      "ja": {
+        "query": "head of the classでtjを演じたのは誰",
+        "generated": "2. 1988年、日本映画アカデミー賞の助演男優賞を受賞した俳優",
+        "ground_truth": "ビリー・コノリー",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "head of the class中tj的扮演者是谁",
+        "generated": "TJ is played by J.J. Abrams.",
+        "ground_truth": "比利·康诺利",
+        "correct": false
+      },
+      "ar": {
+        "query": "من الذي لعب تي جي على رأس الفصل",
+        "generated": "من هو الذي لعب تي جي على رأس الفصل؟",
+        "ground_truth": "بيلي كونولي",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто играл tj в head of the class",
+        "generated": "да",
+        "ground_truth": "Билли Коннолли",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": -8822259047965110671,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": -7095020480652815697,
+    "language_results": {
+      "en": {
+        "query": "who played peter quill in guardians of the galaxy",
+        "generated": "Chris Pratt",
+        "ground_truth": "Chris Pratt",
+        "correct": true
+      },
+      "es": {
+        "query": "Quien interpreta a Peter Quill en Guardianes de la Galaxia",
+        "generated": "Chris Pratt",
+        "ground_truth": "Chris Pratt",
+        "correct": true
+      },
+      "fr": {
+        "query": "Qui joue le rôle de Peter Quill dans les gardien de la Galaxie?",
+        "generated": "Chris Pratt",
+        "ground_truth": "Chris Pratt",
+        "correct": true
+      },
+      "de": {
+        "query": "Wer spielte Peter Quill in Guardians of the Galaxy",
+        "generated": "Chris Pratt",
+        "ground_truth": "Chris Pratt",
+        "correct": true
+      },
+      "ja": {
+        "query": "「ガーディアンズ・オブ・ギャラクシー」でピーター・クィルを演じたのは誰ですか？",
+        "generated": "ジェフ・リドリー",
+        "ground_truth": "クリス・プラット",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "谁在银河护卫队中扮演的peter quill",
+        "generated": "Tony Stark",
+        "ground_truth": "克里斯·帕拉特",
+        "correct": false
+      },
+      "ar": {
+        "query": "من الذي لعب دور  بيتر كويل في فلم جاريانز أوف ذا جالكسي",
+        "generated": "إيان مكوي",
+        "ground_truth": "كريس برات",
+        "correct": false
+      },
+      "ru": {
+        "query": "Кто играет Питера Квилла в Стражах Галактики?",
+        "generated": "Том Хиддлстон",
+        "ground_truth": "Крис Прэтт",
+        "correct": false
+      }
+    },
+    "correct_languages": [
+      "en",
+      "es",
+      "fr",
+      "de"
+    ]
+  },
+  {
+    "example_id": 1617928488861000814,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": 4657503226949391435,
+    "language_results": {
+      "en": {
+        "query": "100 things to do before high school cast",
+        "generated": "100 things to do before high school cast",
+        "ground_truth": "Jack DeSena",
+        "correct": false
+      },
+      "es": {
+        "query": "100 cosas que hacer antes de que te expulsen del instituto",
+        "generated": "100 cosas que hacer antes de que te expulsen del instituto",
+        "ground_truth": "Jack DeSena",
+        "correct": false
+      },
+      "fr": {
+        "query": "les acteurs de 100 choses à faire avant le lycée",
+        "generated": "",
+        "ground_truth": "Jack DeSena",
+        "correct": false
+      },
+      "de": {
+        "query": "100 Dinge, die vor der Besetzung der High School zu tun waren",
+        "generated": "100 things to do before going to high school",
+        "ground_truth": "Jack DeSena",
+        "correct": false
+      },
+      "ja": {
+        "query": "100 オトナになったらできないこと　キャスト",
+        "generated": "100 オトナになったらできないこと　キャスト",
+        "ground_truth": "ジャック・デ・セナ",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "100 things to do before high school演员表",
+        "generated": "100 things to do before high school演员表",
+        "ground_truth": "杰克·迪斯拉",
+        "correct": false
+      },
+      "ar": {
+        "query": "فريق تمثيل 100 ثينجز تو دو بيفور هاي سكول",
+        "generated": "The Hundred",
+        "ground_truth": "إيزابيلا مونير",
+        "correct": false
+      },
+      "ru": {
+        "query": "актерский состав сериала 100 шагов успеть до старших классов",
+        "generated": "",
+        "ground_truth": "Джек Де Сена",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 2681609281350554164,
+    "language_results": {
+      "en": {
+        "query": "who sings someone that i used to know",
+        "generated": "Paul McCartney",
+        "ground_truth": "Gotye",
+        "correct": false
+      },
+      "es": {
+        "query": "quien canta someone that i used to know",
+        "generated": "You and I used to know each other.",
+        "ground_truth": "Gotye",
+        "correct": false
+      },
+      "fr": {
+        "query": "Qui chante someone that i used to know ?",
+        "generated": "This is a question about the song of the day.",
+        "ground_truth": "Gotye",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer  singt, jemanden den ich kannte",
+        "generated": "The answer is 'Ich kannte'. The reason is because of the verb 'kennen'. The verb 'kennen' means to know someone. Therefore, the verb 'kann' means 'can' which is why 'ich kannte' is used.",
+        "ground_truth": "Gotye",
+        "correct": false
+      },
+      "ja": {
+        "query": "someone that i used to knowを歌っているのは誰ですか",
+        "generated": "the someone that i used to know is being sung by someone",
+        "ground_truth": "ゴティエ",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "谁演唱了歌曲”someone that i used to know\"（我的旧相识）？",
+        "generated": "伍佰",
+        "ground_truth": "苟提耶",
+        "correct": false
+      },
+      "ar": {
+        "query": "من الذي يغني سمون ذات آي يوزد تو نو",
+        "generated": "I am.",
+        "ground_truth": "غوتييه",
+        "correct": false
+      },
+      "ru": {
+        "query": "Кто поет песню \"Someone That I Used to Know\"?",
+        "generated": "Это песня, которая была написана в 2011 году. Она исполнилась в исполнении Симонне Фейги и Ламберта.",
+        "ground_truth": "Готье",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": -8186399298848017637,
+    "language_results": {
+      "en": {
+        "query": "how many gallons are in a whiskey barrel",
+        "generated": "205 gallons",
+        "ground_truth": "53.0 gallons",
+        "correct": false
+      },
+      "es": {
+        "query": "cuántos galones hay en un barril de whisky",
+        "generated": "158.75572457",
+        "ground_truth": "53.0 Galones",
+        "correct": false
+      },
+      "fr": {
+        "query": "combien de litres y a-t-il dans un tonneau de whisky",
+        "generated": "100 litres",
+        "ground_truth": "53.0 Gallon impérial",
+        "correct": false
+      },
+      "de": {
+        "query": "Wie viele Gallonen sind in einem Whisky-Fass",
+        "generated": "30 Gallonen",
+        "ground_truth": "53.0 Gallone",
+        "correct": false
+      },
+      "ja": {
+        "query": "1ウィスキー・バレルは何ガロンですか？",
+        "generated": "70ガロン",
+        "ground_truth": "53.0 ガロン",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "威士忌酒桶里有多少加仑",
+        "generated": "17.5 Gallon",
+        "ground_truth": "53.0 加仑",
+        "correct": false
+      },
+      "ar": {
+        "query": "كم غالون في برميل ويسكي",
+        "generated": "50",
+        "ground_truth": "53.0 الجالون",
+        "correct": false
+      },
+      "ru": {
+        "query": "сколько галлонов в бочке виски",
+        "generated": "63",
+        "ground_truth": "53.0 имперский галлон",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 6364152146572596871,
+    "language_results": {
+      "en": {
+        "query": "who did america fight in the revolutionary war",
+        "generated": "britain",
+        "ground_truth": "Great Britain",
+        "correct": true
+      },
+      "es": {
+        "query": "contra quien lucho america en la guerra revolucionaria",
+        "generated": "a las monarquías",
+        "ground_truth": "Gran Bretaña",
+        "correct": false
+      },
+      "fr": {
+        "query": "qui l'Amérique a combattu dans la guerre d'indépendance américaine",
+        "generated": "les britanniques",
+        "ground_truth": "Grande-Bretagne",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer hat Amerika im Unabhängigkeitskrieg gekämpft?",
+        "generated": "The British",
+        "ground_truth": "Großbritannien",
+        "correct": false
+      },
+      "ja": {
+        "query": "独立戦争でアメリカはどこと戦いましたか？",
+        "generated": "独立戦争でアメリカはどこと戦いましたか？",
+        "ground_truth": "グレートブリテン島",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "美国在革命战争中与谁作战",
+        "generated": "British",
+        "ground_truth": "大不列颠",
+        "correct": false
+      },
+      "ar": {
+        "query": "ضد من كانت امريكا تقاتل فى الحرب الثوريه؟",
+        "generated": "ضد من كانت امريكا تقاتل فى الحرب الثوريه؟",
+        "ground_truth": "بريطانيا العظمى",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто сражался в Америке во время революции",
+        "generated": "",
+        "ground_truth": "Великобритания",
+        "correct": false
+      }
+    },
+    "correct_languages": [
+      "en"
+    ]
+  },
+  {
+    "example_id": -425194203213713887,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": -5298983925744557273,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": 510396804139041628,
+    "language_results": {
+      "en": {
+        "query": "who sang the song you're my everything",
+        "generated": "Whitney Houston",
+        "ground_truth": "Santa Esmeralda",
+        "correct": false
+      },
+      "es": {
+        "query": "¿Quién cantaba la canción \"You're my everything\"?",
+        "generated": "Christina Aguilera",
+        "ground_truth": "Santa Esmeralda",
+        "correct": false
+      },
+      "fr": {
+        "query": "Qui chante la chanson You're my everything",
+        "generated": "The Carpenters",
+        "ground_truth": "Santa Esmeralda",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer hat das Lied you're my everything gesungen",
+        "generated": "Whitney Houston",
+        "ground_truth": "Santa Esmeralda",
+        "correct": false
+      },
+      "ja": {
+        "query": "楽曲You're My Everythingを歌ったのは誰ですか",
+        "generated": "Your song",
+        "ground_truth": "サンタ・エスメラルダ",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "you're my everything这首歌是谁演唱的",
+        "generated": "it's a song by the artist Jason Mraz and it's called you are my everything.",
+        "ground_truth": "诱惑组合",
+        "correct": false
+      },
+      "ar": {
+        "query": "من الذي غنى أغنية يور ماي إيفريثنج",
+        "generated": "من إيلي أوبراين و غنى في فيلم ماي إيفريثنج",
+        "ground_truth": "سانتا إزميرالدا",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто пел песню you're my everything",
+        "generated": "",
+        "ground_truth": "Santa Esmeralda",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 4683798436554413780,
+    "language_results": {},
+    "correct_languages": []
+  },
+  {
+    "example_id": 3604949713638862993,
+    "language_results": {
+      "en": {
+        "query": "who sang the song i love the nightlife",
+        "generated": "I love the nightlife",
+        "ground_truth": "Alicia Bridges",
+        "correct": false
+      },
+      "es": {
+        "query": "¿Quién cantó la canción I Love the Nightlife?",
+        "generated": "Shirley Bassey",
+        "ground_truth": "Alicia Bridges",
+        "correct": false
+      },
+      "fr": {
+        "query": "qui a chanté la chanson i love the nightlife",
+        "generated": "alain boudeau",
+        "ground_truth": "Alicia Bridges",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer sang das Lied I love the nightlife",
+        "generated": "Billy Joel",
+        "ground_truth": "Alicia Bridges",
+        "correct": false
+      },
+      "ja": {
+        "query": "i love the nightlifeを歌ったのは誰ですか",
+        "generated": "それは誰ですか。",
+        "ground_truth": "アリシア・ブリッジズ",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "i love the nightlife这首歌是谁演唱的",
+        "generated": "The song was performed by the American rock band, The Killers, in 2007.",
+        "ground_truth": "艾丽西亚·布里奇斯",
+        "correct": false
+      },
+      "ar": {
+        "query": "من غنى الأغنية أحب الحياة الليلية",
+        "generated": "هكذا",
+        "ground_truth": "أليسيا بريدغز",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто пел песню i love the nightlife",
+        "generated": "i love the nightlife",
+        "ground_truth": "Алисия Бриджес",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 9057981874059120549,
+    "language_results": {
+      "en": {
+        "query": "teams that have never won a world series",
+        "generated": "1920s-30s and 1950s",
+        "ground_truth": "Seattle Mariners",
+        "correct": false
+      },
+      "es": {
+        "query": "equipos que nunca han ganado una serie mundial",
+        "generated": "equipos que nunca han ganado una serie mundial",
+        "ground_truth": "Seattle Mariners",
+        "correct": false
+      },
+      "fr": {
+        "query": "les équipes qui n'ont jamais gagné la série mondiale",
+        "generated": "the Boston Red Sox",
+        "ground_truth": "Mariners de Seattle",
+        "correct": false
+      },
+      "de": {
+        "query": "Mannschaften die niemals ein World Series gewonnen haben",
+        "generated": "Boston Red Sox, Philadelphia Phillies, Cincinnati Reds, Chicago White Sox, Chicago Cubs, Baltimore Orioles, Cleveland Indians, Kansas City Royals, St. Louis Cardinals, New York Yankees, Detroit Tigers, Pittsburgh Pirates, Los Angeles Dodgers, Milwaukee Brewers, San",
+        "ground_truth": "Seattle Mariners",
+        "correct": false
+      },
+      "ja": {
+        "query": "ワールドシリーズで優勝したことがないチーム",
+        "generated": "2002年優勝　2003年優勝　2004年優勝　2007年優勝　2008年優勝",
+        "ground_truth": "シアトル・マリナーズ",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "从未赢得世界大赛的队",
+        "generated": "never won the world cup",
+        "ground_truth": "西雅图水手",
+        "correct": false
+      },
+      "ar": {
+        "query": "فرق لم تفز بنهائيات كأس العالم",
+        "generated": "1- يفضل أن تكون الفوز باللقب أفضل من خسارة الألقاب",
+        "ground_truth": "سياتل مارينرز",
+        "correct": false
+      },
+      "ru": {
+        "query": "Команды никогда не выигрывавшие мировую серию",
+        "generated": "Team USA",
+        "ground_truth": "Сиэтл Маринерс",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 8663315281958969051,
+    "language_results": {
+      "en": {
+        "query": "who was known as the maid of orleans",
+        "generated": "Anne Boleyn",
+        "ground_truth": "Joan of Arc",
+        "correct": false
+      },
+      "es": {
+        "query": "a quién se le conocía como la dondella de orleans",
+        "generated": "Marie Antoinette",
+        "ground_truth": "Juana de Arco",
+        "correct": false
+      },
+      "fr": {
+        "query": "qui était connue sous le nom de pucelle d'orléans",
+        "generated": "Jeanne d'Arc",
+        "ground_truth": "Jeanne d'Arc",
+        "correct": true
+      },
+      "de": {
+        "query": "Wer war bekannt als \" the maid of orleans\"",
+        "generated": "Marie Antoinette",
+        "ground_truth": "Jeanne d’Arc",
+        "correct": false
+      },
+      "ja": {
+        "query": "オルレアンの少女として知られているのは誰？",
+        "generated": "<b>The girl from Orléans</b>",
+        "ground_truth": "ジャンヌ・ダルク",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "谁被称为奥尔良的少女",
+        "generated": "阿诗玛·瓦莱尔",
+        "ground_truth": "聖女貞德",
+        "correct": false
+      },
+      "ar": {
+        "query": "من هي المعروفة بخادمة اورليانز",
+        "generated": "شيرلي ماي",
+        "ground_truth": "جان دارك",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто известен как орлеанская дева",
+        "generated": "",
+        "ground_truth": "Жанна д’Арк",
+        "correct": false
+      }
+    },
+    "correct_languages": [
+      "fr"
+    ]
+  },
+  {
+    "example_id": -5408188992455330093,
+    "language_results": {
+      "en": {
+        "query": "who ran the first sub four minute mile",
+        "generated": "Roger Bannister",
+        "ground_truth": "Roger Bannister",
+        "correct": true
+      },
+      "es": {
+        "query": "quien corrió la primera sub four minute mile",
+        "generated": "Roger Bannister",
+        "ground_truth": "Roger Bannister",
+        "correct": true
+      },
+      "fr": {
+        "query": "qui a couru le premier un mile en dessous des quatre minutes",
+        "generated": "Roger Bannister",
+        "ground_truth": "Roger Bannister",
+        "correct": true
+      },
+      "de": {
+        "query": "Wer lief die erste U-Bahn vier Minuten Meile",
+        "generated": "The first U-Bahn was designed to run under the streets of Vienna, Austria, in 1897. It was a horse-drawn subway and ran for four minutes at a time.",
+        "ground_truth": "Roger Bannister",
+        "correct": false
+      },
+      "ja": {
+        "query": "1マイル4分の壁を初めて破ったのは誰？",
+        "generated": "1981年9月2日、イザック・ワイルダー",
+        "ground_truth": "ロジャー・バニスター",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "谁首先一英里跑进4分钟以内？",
+        "generated": "1955年，英国的史密斯·艾伦打破了这一纪录。",
+        "ground_truth": "罗杰·班尼斯特",
+        "correct": false
+      },
+      "ar": {
+        "query": "من اول من ركض دون الاربعة دقائق ميل؟",
+        "generated": "من اول من ركض دون الاربعة دقائق ميل؟",
+        "ground_truth": "روجر بانستر",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто первым пробежал милю за четыре минуты",
+        "generated": "",
+        "ground_truth": "Роджер Баннистер",
+        "correct": false
+      }
+    },
+    "correct_languages": [
+      "en",
+      "es",
+      "fr"
+    ]
+  },
+  {
+    "example_id": 5471476600672282563,
+    "language_results": {
+      "en": {
+        "query": "who sang i've got spurs that jingle jangle jingle",
+        "generated": "Hank Williams",
+        "ground_truth": "Gene Autry",
+        "correct": false
+      },
+      "es": {
+        "query": "Quién cantó I've got spurs that jingle jangle jingle",
+        "generated": "José Feliciano",
+        "ground_truth": "Gene Autry",
+        "correct": false
+      },
+      "fr": {
+        "query": "qui chantait i've got spurs that jingle jangle jingle",
+        "generated": "",
+        "ground_truth": "Gene Autry",
+        "correct": false
+      },
+      "de": {
+        "query": "wer sang i've got spurs that jingle jangle jingle",
+        "generated": "billy ray cyrus",
+        "ground_truth": "Gene Autry",
+        "correct": false
+      },
+      "ja": {
+        "query": "i've got spurs that jingle jangle jingleは誰の曲",
+        "generated": "i think it's from \"the world according to martha\"",
+        "ground_truth": "ジーン・オートリー",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "i've got spurs that jingle jangle jingle是谁演唱的",
+        "generated": "(The) man with the jangle jingle,",
+        "ground_truth": "吉恩·奥特里",
+        "correct": false
+      },
+      "ar": {
+        "query": "i've got spurs that jingle jangle jingle من الذي غني",
+        "generated": "he sings",
+        "ground_truth": "جين أوتري",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто пел i've got spurs that jingle jangle jingle",
+        "generated": "кто пел i've got spurs that jingle jangle jingle",
+        "ground_truth": "Отри, Джин",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 3679225107990950505,
+    "language_results": {
+      "en": {
+        "query": "what was the first battle in the vietnam war",
+        "generated": "the battle of the chosin reservoir in november 1950",
+        "ground_truth": "Battle of Ia Drang",
+        "correct": false
+      },
+      "es": {
+        "query": "cuál fue la primera batalla en a guerra de vietnam",
+        "generated": "el 18 de abril de 1965",
+        "ground_truth": "Batalla del valle de Ia Drang",
+        "correct": false
+      },
+      "fr": {
+        "query": "quelle fut la première bataille dans la guerre du vietnam",
+        "generated": "la bataille de la rivière nhat",
+        "ground_truth": "bataille de Ia Drang",
+        "correct": false
+      },
+      "de": {
+        "query": "was war die erste schlacht im vietnamkrieg",
+        "generated": "die erste schlacht war die schlacht bei xangdong, die am 1. januar 1965 stattfand.",
+        "ground_truth": "Schlacht im Ia-Drang-Tal",
+        "correct": false
+      },
+      "ja": {
+        "query": "ベトナム戦争の最初の戦いは何だったでしょう？",
+        "generated": "1960年",
+        "ground_truth": "イア・ドラン渓谷の戦い",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "越南战争的第一场站斗是什么",
+        "generated": "1965年6月12日",
+        "ground_truth": "德浪河谷战役",
+        "correct": false
+      },
+      "ar": {
+        "query": "ما أول معركة في الحرب الفيتنامية",
+        "generated": "1964",
+        "ground_truth": "معركة أيا درانج",
+        "correct": false
+      },
+      "ru": {
+        "query": "Какая битва была первой в Войне во Вьетнаме?",
+        "generated": "Вторая.",
+        "ground_truth": "Битва в долине Йа-Дранг",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": -6968798727542233826,
+    "language_results": {
+      "en": {
+        "query": "who played in this year's super bowl",
+        "generated": "New England Patriots and Seattle Seahawks",
+        "ground_truth": "Los Angeles Rams",
+        "correct": false
+      },
+      "es": {
+        "query": "¿Quién ha jugado en la Super Bowl de este año?",
+        "generated": "The Denver Broncos and the Carolina Panthers.",
+        "ground_truth": "Los Angeles Rams",
+        "correct": false
+      },
+      "fr": {
+        "query": "Qui a joué dans le superbowl de cette anée",
+        "generated": "The Denver Broncos.",
+        "ground_truth": "Rams de Los Angeles",
+        "correct": false
+      },
+      "de": {
+        "query": "wer spielte in diesem jahr im super bowl",
+        "generated": "die san francisco 49ers",
+        "ground_truth": "Los Angeles Rams",
+        "correct": false
+      },
+      "ja": {
+        "query": "今年のスーパーボウルでプレイした選手は誰？",
+        "generated": "Who was the player who played in the Super Bowl this year?",
+        "ground_truth": "セントルイス・ラムズ",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "谁参加了今年的超级碗",
+        "generated": "今年的超级碗参加了新奥尔良泽拉斯和芝加哥熊",
+        "ground_truth": "圣路易斯公羊",
+        "correct": false
+      },
+      "ar": {
+        "query": "من الذي لعب في سوبر بول هذا العام",
+        "generated": "I think he's the only one.",
+        "ground_truth": "لوس أنجيليس رامز",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто играл в супер кубке в этом году",
+        "generated": "не играл, потому что не был зачислен в клуб, хотя я был у всех матчей и смотрел.",
+        "ground_truth": "Лос-Анджелес Рэмс",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 6259083847054593855,
+    "language_results": {
+      "en": {
+        "query": "who is the current surgeon general of the united states",
+        "generated": "Dr. Vivek Murthy",
+        "ground_truth": "Jerome Adams",
+        "correct": false
+      },
+      "es": {
+        "query": "quién es el actual cirujano general de estados unidos",
+        "generated": "doctor jose antonio ramirez",
+        "ground_truth": "Jerome Adams",
+        "correct": false
+      },
+      "fr": {
+        "query": "Qui est l'actuel administrateur de la santé publique des Etats Unis",
+        "generated": "Robert Redfield",
+        "ground_truth": "Jerome Adams",
+        "correct": false
+      },
+      "de": {
+        "query": "Name des aktuellen Surgeon General der Vereinigten Staaten",
+        "generated": "David Satcher",
+        "ground_truth": "Jerome Adams",
+        "correct": false
+      },
+      "ja": {
+        "query": "アメリカの現職の軍医総監は誰ですか。",
+        "generated": "Generale David W. Haack.",
+        "ground_truth": "ジェローム・アダムズ",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "美国现任卫生局局长是谁",
+        "generated": "Dr. Robert R. Redfield",
+        "ground_truth": "杰罗姆·亚当斯",
+        "correct": false
+      },
+      "ar": {
+        "query": "من هو كبير الأطباء الحالي  للولايات المتحدة ؟",
+        "generated": "Dr. Anthony Fauci",
+        "ground_truth": "جيروم آدامز",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто является главным хирургом США",
+        "generated": "Dr. John E. Rogers",
+        "ground_truth": "Джером Адамс",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": -1883507824814220497,
+    "language_results": {
+      "en": {
+        "query": "who played rachel in the original blade runner",
+        "generated": "Sean Young",
+        "ground_truth": "Sean Young",
+        "correct": true
+      },
+      "es": {
+        "query": "quien interpreto a rachel en la original blade runner",
+        "generated": "darren aronofsky",
+        "ground_truth": "Sean Young",
+        "correct": false
+      },
+      "fr": {
+        "query": "Qui a joué Rachel dans le Blade Runner original ?",
+        "generated": "Veronica Cartwright",
+        "ground_truth": "Sean Young",
+        "correct": false
+      },
+      "de": {
+        "query": "wer spielte rachel im original blade runner",
+        "generated": "harrison ford",
+        "ground_truth": "Sean Young",
+        "correct": false
+      },
+      "ja": {
+        "query": "映画ブレードランナーでレイチェルを演じていたのは誰ですか？",
+        "generated": "<strong>ブレードランナー</strong> (2013)",
+        "ground_truth": "ショーン・ヤング",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "最初的银翼杀手中的rachel 是谁扮演的",
+        "generated": "Rachel Zoe",
+        "ground_truth": "肖恩·杨",
+        "correct": false
+      },
+      "ar": {
+        "query": "من لعب دور (ريتشل) في فيلم (بليد رنر) الاصلي",
+        "generated": "(ريتشل)",
+        "ground_truth": "شون يونغ",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто играл рейчел в оригинальном Бегущий по лезвию",
+        "generated": "Аноним",
+        "ground_truth": "Шон Янг",
+        "correct": false
+      }
+    },
+    "correct_languages": [
+      "en"
+    ]
+  },
+  {
+    "example_id": 2339056845781789296,
+    "language_results": {
+      "en": {
+        "query": "where is the longest bridge in the united states located",
+        "generated": "Golden Gate bridge",
+        "ground_truth": "Lake Pontchartrain",
+        "correct": false
+      },
+      "es": {
+        "query": "dónde se encuentra el puente más largo de estados unidos",
+        "generated": "la carretera 101",
+        "ground_truth": "Lago Pontchartrain",
+        "correct": false
+      },
+      "fr": {
+        "query": "oùse trouve le pont le plus long des états-unis",
+        "generated": "le pont George Washington, à 17 miles 105 m de long",
+        "ground_truth": "lac Pontchartrain",
+        "correct": false
+      },
+      "de": {
+        "query": "wo befindet sich die längste brücke in den vereinigten staaten",
+        "generated": "der golden gate bridge in san francisco",
+        "ground_truth": "Lake Pontchartrain",
+        "correct": false
+      },
+      "ja": {
+        "query": "アメリカ合衆国で最も長い橋はどこにあるでしょう？",
+        "generated": "Golden Gate Bridge",
+        "ground_truth": "ポンチャートレイン湖",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "美国最长的桥在哪里",
+        "generated": "The Golden Gate Bridge in San Francisco.",
+        "ground_truth": "庞恰特雷恩湖",
+        "correct": false
+      },
+      "ar": {
+        "query": "اين يقع اطول جسر في الولايات المتحدة",
+        "generated": "نيويورك",
+        "ground_truth": "جسر بحيرة بونتشارترين",
+        "correct": false
+      },
+      "ru": {
+        "query": "где находится самый длинный мост в сша",
+        "generated": "в штате Калифорния",
+        "ground_truth": "Пончартрейн",
+        "correct": false
+      }
+    },
+    "correct_languages": []
+  },
+  {
+    "example_id": 2788150498848569248,
+    "language_results": {
+      "en": {
+        "query": "who came up with the idea of father's day",
+        "generated": "it was thought up by a woman by the name of Julia",
+        "ground_truth": "Sonora Smart Dodd",
+        "correct": false
+      },
+      "es": {
+        "query": "a quién se le ocurrió la idea del día del padre",
+        "generated": "a mi abuela",
+        "ground_truth": "Sonora Smart Dodd",
+        "correct": false
+      },
+      "fr": {
+        "query": "Qui a eu l'idée de la fête des Pères ?",
+        "generated": "L'idée a été émise par la première épouse de Jésus.",
+        "ground_truth": "Sonora Smart Dodd",
+        "correct": false
+      },
+      "de": {
+        "query": "Wer hat den Vatertag erfunden",
+        "generated": "der Vater",
+        "ground_truth": "Sonora Smart Dodd",
+        "correct": false
+      },
+      "ja": {
+        "query": "父の日を思いついた人は誰",
+        "generated": "私の父は、父の日を思いついた人です。",
+        "ground_truth": "ソノラ・スマート・ドッド",
+        "correct": false
+      },
+      "zh_cn": {
+        "query": "是谁想出父亲节这个主意的",
+        "generated": "1910年，美国的母亲节和父亲节首次同时举行，是美国妇女运动领袖弗兰西斯·艾略特（Frances E.W. Harper）在纽约市妇女协会举行的。",
+        "ground_truth": "索诺拉·斯马特·多德",
+        "correct": false
+      },
+      "ar": {
+        "query": "من هو صاحب فكرة يوم الأب",
+        "generated": "من هو صاحب فكرة يوم الأب",
+        "ground_truth": "سونورا سمارت دود",
+        "correct": false
+      },
+      "ru": {
+        "query": "кто придумал День отца",
+        "generated": "Эдуард Гайдар.",
+        "ground_truth": "Сонора Смарт Додд",
+        "correct": false
+      }
+    },
     "correct_languages": []
   }
 ]
